@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
-	<Vendor>
+	<Vendor FileVersion="3">
 		<Id>2</Id>
 		<Name>Beckhoff Automation GmbH &amp; Co. KG</Name>
 		<ImageData16x14>424DE6000000000000007600000028000000100000000E000000010004000000000070000000120B0000120B0000100000001000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF009D9DD99DD9DDD9DD9D9D9DD9D9DDD9DD999D9DD9D999D9999D9D9DD9D9DDD9DD9D9DD99DD999D999DDDDDDDDDDDDDDDD88888888888888888888888888888888DDDDDDDDDDDDDDDD999D999DD99DD9D99D9D9DDD9DD9D9D999DD999D9DDDD99D9D9D9DDD9DD9D99D999D999DD99DD9D9</ImageData16x14>
@@ -23,11 +23,11 @@
 		<Devices>
 			<Device Physics="YY">
 				<Type ProductCode="#x20754052" RevisionNo="#x00150016" CheckRevisionNo="LW_EQ">EP8309-0022</Type>
-				<HideType RevisionNo="#x140016"/>
+				<HideType RevisionNo="#x140016"></HideType>
 				<Name LcId="1033">EP8309-0022 2Ch. Ana. Input 4-20mA, 1Ch. Pulse Width Current Output (24V, 1.2A), 1 Ch Ana. Output, 2Ch Dig. Out 24V, 0.5A, 4Ch Dig. In. 24V, 4Ch Dig In/Out 24V, 0.5A, M12</Name>
 				<Name LcId="1031">EP8309-0022 2K. Ana. Ein 4-20mA, 1K. Pulsweitenstrom Aus (24V, 1.2A), 1K Ana. Ausgang, 2K Dig. Aus 24V, 0.5A, 4K Dig. Ein 24V, 4K Dig Ein/Aus 24V, 0.5A, M12</Name>
-				<URL LcId="1033">http://www.beckhoff.com/EP8309</URL>
-				<URL LcId="1031">http://www.beckhoff.de/EP8309</URL>
+				<URL LcId="1033">https://www.beckhoff.com/EP8309-0022</URL>
+				<URL LcId="1031">https://www.beckhoff.de/EP8309-0022</URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -5215,15 +5215,15 @@
 									</SubItem>
 									<SubItem>
 										<Name>Sync error</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO State</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Value</Name>
@@ -5281,15 +5281,15 @@
 									</SubItem>
 									<SubItem>
 										<Name>Sync error</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO State</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Value</Name>
@@ -5329,7 +5329,7 @@
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Rotational Speed</Name>
@@ -5369,7 +5369,7 @@
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Rotational Speed</Name>
@@ -5427,7 +5427,7 @@
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Rotational Speed</Name>
@@ -5545,7 +5545,7 @@
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Info data 1</Name>
@@ -7091,7 +7091,7 @@
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>8</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 					<Entry>
 						<Index>#x7020</Index>
@@ -7103,7 +7103,7 @@
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>7</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1" Mandatory="1" Sm="2">
@@ -7168,7 +7168,7 @@
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>8</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1" Sm="2">
@@ -7625,7 +7625,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>8</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -7718,12 +7718,12 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>14</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -7735,8 +7735,8 @@ Bit1: Value smaller than Limit2</Comment>
 				<Type ProductCode="#x20754052" RevisionNo="#x001003FE" CheckRevisionNo="LW_EQ">EP8309-1022</Type>
 				<Name LcId="1033">EP8309-1022 2Ch. Ana. Input 4-20mA, 1Ch. Pulse Width Current Output (24V, 1.2A), 1 Ch Ana. Output, 2Ch Dig. Out 24V, 0.5A, 4Ch Dig. In. 24V, 4Ch Dig In/Out 24V, 0.5A, M12</Name>
 				<Name LcId="1031">EP8309-1022 2K. Ana. Ein 4-20mA, 1K. Pulsweitenstrom Aus (24V, 1.2A), 1K Ana. Ausgang, 2K Dig. Aus 24V, 0.5A, 4K Dig. Ein 24V, 4K Dig Ein/Aus 24V, 0.5A, M12</Name>
-				<URL LcId="1033">http://www.beckhoff.com/EP8309</URL>
-				<URL LcId="1031">http://www.beckhoff.de/EP8309</URL>
+				<URL LcId="1033">https://www.beckhoff.com/EP8309-1022</URL>
+				<URL LcId="1031">https://www.beckhoff.de/EP8309-1022</URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -12924,15 +12924,15 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>Sync error</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO State</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Value</Name>
@@ -12990,15 +12990,15 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>Sync error</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO State</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Value</Name>
@@ -13038,7 +13038,7 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Rotational Speed</Name>
@@ -13078,7 +13078,7 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Rotational Speed</Name>
@@ -13136,7 +13136,7 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Rotational Speed</Name>
@@ -13254,7 +13254,7 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Info data 1</Name>
@@ -14800,7 +14800,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>8</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 					<Entry>
 						<Index>#x7020</Index>
@@ -14812,7 +14812,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>7</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1" Mandatory="1" Sm="2">
@@ -14877,7 +14877,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>8</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1" Sm="2">
@@ -15334,7 +15334,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>8</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -15427,12 +15427,12 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>14</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -15442,11 +15442,11 @@ Bit1: Value smaller than Limit2</Comment>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x20754052" RevisionNo="#x001103FE" CheckRevisionNo="LW_EQ">EP8309-1022</Type>
-				<HideType RevisionNo="#x001003FE"/>
+				<HideType RevisionNo="#x001003FE"></HideType>
 				<Name LcId="1033">EP8309-1022 2Ch. Ana. Input 4-20mA, 1Ch. Pulse Width Current Output (24V, 1.2A), 1 Ch Ana. Output, 2Ch Dig. Out 24V, 0.5A, 4Ch Dig. In. 24V, 4Ch Dig In/Out 24V, 0.5A, M12</Name>
 				<Name LcId="1031">EP8309-1022 2K. Ana. Ein 4-20mA, 1K. Pulsweitenstrom Aus (24V, 1.2A), 1K Ana. Ausgang, 2K Dig. Aus 24V, 0.5A, 4K Dig. Ein 24V, 4K Dig Ein/Aus 24V, 0.5A, M12</Name>
-				<URL LcId="1033">http://www.beckhoff.com/EP8309</URL>
-				<URL LcId="1031">http://www.beckhoff.de/EP8309</URL>
+				<URL LcId="1033">https://www.beckhoff.com/EP8309-1022</URL>
+				<URL LcId="1031">https://www.beckhoff.de/EP8309-1022</URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -20634,15 +20634,15 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>Sync error</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO State</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Value</Name>
@@ -20700,15 +20700,15 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>Sync error</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO State</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Value</Name>
@@ -20748,7 +20748,7 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Rotational Speed</Name>
@@ -20788,7 +20788,7 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Rotational Speed</Name>
@@ -20846,7 +20846,7 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Rotational Speed</Name>
@@ -20964,7 +20964,7 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Info data 1</Name>
@@ -22510,7 +22510,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>8</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 					<Entry>
 						<Index>#x7020</Index>
@@ -22522,7 +22522,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>7</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1" Mandatory="1" Sm="2">
@@ -22587,7 +22587,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>8</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1" Sm="2">
@@ -23044,7 +23044,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>8</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -23137,12 +23137,12 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>14</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -23152,11 +23152,11 @@ Bit1: Value smaller than Limit2</Comment>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x20754052" RevisionNo="#x001203FE" CheckRevisionNo="LW_EQ">EP8309-1022</Type>
-				<HideType RevisionNo="#x001103FE"/>
+				<HideType RevisionNo="#x001103FE"></HideType>
 				<Name LcId="1033">EP8309-1022 2Ch. Ana. Input 4-20mA, 1Ch. Pulse Width Current Output (24V, 1.2A), 1 Ch Ana. Output, 2Ch Dig. Out 24V, 0.5A, 4Ch Dig. In. 24V, 4Ch Dig In/Out 24V, 0.5A, M12</Name>
 				<Name LcId="1031">EP8309-1022 2K. Ana. Ein 4-20mA, 1K. Pulsweitenstrom Aus (24V, 1.2A), 1K Ana. Ausgang, 2K Dig. Aus 24V, 0.5A, 4K Dig. Ein 24V, 4K Dig Ein/Aus 24V, 0.5A, M12</Name>
-				<URL LcId="1033">http://www.beckhoff.com/EP8309</URL>
-				<URL LcId="1031">http://www.beckhoff.de/EP8309</URL>
+				<URL LcId="1033">https://www.beckhoff.com/EP8309-1022</URL>
+				<URL LcId="1031">https://www.beckhoff.de/EP8309-1022</URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -28344,15 +28344,15 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>Sync error</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO State</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Value</Name>
@@ -28410,15 +28410,15 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>Sync error</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO State</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Value</Name>
@@ -28458,7 +28458,7 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Rotational Speed</Name>
@@ -28498,7 +28498,7 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Rotational Speed</Name>
@@ -28556,7 +28556,7 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Rotational Speed</Name>
@@ -28674,7 +28674,7 @@ Bit1: Value smaller than Limit2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Info data 1</Name>
@@ -30220,7 +30220,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>8</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 					<Entry>
 						<Index>#x7020</Index>
@@ -30232,7 +30232,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>7</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1" Mandatory="1" Sm="2">
@@ -30297,7 +30297,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>8</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1" Sm="2">
@@ -30754,7 +30754,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>8</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -30847,12 +30847,12 @@ Bit1: Value smaller than Limit2</Comment>
 					<Entry>
 						<Index>#x0</Index>
 						<BitLen>14</BitLen>
-						<Name/>
+						<Name></Name>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>

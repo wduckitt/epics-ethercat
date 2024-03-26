@@ -7091,8 +7091,7 @@
 		]]></Comment>
 				<Type>DT_IDN_P_0_0063</Type>
 				<BitSize>64</BitSize>
-				<Info>
-	</Info>
+				<Info></Info>
 				<Flags>
 					<Attribute>#x61150001</Attribute>
 				</Flags>

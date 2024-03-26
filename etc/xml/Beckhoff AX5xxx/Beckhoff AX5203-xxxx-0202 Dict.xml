@@ -1250,7 +1250,7 @@
       <DataType>
         <Name>DT_IDN_S_0_0021_AR</Name>
         <BaseType>UINT_IDN</BaseType>
-        <BitSize>432</BitSize>
+        <BitSize>400</BitSize>
         <ArrayInfo>
           <LBound>0</LBound>
           <Elements>25</Elements>
@@ -1954,7 +1954,7 @@
       </DataType>
       <DataType>
         <Name>DT_IDN_S_0_0086_BIT0-2</Name>
-        <BitSize>1</BitSize>
+        <BitSize>3</BitSize>
         <EnumInfo>
           <Text LcId="1033"><![CDATA[percentage scaling]]></Text>
           <Enum>0</Enum>
@@ -3183,7 +3183,7 @@
         <SubItem>
           <Name>Elements</Name>
           <DisplayName LcId="1033"><![CDATA[ ]]></DisplayName>
-          <Type>DT_IDN_S_0_0030_AR</Type>
+          <Type>DT_IDN_S_0_0432_AR</Type>
           <BitSize>144</BitSize>
           <BitOffs>32</BitOffs>
         </SubItem>
@@ -4206,7 +4206,7 @@
       </DataType>
       <DataType>
         <Name>DT_IDN_P_0_0076_R</Name>
-        <BaseType>UDINT</BaseType>
+        <BaseType>UINT</BaseType>
         <BitSize>160</BitSize>
         <ArrayInfo>
           <LBound>0</LBound>
@@ -8155,15 +8155,15 @@
           <Elements>4</Elements>
         </ArrayInfo>
       </DataType>
-      <DataType>
-        <Name>DT_IDN_P_0_0151_Para_Data_HiperfaceDSL_Rsvd</Name>
-        <BaseType>UINT_hex</BaseType>
-        <BitSize>256</BitSize>
-        <ArrayInfo>
-          <LBound>0</LBound>
-          <Elements>16</Elements>
-        </ArrayInfo>
-      </DataType>
+	    <DataType>
+		    <Name>DT_IDN_P_0_0151_Para_Data_HiperfaceDSL_Rsvd</Name>
+		    <BaseType>UINT_hex</BaseType>
+		    <BitSize>112</BitSize>
+		    <ArrayInfo>
+			    <LBound>0</LBound>
+			    <Elements>7</Elements>
+		    </ArrayInfo>
+	    </DataType>
       <DataType>
         <Name>DT_IDN_P_0_0154</Name>
         <BitSize>96</BitSize>
@@ -9099,7 +9099,7 @@
       </DataType>
       <DataType>
         <Name>DT_IDN_P_0_0169_ST</Name>
-        <BitSize>832</BitSize>
+        <BitSize>960</BitSize>
         <SubItem>
           <Name>Onboard</Name>
           <DisplayName LcId="1033"><![CDATA[Onboard]]></DisplayName>
@@ -9117,7 +9117,7 @@
       </DataType>
       <DataType>
         <Name>DT_IDN_P_0_0169_Union</Name>
-        <BitSize>320</BitSize>
+        <BitSize>480</BitSize>
         <SubItem>
           <Name>HpfDsl</Name>
           <DisplayName LcId="1033"><![CDATA[Hiperface DSL]]></DisplayName>
@@ -10022,7 +10022,7 @@
         <SubItem>
           <Name>rsvd</Name>
           <DisplayName LcId="1033"><![CDATA[rsvd]]></DisplayName>
-          <Type>UINT1</Type>
+          <Type>UINT10</Type>
           <BitSize>10</BitSize>
           <BitOffs>6</BitOffs>
           <Property>
@@ -11112,15 +11112,15 @@
           <BitOffs>368</BitOffs>
         </SubItem>
       </DataType>
-      <DataType>
-        <Name>DT_IDN_P_0_0206_Rsvd</Name>
-        <BaseType>UINT</BaseType>
-        <BitSize>128</BitSize>
-        <ArrayInfo>
-          <LBound>0</LBound>
-          <Elements>8</Elements>
-        </ArrayInfo>
-      </DataType>
+	    <DataType>
+		    <Name>DT_IDN_P_0_0206_Rsvd</Name>
+		    <BaseType>UINT</BaseType>
+		    <BitSize>112</BitSize>
+		    <ArrayInfo>
+			    <LBound>0</LBound>
+			    <Elements>7</Elements>
+		    </ArrayInfo>
+	    </DataType>
       <DataType>
         <Name>DT_IDN_P_0_0207</Name>
         <BitSize>384</BitSize>
@@ -35060,8 +35060,7 @@
         <Comment LcId="1033"><![CDATA[		]]></Comment>
         <Type>DT_IDN_P_0_0455</Type>
         <BitSize>160</BitSize>
-        <Info>
-        </Info>
+        <Info></Info>
         <Flags>
           <Attribute>#x00150001</Attribute>
         </Flags>

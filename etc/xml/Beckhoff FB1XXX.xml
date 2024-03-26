@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
-	<Vendor>
+	<Vendor FileVersion="3">
 		<Id>2</Id>
 		<Name>Beckhoff Automation GmbH &amp; Co. KG</Name>
 		<ImageData16x14>424DE6000000000000007600000028000000100000000E000000010004000000000070000000120B0000120B0000100000001000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF009D9DD99DD9DDD9DD9D9D9DD9D9DDD9DD999D9DD9D999D9999D9D9DD9D9DDD9DD9D9DD99DD999D999DDDDDDDDDDDDDDDD88888888888888888888888888888888DDDDDDDDDDDDDDDD999D999DD99DD9D99D9D9DDD9DD9D9D999DD999D9DDDD99D9D9D9DDD9DD9D99D999D999DD99DD9D9</ImageData16x14>
@@ -92,7 +92,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x04570862" RevisionNo="#x0065008E">FB1111 Dig. In/Out</Type>
-				<HideType RevisionNo="#x0064008E"/>
+				<HideType RevisionNo="#x0064008E"></HideType>
 				<Name LcId="1033"><![CDATA[FB1111 16 Ch. Dig. In-/Output 2xMII]]></Name>
 				<Name LcId="1031"><![CDATA[FB1111 16 K. Dig. Ein-/Ausgang 2xMII]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/FB1111]]></URL>
@@ -240,7 +240,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x04570862" RevisionNo="#x0191008E">FB1111 Dig. In</Type>
-				<HideType RevisionNo="#x0190008E"/>
+				<HideType RevisionNo="#x0190008E"></HideType>
 				<Name LcId="1033"><![CDATA[FB1111 32 Ch. Dig. Input 2xMII]]></Name>
 				<Name LcId="1031"><![CDATA[FB1111 32 K. Dig. Eingang 2xMII]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/FB1111]]></URL>
@@ -388,7 +388,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x04570862" RevisionNo="#x01F5008E">FB1111 Dig. Out</Type>
-				<HideType RevisionNo="#x01F4008E"/>
+				<HideType RevisionNo="#x01F4008E"></HideType>
 				<Name LcId="1033"><![CDATA[FB1111 32 Ch. Dig. Output 2xMII]]></Name>
 				<Name LcId="1031"><![CDATA[FB1111 32 K. Dig. Ausgang 2xMII]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/FB1111]]></URL>
@@ -484,7 +484,7 @@
 					<Name>Inputs</Name>
 				</TxPdo>
 				<Mailbox>
-					<CoE/>
+					<CoE></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -507,7 +507,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x04570862" RevisionNo="#x0259008D">FB1111 SPI-Slave</Type>
-				<HideType RevisionNo="#x0258008D"/>
+				<HideType RevisionNo="#x0258008D"></HideType>
 				<Name LcId="1033"><![CDATA[FB1111 SPI-Slave 2xMII]]></Name>
 				<Name LcId="1031"><![CDATA[FB1111 SPI-Slave 2xMII]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/FB1111]]></URL>
@@ -528,7 +528,7 @@
 					<Name>Inputs</Name>
 				</TxPdo>
 				<Mailbox>
-					<CoE/>
+					<CoE></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -599,9 +599,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox>
-					<EoE/>
-					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="1"/>
-					<FoE/>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -627,7 +627,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x04570862" RevisionNo="#x0321008C">FB1111 MCI8 DC</Type>
-				<HideType RevisionNo="#x0320008C"/>
+				<HideType RevisionNo="#x0320008C"></HideType>
 				<Name LcId="1033"><![CDATA[FB1111 MCI8 DC 2xMII]]></Name>
 				<Name LcId="1031"><![CDATA[FB1111 MCI8 DC 2xMII]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/FB1111]]></URL>
@@ -676,9 +676,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox>
-					<EoE/>
-					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="1"/>
-					<FoE/>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -752,9 +752,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox>
-					<EoE/>
-					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="1"/>
-					<FoE/>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -780,7 +780,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x04570862" RevisionNo="#x03E9008C">FB1111 MCI16 DC</Type>
-				<HideType RevisionNo="#x03E8008C"/>
+				<HideType RevisionNo="#x03E8008C"></HideType>
 				<Name LcId="1033"><![CDATA[FB1111 MCI16 DC 2xMII]]></Name>
 				<Name LcId="1031"><![CDATA[FB1111 MCI16 DC 2xMII]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/FB1111]]></URL>
@@ -829,9 +829,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox>
-					<EoE/>
-					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="1"/>
-					<FoE/>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -1283,7 +1283,7 @@
 					<Name>Inputs</Name>
 				</TxPdo>
 				<Mailbox>
-					<CoE/>
+					<CoE></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -1400,9 +1400,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox>
-					<EoE/>
-					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="1"/>
-					<FoE/>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -1522,9 +1522,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox>
-					<EoE/>
-					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="1"/>
-					<FoE/>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>

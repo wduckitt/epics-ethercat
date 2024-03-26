@@ -243,6 +243,12 @@
 				</Properties>
 			</DataType>
 			<DataType>
+				<Name>UINT23</Name><BitSize>23</BitSize>
+				<Properties>				
+					<Property><Name>DisplayFormat</Name><Value>unsigned decimal</Value></Property>				
+				</Properties>
+			</DataType>
+			<DataType>
 				<Name>UDINT</Name>
 				<BitSize>32</BitSize>
 				<Properties>
@@ -730,7 +736,7 @@
 			<DataType>
 				<Name>DT_IDN_S_0_0021_AR</Name>
 				<BaseType>UINT_IDN</BaseType>
-				<BitSize>432</BitSize>
+				<BitSize>400</BitSize>
 				<ArrayInfo>
 					<LBound>0</LBound>
 					<Elements>25</Elements>
@@ -1434,7 +1440,7 @@
 			</DataType>
 			<DataType>
 				<Name>DT_IDN_S_0_0086_BIT0-2</Name>
-				<BitSize>1</BitSize>
+				<BitSize>3</BitSize>
 				<EnumInfo>
 					<Text LcId="1033"><![CDATA[percentage scaling]]></Text>
 					<Enum>0</Enum>
@@ -2575,7 +2581,7 @@
 				<SubItem>
 					<Name>Elements</Name>
 					<DisplayName LcId="1033"><![CDATA[ ]]></DisplayName>
-					<Type>DT_IDN_S_0_0030_AR</Type>
+					<Type>DT_IDN_S_0_0432_AR</Type>
 					<BitSize>144</BitSize>
 					<BitOffs>32</BitOffs>
 				</SubItem>
@@ -5492,7 +5498,7 @@
 			</DataType>
 			<DataType>
 				<Name>DT_IDN_P_0_0150_FbkDigInUsedNotUsed</Name>
-				<BitSize>16</BitSize>
+				<BitSize>1</BitSize>
 				<EnumInfo>
 					<Text LcId="1033">Not used</Text>
 					<Enum>0</Enum>
@@ -6260,7 +6266,7 @@
 				<SubItem>
 					<Name>rsvd</Name>
 					<DisplayName LcId="1033"><![CDATA[rsvd]]></DisplayName>
-					<Type>UINT</Type>
+					<Type>UINT23</Type>
 					<BitSize>23</BitSize>
 					<BitOffs>8</BitOffs>
 					<Property>
@@ -12493,11 +12499,11 @@
 					<Enum>40979</Enum>
 				</EnumInfo>
 				<EnumInfo>
-					<Text LcId="1033"><![CDATA[Resolver/MES ChA: Sqr vec length pos (Uint16)]]></Text>
+					<Text LcId="1033"><![CDATA[rsvd 0 (Uint16)]]></Text>
 					<Enum>40980</Enum>
 				</EnumInfo>
 				<EnumInfo>
-					<Text LcId="1033"><![CDATA[Resolver/MES ChA: Sqr vec length neg (Uint16)]]></Text>
+					<Text LcId="1033"><![CDATA[rsvd 1 (Uint16)]]></Text>
 					<Enum>40981</Enum>
 				</EnumInfo>
 				<EnumInfo>
@@ -12569,11 +12575,11 @@
 					<Enum>41011</Enum>
 				</EnumInfo>
 				<EnumInfo>
-					<Text LcId="1033"><![CDATA[Resolver/MES ChB: Sqr vec length pos (Uint16)]]></Text>
+					<Text LcId="1033"><![CDATA[rsvd 2 (Uint16)]]></Text>
 					<Enum>41012</Enum>
 				</EnumInfo>
 				<EnumInfo>
-					<Text LcId="1033"><![CDATA[Resolver/MES ChB: Sqr vec length neg (Uint16)]]></Text>
+					<Text LcId="1033"><![CDATA[rsvd 3 (Uint16)]]></Text>
 					<Enum>41013</Enum>
 				</EnumInfo>
 				<EnumInfo>

@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
-	<Vendor>
+	<Vendor FileVersion="3">
 		<Id>2</Id>
 		<Name>Beckhoff Automation GmbH &amp; Co. KG</Name>
 		<ImageData16x14>424DE6000000000000007600000028000000100000000E000000010004000000000070000000120B0000120B0000100000001000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF009D9DD99DD9DDD9DD9D9D9DD9D9DDD9DD999D9DD9D999D9999D9D9DD9D9DDD9DD9D9DD99DD999D999DDDDDDDDDDDDDDDD88888888888888888888888888888888DDDDDDDDDDDDDDDD999D999DD99DD9D99D9D9DDD9DD9D9D999DD999D9DDDD99D9D9D9DDD9DD9D99D999D999DD99DD9D9</ImageData16x14>
@@ -54,7 +54,7 @@
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1608</Index>
 					<Name>Channel 5</Name>
@@ -152,7 +152,7 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x07162c52" RevisionNo="#x00110000">EK1814</Type>
-				<HideType RevisionNo="#x00100000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1814 EtherCAT IO-Coupler  (1A E-Bus, 4 Ch. Dig. In, 3ms, 4 Ch. Dig. Out 24V, 0,5A)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1814 EtherCAT-EA-Koppler (1A E-Bus, 4 K. Dig. Ein, 3ms, 4 K. Dig. Aus 24V, 0,5A)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1814]]></URL>
@@ -178,7 +178,7 @@
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1608</Index>
 					<Name>Channel 5</Name>
@@ -276,8 +276,8 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x07162c52" RevisionNo="#x00120000">EK1814</Type>
-				<HideType RevisionNo="#x00100000"/>
-				<HideType RevisionNo="#x00110000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
+				<HideType RevisionNo="#x00110000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1814 EtherCAT IO-Coupler  (1A E-Bus, 4 Ch. Dig. In, 3ms, 4 Ch. Dig. Out 24V, 0,5A)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1814 EtherCAT-EA-Koppler (1A E-Bus, 4 K. Dig. Ein, 3ms, 4 K. Dig. Aus 24V, 0,5A)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1814]]></URL>
@@ -303,7 +303,7 @@
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1608</Index>
 					<Name>Channel 5</Name>
@@ -401,7 +401,7 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x07162c52" RevisionNo="#x00130000" CheckRevisionNo="LW_EQ">EK1814</Type>
-				<HideType RevisionNo="#x00120000"/>
+				<HideType RevisionNo="#x00120000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1814 EtherCAT IO-Coupler  (1A E-Bus, 4 Ch. Dig. In, 3ms, 4 Ch. Dig. Out 24V, 0,5A)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1814 EtherCAT-EA-Koppler (1A E-Bus, 4 K. Dig. Ein, 3ms, 4 K. Dig. Aus 24V, 0,5A)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1814]]></URL>
@@ -427,7 +427,7 @@
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1608</Index>
 					<Name>Channel 5</Name>
@@ -550,7 +550,7 @@
 				<Fmmu>Inputs</Fmmu>
 				<Sm DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 9</Name>
@@ -692,7 +692,7 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x071A2C52" RevisionNo="#x00110000">EK1818</Type>
-				<HideType RevisionNo="#x00100000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1818 EtherCAT IO-Coupler  (1A E-Bus, 8 Ch. Dig. In, 3ms, 4 Ch. Dig. Out 24V, 0,5A)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1818 EtherCAT-EA-Koppler (1A E-Bus, 8 K. Dig. Ein, 3ms, 4 K. Dig. Aus 24V, 0,5A)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1818]]></URL>
@@ -718,7 +718,7 @@
 				<Fmmu>Inputs</Fmmu>
 				<Sm DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 9</Name>
@@ -860,7 +860,7 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x071A2C52" RevisionNo="#x00120000" CheckRevisionNo="LW_EQ">EK1818</Type>
-				<HideType RevisionNo="#x00110000"/>
+				<HideType RevisionNo="#x00110000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1818 EtherCAT IO-Coupler  (1A E-Bus, 8 Ch. Dig. In, 3ms, 4 Ch. Dig. Out 24V, 0,5A)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1818 EtherCAT-EA-Koppler (1A E-Bus, 8 K. Dig. Ein, 3ms, 4 K. Dig. Aus 24V, 0,5A)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1818]]></URL>
@@ -886,7 +886,7 @@
 				<Fmmu>Inputs</Fmmu>
 				<Sm DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 9</Name>
@@ -1054,7 +1054,7 @@
 				<Sm DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 5</Name>
@@ -1211,7 +1211,7 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x07242C52" RevisionNo="#x00110000">EK1828</Type>
-				<HideType RevisionNo="#x00100000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1828 EtherCAT IO-Coupler  (1A E-Bus, 4 Ch. Dig. In, 3ms, 8 Ch. Dig. Out 24V, 0,5A)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1828 EtherCAT-EA-Koppler (1A E-Bus, 4 K. Dig. Ein, 3ms, 8 K. Dig. Aus 24V, 0,5A)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1828]]></URL>
@@ -1238,7 +1238,7 @@
 				<Sm DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 5</Name>
@@ -1395,7 +1395,7 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x07242C52" RevisionNo="#x00120000" CheckRevisionNo="LW_EQ">EK1828</Type>
-				<HideType RevisionNo="#x00110000"/>
+				<HideType RevisionNo="#x00110000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1828 EtherCAT IO-Coupler  (1A E-Bus, 4 Ch. Dig. In, 3ms, 8 Ch. Dig. Out 24V, 0,5A)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1828 EtherCAT-EA-Koppler (1A E-Bus, 4 K. Dig. Ein, 3ms, 8 K. Dig. Aus 24V, 0,5A)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1828]]></URL>
@@ -1422,7 +1422,7 @@
 				<Sm DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 5</Name>
@@ -1603,7 +1603,7 @@
 				<Fmmu OpOnly="true">Outputs</Fmmu>
 				<Sm DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -1711,7 +1711,7 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x07242C52" RevisionNo="#x0011000A">EK1828-0010</Type>
-				<HideType RevisionNo="#x0010000A"/>
+				<HideType RevisionNo="#x0010000A"></HideType>
 				<Name LcId="1033"><![CDATA[EK1828-0010 EtherCAT IO-Coupler  (1A E-Bus, 8 Ch. Dig. Out 24V, 0,5A)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1828-0010 EtherCAT-EA-Koppler (1A E-Bus, 8 K. Dig. Aus 24V, 0,5A)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1828-0010]]></URL>
@@ -1736,7 +1736,7 @@
 				<Fmmu OpOnly="true">Outputs</Fmmu>
 				<Sm DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -1844,7 +1844,7 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x07242C52" RevisionNo="#x0012000A" CheckRevisionNo="LW_EQ">EK1828-0010</Type>
-				<HideType RevisionNo="#x0011000A"/>
+				<HideType RevisionNo="#x0011000A"></HideType>
 				<Name LcId="1033"><![CDATA[EK1828-0010 EtherCAT IO-Coupler  (1A E-Bus, 8 Ch. Dig. Out 24V, 0,5A)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1828-0010 EtherCAT-EA-Koppler (1A E-Bus, 8 K. Dig. Aus 24V, 0,5A)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1828-0010]]></URL>
@@ -1869,7 +1869,7 @@
 				<Fmmu OpOnly="true">Outputs</Fmmu>
 				<Sm DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>

@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
-	<Vendor>
+	<Vendor FileVersion="3">
 		<Id>2</Id>
 		<Name>Beckhoff Automation GmbH &amp; Co. KG</Name>
 		<ImageData16x14>424DE6000000000000007600000028000000100000000E000000010004000000000070000000120B0000120B0000100000001000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF009D9DD99DD9DDD9DD9D9D9DD9D9DDD9DD999D9DD9D999D9999D9D9DD9D9DDD9DD9D9DD99DD999D999DDDDDDDDDDDDDDDD88888888888888888888888888888888DDDDDDDDDDDDDDDD999D999DD99DD9D99D9D9DDD9DD9D9D999DD999D9DDDD99D9D9D9DDD9DD9D99D999D999DD99DD9D9</ImageData16x14>
@@ -29,15 +29,15 @@
 		<Devices>
 			<Device Physics="YY">
 				<Type ProductCode="#x07D84852" RevisionNo="#x00120001">ER2008-0001</Type>
-				<HideType RevisionNo="#x00110001"/>
+				<HideType RevisionNo="#x00110001"></HideType>
 				<Name LcId="1033"><![CDATA[ER2008-0001 8 Ch. Dig. Output 24V, 0,5A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2008-0001 8 K. Dig. Ausgang 24V, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2008]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2008]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2008-0001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2008-0001]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -133,15 +133,15 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07D84852" RevisionNo="#x00130001">ER2008-0001</Type>
-				<HideType RevisionNo="#x00120001"/>
+				<HideType RevisionNo="#x00120001"></HideType>
 				<Name LcId="1033"><![CDATA[ER2008-0001 8 Ch. Dig. Output 24V, 0,5A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2008-0001 8 K. Dig. Ausgang 24V, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2008]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2008]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2008-0001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2008-0001]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -237,15 +237,15 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07D84852" RevisionNo="#x00120002">ER2008-0002</Type>
-				<HideType RevisionNo="#x00110002"/>
+				<HideType RevisionNo="#x00110002"></HideType>
 				<Name LcId="1033"><![CDATA[ER2008-0002 8 Ch. Dig. Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2008-0002 8 K. Dig. Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2008]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2008]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2008-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2008-0002]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -341,15 +341,15 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07D84852" RevisionNo="#x00130002">ER2008-0002</Type>
-				<HideType RevisionNo="#x00120002"/>
+				<HideType RevisionNo="#x00120002"></HideType>
 				<Name LcId="1033"><![CDATA[ER2008-0002 8 Ch. Dig. Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2008-0002 8 K. Dig. Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2008]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2008]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2008-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2008-0002]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -445,15 +445,15 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07D84852" RevisionNo="#x00110016">ER2008-0022</Type>
-				<HideType RevisionNo="#x00100016"/>
+				<HideType RevisionNo="#x00100016"></HideType>
 				<Name LcId="1033"><![CDATA[ER2008-0022 8 Ch. Dig. Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2008-0022 8 K. Dig. Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2008-0022]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2008-0022]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2008-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2008-0022]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -549,15 +549,15 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07D84852" RevisionNo="#x00120016">ER2008-0022</Type>
-				<HideType RevisionNo="#x00110016"/>
+				<HideType RevisionNo="#x00110016"></HideType>
 				<Name LcId="1033"><![CDATA[ER2008-0022 8 Ch. Dig. Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2008-0022 8 K. Dig. Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2008-0022]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2008-0022]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2008-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2008-0022]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -653,15 +653,15 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07EC4852" RevisionNo="#x00110001">ER2028-0001</Type>
-				<HideType RevisionNo="#x00100001"/>
+				<HideType RevisionNo="#x00100001"></HideType>
 				<Name LcId="1033"><![CDATA[ER2028-0001 8 Ch. Dig. Output 24V, 2A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2028-0001 8 K. Dig. Ausgang 24V, 2A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2028]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2028]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2028-0001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2028-0001]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -757,15 +757,15 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07EC4852" RevisionNo="#x00120001">ER2028-0001</Type>
-				<HideType RevisionNo="#x00110001"/>
+				<HideType RevisionNo="#x00110001"></HideType>
 				<Name LcId="1033"><![CDATA[ER2028-0001 8 Ch. Dig. Output 24V, 2A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2028-0001 8 K. Dig. Ausgang 24V, 2A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2028]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2028]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2028-0001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2028-0001]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -861,15 +861,15 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07EC4852" RevisionNo="#x00120002">ER2028-0002</Type>
-				<HideType RevisionNo="#x00110002"/>
+				<HideType RevisionNo="#x00110002"></HideType>
 				<Name LcId="1033"><![CDATA[ER2028-0002 8 Ch. Dig. Output 24V, 2A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2028-0002 8 K. Dig. Ausgang 24V, 2A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2028]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2028]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2028-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2028-0002]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -965,15 +965,15 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07EC4852" RevisionNo="#x00130002">ER2028-0002</Type>
-				<HideType RevisionNo="#x00120002"/>
+				<HideType RevisionNo="#x00120002"></HideType>
 				<Name LcId="1033"><![CDATA[ER2028-0002 8 Ch. Dig. Output 24V, 2A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2028-0002 8 K. Dig. Ausgang 24V, 2A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2028]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2028]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2028-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2028-0002]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -1071,12 +1071,12 @@
 				<Type ProductCode="#x07ec4852" RevisionNo="#x00100408">ER2028-1032</Type>
 				<Name LcId="1033"><![CDATA[ER2028-1032 8 Ch. Dig. Output 24V, 2,8A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2028-1032 8 K. Dig. Ausgang 24V, 2,8A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2028-1032]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2028-1032]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2028-1032]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2028-1032]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f02" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -1172,17 +1172,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07F64852" RevisionNo="#x00110001">ER2038-0001</Type>
-				<HideType RevisionNo="#x00100001"/>
+				<HideType RevisionNo="#x00100001"></HideType>
 				<Name LcId="1033"><![CDATA[ER2038-0001 8 Ch. Dig. Output 24V, 2A, M8, Diagnostic]]></Name>
 				<Name LcId="1031"><![CDATA[ER2038-0001 8 K. Dig. Ausgang 24V, 2A, M8, Diagnose]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2038]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2038]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2038-0001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2038-0001]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -1366,17 +1366,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07F64852" RevisionNo="#x00120001">ER2038-0001</Type>
-				<HideType RevisionNo="#x00110001"/>
+				<HideType RevisionNo="#x00110001"></HideType>
 				<Name LcId="1033"><![CDATA[ER2038-0001 8 Ch. Dig. Output 24V, 2A, M8, Diagnostic]]></Name>
 				<Name LcId="1031"><![CDATA[ER2038-0001 8 K. Dig. Ausgang 24V, 2A, M8, Diagnose]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2038]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2038]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2038-0001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2038-0001]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -1560,17 +1560,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07F64852" RevisionNo="#x00110002">ER2038-0002</Type>
-				<HideType RevisionNo="#x00100002"/>
+				<HideType RevisionNo="#x00100002"></HideType>
 				<Name LcId="1033"><![CDATA[ER2038-0002 8 Ch. Dig. Output 24V, 2A, M12, Diagnostic]]></Name>
 				<Name LcId="1031"><![CDATA[ER2038-0002 8 K. Dig. Ausgang 24V, 2A, M12, Diagnose]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2038]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2038]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2038-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2038-0002]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -1754,17 +1754,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07F64852" RevisionNo="#x00120002">ER2038-0002</Type>
-				<HideType RevisionNo="#x00110002"/>
+				<HideType RevisionNo="#x00110002"></HideType>
 				<Name LcId="1033"><![CDATA[ER2038-0002 8 Ch. Dig. Output 24V, 2A, M12, Diagnostic]]></Name>
 				<Name LcId="1031"><![CDATA[ER2038-0002 8 K. Dig. Ausgang 24V, 2A, M12, Diagnose]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2038]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2038]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2038-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2038-0002]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -1948,17 +1948,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09044852" RevisionNo="#x00120001">ER2308-0001</Type>
-				<HideType RevisionNo="#x00110001"/>
+				<HideType RevisionNo="#x00110001"></HideType>
 				<Name LcId="1033"><![CDATA[ER2308-0001 4 Ch. Dig. In, 3ms, 4 Ch. Dig. Out 24V, 0,5A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2308-0001 4 K. Dig. Ein, 3ms, 4 K. Dig. Aus 24V, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2308]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2308]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2308-0001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2308-0001]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1604</Index>
 					<Name>Channel 5</Name>
@@ -1966,8 +1966,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 					<Entry>
 						<Index>#x7040</Index>
@@ -2057,8 +2057,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 				</TxPdo>
 				<Eeprom>
@@ -2068,17 +2068,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09044852" RevisionNo="#x00130001">ER2308-0001</Type>
-				<HideType RevisionNo="#x00120001"/>
+				<HideType RevisionNo="#x00120001"></HideType>
 				<Name LcId="1033"><![CDATA[ER2308-0001 4 Ch. Dig. In, 3ms, 4 Ch. Dig. Out 24V, 0,5A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2308-0001 4 K. Dig. Ein, 3ms, 4 K. Dig. Aus 24V, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2308]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2308]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2308-0001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2308-0001]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1604</Index>
 					<Name>Channel 5</Name>
@@ -2086,8 +2086,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 					<Entry>
 						<Index>#x7040</Index>
@@ -2177,8 +2177,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 				</TxPdo>
 				<Eeprom>
@@ -2188,17 +2188,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09044852" RevisionNo="#x00120002">ER2308-0002</Type>
-				<HideType RevisionNo="#x00110002"/>
+				<HideType RevisionNo="#x00110002"></HideType>
 				<Name LcId="1033"><![CDATA[ER2308-0002 4 CH. Dig. In, 3ms, 4 Ch. Dig. Out 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2308-0002 4 K. Dig. Ein, 3ms, 4 K. Dig. Aus 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2308]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2308]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2308-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2308-0002]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1604</Index>
 					<Name>Channel 5</Name>
@@ -2206,8 +2206,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 					<Entry>
 						<Index>#x7040</Index>
@@ -2297,8 +2297,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 				</TxPdo>
 				<Eeprom>
@@ -2308,17 +2308,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09044852" RevisionNo="#x00130002">ER2308-0002</Type>
-				<HideType RevisionNo="#x00120002"/>
+				<HideType RevisionNo="#x00120002"></HideType>
 				<Name LcId="1033"><![CDATA[ER2308-0002 4 CH. Dig. In, 3ms, 4 Ch. Dig. Out 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2308-0002 4 K. Dig. Ein, 3ms, 4 K. Dig. Aus 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2308]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2308]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2308-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2308-0002]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1604</Index>
 					<Name>Channel 5</Name>
@@ -2326,8 +2326,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 					<Entry>
 						<Index>#x7040</Index>
@@ -2417,8 +2417,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 				</TxPdo>
 				<Eeprom>
@@ -2428,17 +2428,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x090E4852" RevisionNo="#x00120001">ER2318-0001</Type>
-				<HideType RevisionNo="#x00110001"/>
-				<Name LcId="1033"><![CDATA[ER2318-0001 4 Ch. Dig. In, 10Âµs, 4 Ch. Dig. Out 24V, 0,5A, M8]]></Name>
-				<Name LcId="1031"><![CDATA[ER2318-0001 4 K. Dig. Ein, 10Âµs, 4 K. Dig. Aus 24V, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2318]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2318]]></URL>
+				<HideType RevisionNo="#x00110001"></HideType>
+				<Name LcId="1033"><![CDATA[ER2318-0001 4 Ch. Dig. In, 10µs, 4 Ch. Dig. Out 24V, 0,5A, M8]]></Name>
+				<Name LcId="1031"><![CDATA[ER2318-0001 4 K. Dig. Ein, 10µs, 4 K. Dig. Aus 24V, 0,5A, M8]]></Name>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2318-0001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2318-0001]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1604</Index>
 					<Name>Channel 5</Name>
@@ -2446,8 +2446,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 					<Entry>
 						<Index>#x7040</Index>
@@ -2537,8 +2537,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 				</TxPdo>
 				<Eeprom>
@@ -2548,17 +2548,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x090E4852" RevisionNo="#x00130001">ER2318-0001</Type>
-				<HideType RevisionNo="#x00120001"/>
-				<Name LcId="1033"><![CDATA[ER2318-0001 4 Ch. Dig. In, 10Âµs, 4 Ch. Dig. Out 24V, 0,5A, M8]]></Name>
-				<Name LcId="1031"><![CDATA[ER2318-0001 4 K. Dig. Ein, 10Âµs, 4 K. Dig. Aus 24V, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2318]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2318]]></URL>
+				<HideType RevisionNo="#x00120001"></HideType>
+				<Name LcId="1033"><![CDATA[ER2318-0001 4 Ch. Dig. In, 10µs, 4 Ch. Dig. Out 24V, 0,5A, M8]]></Name>
+				<Name LcId="1031"><![CDATA[ER2318-0001 4 K. Dig. Ein, 10µs, 4 K. Dig. Aus 24V, 0,5A, M8]]></Name>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2318-0001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2318-0001]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1604</Index>
 					<Name>Channel 5</Name>
@@ -2566,8 +2566,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 					<Entry>
 						<Index>#x7040</Index>
@@ -2657,8 +2657,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 				</TxPdo>
 				<Eeprom>
@@ -2668,17 +2668,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x090E4852" RevisionNo="#x00120002">ER2318-0002</Type>
-				<HideType RevisionNo="#x00110002"/>
-				<Name LcId="1033"><![CDATA[ER2318-0002 4 Ch. Dig. In, 10Âµs, 4 Ch. Dig. Out 24V, 0,5A, M12]]></Name>
-				<Name LcId="1031"><![CDATA[ER2318-0002 4 K. Dig. Ein, 10Âµs, 4 K. Dig. Aus 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2318]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2318]]></URL>
+				<HideType RevisionNo="#x00110002"></HideType>
+				<Name LcId="1033"><![CDATA[ER2318-0002 4 Ch. Dig. In, 10µs, 4 Ch. Dig. Out 24V, 0,5A, M12]]></Name>
+				<Name LcId="1031"><![CDATA[ER2318-0002 4 K. Dig. Ein, 10µs, 4 K. Dig. Aus 24V, 0,5A, M12]]></Name>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2318-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2318-0002]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1604</Index>
 					<Name>Channel 5</Name>
@@ -2686,8 +2686,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 					<Entry>
 						<Index>#x7040</Index>
@@ -2777,8 +2777,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 				</TxPdo>
 				<Eeprom>
@@ -2788,17 +2788,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x090E4852" RevisionNo="#x00130002">ER2318-0002</Type>
-				<HideType RevisionNo="#x00120002"/>
-				<Name LcId="1033"><![CDATA[ER2318-0002 4 Ch. Dig. In, 10Âµs, 4 Ch. Dig. Out 24V, 0,5A, M12]]></Name>
-				<Name LcId="1031"><![CDATA[ER2318-0002 4 K. Dig. Ein, 10Âµs, 4 K. Dig. Aus 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2318]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2318]]></URL>
+				<HideType RevisionNo="#x00120002"></HideType>
+				<Name LcId="1033"><![CDATA[ER2318-0002 4 Ch. Dig. In, 10µs, 4 Ch. Dig. Out 24V, 0,5A, M12]]></Name>
+				<Name LcId="1031"><![CDATA[ER2318-0002 4 K. Dig. Ein, 10µs, 4 K. Dig. Aus 24V, 0,5A, M12]]></Name>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2318-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2318-0002]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1604</Index>
 					<Name>Channel 5</Name>
@@ -2806,8 +2806,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 					<Entry>
 						<Index>#x7040</Index>
@@ -2897,8 +2897,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 				</TxPdo>
 				<Eeprom>
@@ -2908,17 +2908,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09184852" RevisionNo="#x00110001">ER2328-0001</Type>
-				<HideType RevisionNo="#x00100001"/>
+				<HideType RevisionNo="#x00100001"></HideType>
 				<Name LcId="1033"><![CDATA[ER2328-0001 4 CH. Dig. In, 3ms, 4 Ch. Dig. Out 24V, 2A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2328-0001 4 K. Dig. Ein, 3ms, 4 K. Dig. Aus 24V, 2A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2328]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2328]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2328-0001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2328-0001]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1604</Index>
 					<Name>Channel 5</Name>
@@ -2926,8 +2926,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 					<Entry>
 						<Index>#x7040</Index>
@@ -3017,8 +3017,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 				</TxPdo>
 				<Eeprom>
@@ -3028,17 +3028,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09184852" RevisionNo="#x00120001">ER2328-0001</Type>
-				<HideType RevisionNo="#x00110001"/>
+				<HideType RevisionNo="#x00110001"></HideType>
 				<Name LcId="1033"><![CDATA[ER2328-0001 4 CH. Dig. In, 3ms, 4 Ch. Dig. Out 24V, 2A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2328-0001 4 K. Dig. Ein, 3ms, 4 K. Dig. Aus 24V, 2A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2328]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2328]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2328-0001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2328-0001]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1604</Index>
 					<Name>Channel 5</Name>
@@ -3046,8 +3046,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 					<Entry>
 						<Index>#x7040</Index>
@@ -3137,8 +3137,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 				</TxPdo>
 				<Eeprom>
@@ -3148,17 +3148,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09184852" RevisionNo="#x00120002">ER2328-0002</Type>
-				<HideType RevisionNo="#x00110002"/>
+				<HideType RevisionNo="#x00110002"></HideType>
 				<Name LcId="1033"><![CDATA[ER2328-0002 4 CH. Dig. In, 3ms, 4 Ch. Dig. Out 24V, 2A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2328-0002 4 K. Dig. Ein, 3ms, 4 K. Dig. Aus 24V, 2A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2328]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2328]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2328-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2328-0002]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1604</Index>
 					<Name>Channel 5</Name>
@@ -3166,8 +3166,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 					<Entry>
 						<Index>#x7040</Index>
@@ -3257,8 +3257,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 				</TxPdo>
 				<Eeprom>
@@ -3268,17 +3268,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09184852" RevisionNo="#x00130002">ER2328-0002</Type>
-				<HideType RevisionNo="#x00120002"/>
+				<HideType RevisionNo="#x00120002"></HideType>
 				<Name LcId="1033"><![CDATA[ER2328-0002 4 CH. Dig. In, 3ms, 4 Ch. Dig. Out 24V, 2A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2328-0002 4 K. Dig. Ein, 3ms, 4 K. Dig. Aus 24V, 2A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2328]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2328]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2328-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2328-0002]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1604</Index>
 					<Name>Channel 5</Name>
@@ -3286,8 +3286,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 					<Entry>
 						<Index>#x7040</Index>
@@ -3377,8 +3377,8 @@
 						<Index>0</Index>
 						<SubIndex>0</SubIndex>
 						<BitLen>4</BitLen>
-						<Name/>
-						<DataType/>
+						<Name></Name>
+						<DataType></DataType>
 					</Entry>
 				</TxPdo>
 				<Eeprom>
@@ -3388,17 +3388,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09224852" RevisionNo="#x00160001">ER2338-0001</Type>
-				<HideType RevisionNo="#x00150001"/>
+				<HideType RevisionNo="#x00150001"></HideType>
 				<Name LcId="1033"><![CDATA[ER2338-0001 8 Ch. Dig. Input/Output 24V, 0,5A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2338-0001 8 K. Dig. Ein-/Ausgang 24V, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2338]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2338]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2338-0001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2338-0001]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 9</Name>
@@ -3582,17 +3582,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09224852" RevisionNo="#x00170001">ER2338-0001</Type>
-				<HideType RevisionNo="#x00160001"/>
+				<HideType RevisionNo="#x00160001"></HideType>
 				<Name LcId="1033"><![CDATA[ER2338-0001 8 Ch. Dig. Input/Output 24V, 0,5A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2338-0001 8 K. Dig. Ein-/Ausgang 24V, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2338]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2338]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2338-0001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2338-0001]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 9</Name>
@@ -3776,17 +3776,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09224852" RevisionNo="#x00160002">ER2338-0002</Type>
-				<HideType RevisionNo="#x00150002"/>
+				<HideType RevisionNo="#x00150002"></HideType>
 				<Name LcId="1033"><![CDATA[ER2338-0002 8 Ch. Dig. Input/Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2338-0002 8 K. Dig. Ein-/Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2338]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2338]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2338-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2338-0002]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 9</Name>
@@ -3970,17 +3970,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09224852" RevisionNo="#x00170002">ER2338-0002</Type>
-				<HideType RevisionNo="#x00160002"/>
+				<HideType RevisionNo="#x00160002"></HideType>
 				<Name LcId="1033"><![CDATA[ER2338-0002 8 Ch. Dig. Input/Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2338-0002 8 K. Dig. Ein-/Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2338]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2338]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2338-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2338-0002]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 9</Name>
@@ -4164,17 +4164,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09224852" RevisionNo="#x001103E9">ER2338-1001</Type>
-				<HideType RevisionNo="#x001003E9"/>
+				<HideType RevisionNo="#x001003E9"></HideType>
 				<Name LcId="1033"><![CDATA[ER2338-1001 8 Ch. Dig. Input/Output 24V, 3ms, 0,5A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2338-1001 8 K. Dig. Ein-/Ausgang 24V, 3ms, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2338]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2338]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2338-1001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2338-1001]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 9</Name>
@@ -4358,17 +4358,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09224852" RevisionNo="#x001203E9">ER2338-1001</Type>
-				<HideType RevisionNo="#x001103E9"/>
+				<HideType RevisionNo="#x001103E9"></HideType>
 				<Name LcId="1033"><![CDATA[ER2338-1001 8 Ch. Dig. Input/Output 24V, 3ms, 0,5A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2338-1001 8 K. Dig. Ein-/Ausgang 24V, 3ms, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2338]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2338]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2338-1001]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2338-1001]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 9</Name>
@@ -4552,17 +4552,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09224852" RevisionNo="#x001103EA">ER2338-1002</Type>
-				<HideType RevisionNo="#x001003EA"/>
+				<HideType RevisionNo="#x001003EA"></HideType>
 				<Name LcId="1033"><![CDATA[ER2338-1002 8 Ch. Dig. Input/Output 24V, 3ms, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2338-1002 8 K. Dig. Ein-/Ausgang 24V, 3ms, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2338]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2338]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2338-1002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2338-1002]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 9</Name>
@@ -4746,17 +4746,17 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09224852" RevisionNo="#x001203EA">ER2338-1002</Type>
-				<HideType RevisionNo="#x001103EA"/>
+				<HideType RevisionNo="#x001103EA"></HideType>
 				<Name LcId="1033"><![CDATA[ER2338-1002 8 Ch. Dig. Input/Output 24V, 3ms, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2338-1002 8 K. Dig. Ein-/Ausgang 24V, 3ms, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2338]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2338]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2338-1002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2338-1002]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 9</Name>
@@ -4940,11 +4940,11 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09234852" RevisionNo="#x00120015">ER2339-0021</Type>
-				<HideType RevisionNo="#x00110015"/>
+				<HideType RevisionNo="#x00110015"></HideType>
 				<Name LcId="1033"><![CDATA[ER2339-0021 16 Ch. Dig. Input/Output 24V, 0,5A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2339-0021 16 K. Dig. Ein-/Ausgang 24V, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2339]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2339]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2339-0021]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2339-0021]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
@@ -4954,7 +4954,7 @@
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1001" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 17</Name>
@@ -5307,7 +5307,7 @@
 						<DataType>BOOL</DataType>
 					</Entry>
 				</TxPdo>
-				<Mailbox/>
+				<Mailbox></Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
 					<ConfigData>040304000A00</ConfigData>
@@ -5315,11 +5315,11 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09234852" RevisionNo="#x00130015">ER2339-0021</Type>
-				<HideType RevisionNo="#x00120015"/>
+				<HideType RevisionNo="#x00120015"></HideType>
 				<Name LcId="1033"><![CDATA[ER2339-0021 16 Ch. Dig. Input/Output 24V, 0,5A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2339-0021 16 K. Dig. Ein-/Ausgang 24V, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2339]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2339]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2339-0021]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2339-0021]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Outputs</Fmmu>
@@ -5329,7 +5329,7 @@
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1001" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 17</Name>
@@ -5689,11 +5689,11 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09234852" RevisionNo="#x00120016">ER2339-0022</Type>
-				<HideType RevisionNo="#x00110016"/>
+				<HideType RevisionNo="#x00110016"></HideType>
 				<Name LcId="1033"><![CDATA[ER2339-0022 16 Ch. Dig. Input/Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2339-0022 16 K. Dig. Ein-/Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2339]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2339]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2339-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2339-0022]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
@@ -5703,7 +5703,7 @@
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1001" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 17</Name>
@@ -6063,11 +6063,11 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09234852" RevisionNo="#x00130016">ER2339-0022</Type>
-				<HideType RevisionNo="#x00120016"/>
+				<HideType RevisionNo="#x00120016"></HideType>
 				<Name LcId="1033"><![CDATA[ER2339-0022 16 Ch. Dig. Input/Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2339-0022 16 K. Dig. Ein-/Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2339]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2339]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2339-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2339-0022]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Outputs</Fmmu>
@@ -6077,7 +6077,7 @@
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1001" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 17</Name>
@@ -6437,11 +6437,11 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x092D4852" RevisionNo="#x00110015">ER2349-0021</Type>
-				<HideType RevisionNo="#x00100015"/>
-				<Name LcId="1033"><![CDATA[ER2349-0021 16 Ch. Dig. Input/Output 24V, 10Âµs, 0,5A, M8]]></Name>
-				<Name LcId="1031"><![CDATA[ER2349-0021 16 K. Dig. Ein-/Ausgang 24V, 10Âµs, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2349]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2349]]></URL>
+				<HideType RevisionNo="#x00100015"></HideType>
+				<Name LcId="1033"><![CDATA[ER2349-0021 16 Ch. Dig. Input/Output 24V, 10µs, 0,5A, M8]]></Name>
+				<Name LcId="1031"><![CDATA[ER2349-0021 16 K. Dig. Ein-/Ausgang 24V, 10µs, 0,5A, M8]]></Name>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2349-0021]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2349-0021]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
@@ -6451,7 +6451,7 @@
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1001" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 17</Name>
@@ -6811,11 +6811,11 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x092D4852" RevisionNo="#x00120015">ER2349-0021</Type>
-				<HideType RevisionNo="#x00110015"/>
-				<Name LcId="1033"><![CDATA[ER2349-0021 16 Ch. Dig. Input/Output 24V, 10Âµs, 0,5A, M8]]></Name>
-				<Name LcId="1031"><![CDATA[ER2349-0021 16 K. Dig. Ein-/Ausgang 24V, 10Âµs, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2349]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2349]]></URL>
+				<HideType RevisionNo="#x00110015"></HideType>
+				<Name LcId="1033"><![CDATA[ER2349-0021 16 Ch. Dig. Input/Output 24V, 10µs, 0,5A, M8]]></Name>
+				<Name LcId="1031"><![CDATA[ER2349-0021 16 K. Dig. Ein-/Ausgang 24V, 10µs, 0,5A, M8]]></Name>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2349-0021]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2349-0021]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Outputs</Fmmu>
@@ -6825,7 +6825,7 @@
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1001" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 17</Name>
@@ -7185,11 +7185,11 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x092D4852" RevisionNo="#x00110016">ER2349-0022</Type>
-				<HideType RevisionNo="#x00100016"/>
-				<Name LcId="1033"><![CDATA[ER2349-0022 16 Ch. Dig. Input/Output 24V, 10Âµs, 0,5A, M12]]></Name>
-				<Name LcId="1031"><![CDATA[ER2349-0022 16 K. Dig. Ein-/Ausgang 24V, 10Âµs, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2349]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2349]]></URL>
+				<HideType RevisionNo="#x00100016"></HideType>
+				<Name LcId="1033"><![CDATA[ER2349-0022 16 Ch. Dig. Input/Output 24V, 10µs, 0,5A, M12]]></Name>
+				<Name LcId="1031"><![CDATA[ER2349-0022 16 K. Dig. Ein-/Ausgang 24V, 10µs, 0,5A, M12]]></Name>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2349-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2349-0022]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
@@ -7199,7 +7199,7 @@
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1001" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 17</Name>
@@ -7559,11 +7559,11 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x092D4852" RevisionNo="#x00120016">ER2349-0022</Type>
-				<HideType RevisionNo="#x00110016"/>
-				<Name LcId="1033"><![CDATA[ER2349-0022 16 Ch. Dig. Input/Output 24V, 10Âµs, 0,5A, M12]]></Name>
-				<Name LcId="1031"><![CDATA[ER2349-0022 16 K. Dig. Ein-/Ausgang 24V, 10Âµs, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2349]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2349]]></URL>
+				<HideType RevisionNo="#x00110016"></HideType>
+				<Name LcId="1033"><![CDATA[ER2349-0022 16 Ch. Dig. Input/Output 24V, 10µs, 0,5A, M12]]></Name>
+				<Name LcId="1031"><![CDATA[ER2349-0022 16 K. Dig. Ein-/Ausgang 24V, 10µs, 0,5A, M12]]></Name>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2349-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2349-0022]]></URL>
 				<GroupType>FieldbusBoxER23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Outputs</Fmmu>
@@ -7573,7 +7573,7 @@
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1001" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 17</Name>
@@ -7933,15 +7933,15 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0A404852" RevisionNo="#x00120002">ER2624-0002</Type>
-				<HideType RevisionNo="#x00110002"/>
+				<HideType RevisionNo="#x00110002"></HideType>
 				<Name LcId="1033"><![CDATA[ER2624-0002 4Ch. Relay Output, NO (125V AC / 30V DC)]]></Name>
-				<Name LcId="1031"><![CDATA[ER2624-0002 4K. Relais Ausgang, SchlieÃŸer (125V AC / 30V DC)]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2624]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2624]]></URL>
+				<Name LcId="1031"><![CDATA[ER2624-0002 4K. Relais Ausgang, Schließer (125V AC / 30V DC)]]></Name>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2624-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2624-0002]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -7993,15 +7993,15 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0A404852" RevisionNo="#x00130002">ER2624-0002</Type>
-				<HideType RevisionNo="#x00120002"/>
+				<HideType RevisionNo="#x00120002"></HideType>
 				<Name LcId="1033"><![CDATA[ER2624-0002 4Ch. Relay Output, NO (125V AC / 30V DC)]]></Name>
-				<Name LcId="1031"><![CDATA[ER2624-0002 4K. Relais Ausgang, SchlieÃŸer (125V AC / 30V DC)]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2624]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2624]]></URL>
+				<Name LcId="1031"><![CDATA[ER2624-0002 4K. Relais Ausgang, Schließer (125V AC / 30V DC)]]></Name>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2624-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2624-0002]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Sm StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -8053,16 +8053,16 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0AF94852" RevisionNo="#x00110015">ER2809-0021</Type>
-				<HideType RevisionNo="#x00100015"/>
+				<HideType RevisionNo="#x00100015"></HideType>
 				<Name LcId="1033"><![CDATA[ER2809-0021 16 Ch. Dig. Output 24V, 0,5A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2809-0021 16 K. Dig. Ausgang 24V, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2809]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2809]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2809-0021]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2809-0021]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -8246,16 +8246,16 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0AF94852" RevisionNo="#x00120015">ER2809-0021</Type>
-				<HideType RevisionNo="#x00110015"/>
+				<HideType RevisionNo="#x00110015"></HideType>
 				<Name LcId="1033"><![CDATA[ER2809-0021 16 Ch. Dig. Output 24V, 0,5A, M8]]></Name>
 				<Name LcId="1031"><![CDATA[ER2809-0021 16 K. Dig. Ausgang 24V, 0,5A, M8]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2809]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2809]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2809-0021]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2809-0021]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -8441,13 +8441,13 @@
 				<Type ProductCode="#x0AF94852" RevisionNo="#x00100016">ER2809-0022</Type>
 				<Name LcId="1033"><![CDATA[ER2809-0022 16 Ch. Dig. Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2809-0022 16 K. Dig. Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2809]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2809]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2809-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2809-0022]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -8631,16 +8631,16 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0AF94852" RevisionNo="#x00110016">ER2809-0022</Type>
-				<HideType RevisionNo="#x00100016"/>
+				<HideType RevisionNo="#x00100016"></HideType>
 				<Name LcId="1033"><![CDATA[ER2809-0022 16 Ch. Dig. Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2809-0022 16 K. Dig. Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2809]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2809]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2809-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2809-0022]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -8824,16 +8824,16 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0AF94852" RevisionNo="#x00120016">ER2809-0022</Type>
-				<HideType RevisionNo="#x00110016"/>
+				<HideType RevisionNo="#x00110016"></HideType>
 				<Name LcId="1033"><![CDATA[ER2809-0022 16 Ch. Dig. Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[ER2809-0022 16 K. Dig. Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER2809]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER2809]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER2809-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER2809-0022]]></URL>
 				<GroupType>FieldbusBoxER2xxx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>

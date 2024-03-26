@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
-	<Vendor>
+	<Vendor FileVersion="3">
 		<Id>2</Id>
 		<Name>Beckhoff Automation GmbH &amp; Co. KG</Name>
 		<ImageData16x14>424DE6000000000000007600000028000000100000000E000000010004000000000070000000120B0000120B0000100000001000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF009D9DD99DD9DDD9DD9D9D9DD9D9DDD9DD999D9DD9D999D9999D9D9DD9D9DDD9DD9D9DD99DD999D999DDDDDDDDDDDDDDDD88888888888888888888888888888888DDDDDDDDDDDDDDDD999D999DD99DD9D99D9D9DDD9DD9D9D999DD999D9DDDD99D9D9D9DDD9DD9D99D999D999DD99DD9D9</ImageData16x14>
@@ -367,7 +367,7 @@
 					<Name>Inputs</Name>
 				</TxPdo>
 				<Mailbox>
-					<CoE/>
+					<CoE></CoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -376,7 +376,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x26483052" RevisionNo="#x00010320">EL9800</Type>
-				<Name LcId="1033"><![CDATA[EL9800 16Bit ÂµC (Busy:LA Int:LA)]]></Name>
+				<Name LcId="1033"><![CDATA[EL9800 16Bit µC (Busy:LA Int:LA)]]></Name>
 				<GroupType>EvaBoard</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
@@ -393,7 +393,7 @@
 					<Name>Inputs</Name>
 				</TxPdo>
 				<Mailbox>
-					<CoE/>
+					<CoE></CoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -402,7 +402,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x26483052" RevisionNo="#x00010322">EL9800</Type>
-				<Name LcId="1033"><![CDATA[EL9800 16Bit ÂµC (Busy:HA Int:LA)]]></Name>
+				<Name LcId="1033"><![CDATA[EL9800 16Bit µC (Busy:HA Int:LA)]]></Name>
 				<GroupType>EvaBoard</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
@@ -419,7 +419,7 @@
 					<Name>Inputs</Name>
 				</TxPdo>
 				<Mailbox>
-					<CoE/>
+					<CoE></CoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -428,7 +428,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x26483052" RevisionNo="#x00010328">EL9800</Type>
-				<Name LcId="1033"><![CDATA[EL9800 16Bit ÂµC (Busy:LA Int:HA)]]></Name>
+				<Name LcId="1033"><![CDATA[EL9800 16Bit µC (Busy:LA Int:HA)]]></Name>
 				<GroupType>EvaBoard</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
@@ -445,7 +445,7 @@
 					<Name>Inputs</Name>
 				</TxPdo>
 				<Mailbox>
-					<CoE/>
+					<CoE></CoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -454,7 +454,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x26483052" RevisionNo="#x0001032a">EL9800</Type>
-				<Name LcId="1033"><![CDATA[EL9800 16Bit ÂµC (Busy:HA Int:HA)]]></Name>
+				<Name LcId="1033"><![CDATA[EL9800 16Bit µC (Busy:HA Int:HA)]]></Name>
 				<GroupType>EvaBoard</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
@@ -471,7 +471,7 @@
 					<Name>Inputs</Name>
 				</TxPdo>
 				<Mailbox>
-					<CoE/>
+					<CoE></CoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -480,7 +480,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x26483052" RevisionNo="#x00010384">EL9800</Type>
-				<Name LcId="1033"><![CDATA[EL9800 8Bit ÂµC (Busy:LA Int:LA)]]></Name>
+				<Name LcId="1033"><![CDATA[EL9800 8Bit µC (Busy:LA Int:LA)]]></Name>
 				<GroupType>EvaBoard</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
@@ -497,7 +497,7 @@
 					<Name>Inputs</Name>
 				</TxPdo>
 				<Mailbox>
-					<CoE/>
+					<CoE></CoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -506,7 +506,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x26483052" RevisionNo="#x00010386">EL9800</Type>
-				<Name LcId="1033"><![CDATA[EL9800 8Bit ÂµC (Busy:HA Int:LA)]]></Name>
+				<Name LcId="1033"><![CDATA[EL9800 8Bit µC (Busy:HA Int:LA)]]></Name>
 				<GroupType>EvaBoard</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
@@ -523,7 +523,7 @@
 					<Name>Inputs</Name>
 				</TxPdo>
 				<Mailbox>
-					<CoE/>
+					<CoE></CoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -532,7 +532,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x26483052" RevisionNo="#x0001038c">EL9800</Type>
-				<Name LcId="1033"><![CDATA[EL9800 8Bit ÂµC (Busy:LA Int:HA)]]></Name>
+				<Name LcId="1033"><![CDATA[EL9800 8Bit µC (Busy:LA Int:HA)]]></Name>
 				<GroupType>EvaBoard</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
@@ -549,7 +549,7 @@
 					<Name>Inputs</Name>
 				</TxPdo>
 				<Mailbox>
-					<CoE/>
+					<CoE></CoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -558,7 +558,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x26483052" RevisionNo="#x0001038e">EL9800</Type>
-				<Name LcId="1033"><![CDATA[EL9800 8Bit ÂµC (Busy:HA Int:HA)]]></Name>
+				<Name LcId="1033"><![CDATA[EL9800 8Bit µC (Busy:HA Int:HA)]]></Name>
 				<GroupType>EvaBoard</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Inputs</Fmmu>
@@ -575,7 +575,7 @@
 					<Name>Inputs</Name>
 				</TxPdo>
 				<Mailbox>
-					<CoE/>
+					<CoE></CoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -768,7 +768,7 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox>
-					<CoE SdoInfo="1" PdoAssign="0" PdoConfig="0"/>
+					<CoE SdoInfo="1" PdoAssign="0" PdoConfig="0"></CoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -1135,8 +1135,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox>
-					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="0"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="0"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -1504,8 +1504,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox>
-					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="0"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="0"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -1873,8 +1873,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox>
-					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="0"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="0"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -2242,8 +2242,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox>
-					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="0"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="0"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -2611,8 +2611,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox>
-					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="0"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="0"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>

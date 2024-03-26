@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
-	<Vendor>
+	<Vendor FileVersion="3">
 		<Id>2</Id>
 		<Name>Beckhoff Automation GmbH &amp; Co. KG</Name>
 		<ImageData16x14>424DE6000000000000007600000028000000100000000E000000010004000000000070000000120B0000120B0000100000001000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF009D9DD99DD9DDD9DD9D9D9DD9D9DDD9DD999D9DD9D999D9999D9D9DD9D9DDD9DD9D9DD99DD999D999DDDDDDDDDDDDDDDD88888888888888888888888888888888DDDDDDDDDDDDDDDD999D999DD99DD9D99D9D9DDD9DD9D9D999DD999D9DDDD99D9D9D9DDD9DD9D99D999D999DD99DD9D9</ImageData16x14>
@@ -72,7 +72,7 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x05DD2C52" RevisionNo="#x00110000">EK1501</Type>
-				<HideType RevisionNo="#x00100000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1501 EtherCAT Coupler (2A E-Bus, FX-MultiMode, ID switch)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1501 EtherCAT-Koppler (2A E-Bus, FX-MultiMode, ID-Switch)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1501]]></URL>
@@ -116,7 +116,7 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x05DD2C52" RevisionNo="#x00120000">EK1501</Type>
-				<HideType RevisionNo="#x00110000"/>
+				<HideType RevisionNo="#x00110000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1501 EtherCAT Coupler (2A E-Bus, FX-MultiMode, ID switch)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1501 EtherCAT-Koppler (2A E-Bus, FX-MultiMode, ID-Switch)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1501]]></URL>
@@ -160,8 +160,8 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x05DD2C52" RevisionNo="#x00130000">EK1501</Type>
-				<HideType RevisionNo="#x00110000"/>
-				<HideType RevisionNo="#x00120000"/>
+				<HideType RevisionNo="#x00110000"></HideType>
+				<HideType RevisionNo="#x00120000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1501 EtherCAT Coupler (2A E-Bus, FX-MultiMode, ID switch)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1501 EtherCAT-Koppler (2A E-Bus, FX-MultiMode, ID-Switch)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1501]]></URL>
@@ -248,7 +248,7 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x05DD2C52" RevisionNo="#x0011000A">EK1501-0010</Type>
-				<HideType RevisionNo="#x0010000A"/>
+				<HideType RevisionNo="#x0010000A"></HideType>
 				<Name LcId="1033"><![CDATA[EK1501-0010 EtherCAT Coupler (2A E-Bus, FX-SingleMode, ID switch)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1501-0010 EtherCAT-Koppler (2A E-Bus, FX-SingleMode, ID-Switch)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1501]]></URL>
@@ -292,8 +292,8 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x05DD2C52" RevisionNo="#x0012000A">EK1501-0010</Type>
-				<HideType RevisionNo="#x0010000A"/>
-				<HideType RevisionNo="#x0011000A"/>
+				<HideType RevisionNo="#x0010000A"></HideType>
+				<HideType RevisionNo="#x0011000A"></HideType>
 				<Name LcId="1033"><![CDATA[EK1501-0010 EtherCAT Coupler (2A E-Bus, FX-SingleMode, ID switch)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1501-0010 EtherCAT-Koppler (2A E-Bus, FX-SingleMode, ID-Switch)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1501]]></URL>
@@ -390,7 +390,7 @@
 					</Electrical>
 					<Port>
 						<Type>EBUS</Type>
-						<Label/>
+						<Label></Label>
 					</Port>
 					<Port>
 						<Type>NONE</Type>
@@ -412,7 +412,7 @@
 			</Device>
 			<Device Physics="K KY">
 				<Type ProductCode="#x05f12c52" RevisionNo="#x00110000">EK1521</Type>
-				<HideType RevisionNo="#x00100000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1521 1 port EtherCAT junction (FX-MultiMode)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1521 1-Port EtherCAT-Abzweig (FX-MultiMode)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1521]]></URL>
@@ -423,7 +423,7 @@
 					</Electrical>
 					<Port>
 						<Type>EBUS</Type>
-						<Label/>
+						<Label></Label>
 					</Port>
 					<Port>
 						<Type>NONE</Type>
@@ -445,8 +445,8 @@
 			</Device>
 			<Device Physics="K KY">
 				<Type ProductCode="#x05f12c52" RevisionNo="#x00120000">EK1521</Type>
-				<HideType RevisionNo="#x00100000"/>
-				<HideType RevisionNo="#x00110000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
+				<HideType RevisionNo="#x00110000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1521 1 port EtherCAT junction (FX-MultiMode)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1521 1-Port EtherCAT-Abzweig (FX-MultiMode)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1521]]></URL>
@@ -457,7 +457,7 @@
 					</Electrical>
 					<Port>
 						<Type>EBUS</Type>
-						<Label/>
+						<Label></Label>
 					</Port>
 					<Port>
 						<Type>NONE</Type>
@@ -479,9 +479,9 @@
 			</Device>
 			<Device Physics="K KY">
 				<Type ProductCode="#x05f12c52" RevisionNo="#x00130000">EK1521</Type>
-				<HideType RevisionNo="#x00100000"/>
-				<HideType RevisionNo="#x00110000"/>
-				<HideType RevisionNo="#x00120000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
+				<HideType RevisionNo="#x00110000"></HideType>
+				<HideType RevisionNo="#x00120000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1521 1 port EtherCAT junction (FX-MultiMode)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1521 1-Port EtherCAT-Abzweig (FX-MultiMode)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1521]]></URL>
@@ -492,7 +492,7 @@
 					</Electrical>
 					<Port>
 						<Type>EBUS</Type>
-						<Label/>
+						<Label></Label>
 					</Port>
 					<Port>
 						<Type>NONE</Type>
@@ -514,10 +514,10 @@
 			</Device>
 			<Device Physics="K KY">
 				<Type ProductCode="#x05f12c52" RevisionNo="#x00140000" CheckRevisionNo="LW_EQ">EK1521</Type>
-				<HideType RevisionNo="#x00100000"/>
-				<HideType RevisionNo="#x00110000"/>
-				<HideType RevisionNo="#x00120000"/>
-				<HideType RevisionNo="#x00130000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
+				<HideType RevisionNo="#x00110000"></HideType>
+				<HideType RevisionNo="#x00120000"></HideType>
+				<HideType RevisionNo="#x00130000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1521 1 port EtherCAT junction (FX-MultiMode)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1521 1-Port EtherCAT-Abzweig (FX-MultiMode)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1521]]></URL>
@@ -528,7 +528,7 @@
 					</Electrical>
 					<Port>
 						<Type>EBUS</Type>
-						<Label/>
+						<Label></Label>
 					</Port>
 					<Port>
 						<Type>NONE</Type>
@@ -550,11 +550,11 @@
 			</Device>
 			<Device Physics="K KY">
 				<Type ProductCode="#x05f12c52" RevisionNo="#x00150000" CheckRevisionNo="LW_EQ">EK1521</Type>
-				<HideType RevisionNo="#x00100000"/>
-				<HideType RevisionNo="#x00110000"/>
-				<HideType RevisionNo="#x00120000"/>
-				<HideType RevisionNo="#x00130000"/>
-				<HideType RevisionNo="#x00140000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
+				<HideType RevisionNo="#x00110000"></HideType>
+				<HideType RevisionNo="#x00120000"></HideType>
+				<HideType RevisionNo="#x00130000"></HideType>
+				<HideType RevisionNo="#x00140000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1521 1 port EtherCAT junction (FX-MultiMode)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1521 1-Port EtherCAT-Abzweig (FX-MultiMode)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1521]]></URL>
@@ -565,7 +565,7 @@
 					</Electrical>
 					<Port>
 						<Type>EBUS</Type>
-						<Label/>
+						<Label></Label>
 					</Port>
 					<Port>
 						<Type>NONE</Type>
@@ -597,7 +597,7 @@
 					</Electrical>
 					<Port>
 						<Type>EBUS</Type>
-						<Label/>
+						<Label></Label>
 					</Port>
 					<Port>
 						<Type>NONE</Type>
@@ -619,7 +619,7 @@
 			</Device>
 			<Device Physics="K KY">
 				<Type ProductCode="#x05f12c52" RevisionNo="#x0011000A">EK1521-0010</Type>
-				<HideType RevisionNo="#x0010000A"/>
+				<HideType RevisionNo="#x0010000A"></HideType>
 				<Name LcId="1033"><![CDATA[EK1521-0010 1 port EtherCAT junction (FX-SingleMode)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1521-0010 1-Port EtherCAT-Abzweig (FX-SingleMode)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1521]]></URL>
@@ -630,7 +630,7 @@
 					</Electrical>
 					<Port>
 						<Type>EBUS</Type>
-						<Label/>
+						<Label></Label>
 					</Port>
 					<Port>
 						<Type>NONE</Type>
@@ -652,8 +652,8 @@
 			</Device>
 			<Device Physics="K KY">
 				<Type ProductCode="#x05f12c52" RevisionNo="#x0012000A">EK1521-0010</Type>
-				<HideType RevisionNo="#x0010000A"/>
-				<HideType RevisionNo="#x0011000A"/>
+				<HideType RevisionNo="#x0010000A"></HideType>
+				<HideType RevisionNo="#x0011000A"></HideType>
 				<Name LcId="1033"><![CDATA[EK1521-0010 1 port EtherCAT junction (FX-SingleMode)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1521-0010 1-Port EtherCAT-Abzweig (FX-SingleMode)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1521]]></URL>
@@ -664,7 +664,7 @@
 					</Electrical>
 					<Port>
 						<Type>EBUS</Type>
-						<Label/>
+						<Label></Label>
 					</Port>
 					<Port>
 						<Type>NONE</Type>
@@ -686,9 +686,9 @@
 			</Device>
 			<Device Physics="K KY">
 				<Type ProductCode="#x05f12c52" RevisionNo="#x0013000A">EK1521-0010</Type>
-				<HideType RevisionNo="#x0010000A"/>
-				<HideType RevisionNo="#x0011000A"/>
-				<HideType RevisionNo="#x0012000A"/>
+				<HideType RevisionNo="#x0010000A"></HideType>
+				<HideType RevisionNo="#x0011000A"></HideType>
+				<HideType RevisionNo="#x0012000A"></HideType>
 				<Name LcId="1033"><![CDATA[EK1521-0010 1 port EtherCAT junction (FX-SingleMode)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1521-0010 1-Port EtherCAT-Abzweig (FX-SingleMode)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1521]]></URL>
@@ -699,7 +699,7 @@
 					</Electrical>
 					<Port>
 						<Type>EBUS</Type>
-						<Label/>
+						<Label></Label>
 					</Port>
 					<Port>
 						<Type>NONE</Type>
@@ -721,10 +721,10 @@
 			</Device>
 			<Device Physics="K KY">
 				<Type ProductCode="#x05f12c52" RevisionNo="#x0014000A" CheckRevisionNo="LW_EQ">EK1521-0010</Type>
-				<HideType RevisionNo="#x0010000A"/>
-				<HideType RevisionNo="#x0011000A"/>
-				<HideType RevisionNo="#x0012000A"/>
-				<HideType RevisionNo="#x0013000A"/>
+				<HideType RevisionNo="#x0010000A"></HideType>
+				<HideType RevisionNo="#x0011000A"></HideType>
+				<HideType RevisionNo="#x0012000A"></HideType>
+				<HideType RevisionNo="#x0013000A"></HideType>
 				<Name LcId="1033"><![CDATA[EK1521-0010 1 port EtherCAT junction (FX-SingleMode)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1521-0010 1-Port EtherCAT-Abzweig (FX-SingleMode)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1521]]></URL>
@@ -735,7 +735,7 @@
 					</Electrical>
 					<Port>
 						<Type>EBUS</Type>
-						<Label/>
+						<Label></Label>
 					</Port>
 					<Port>
 						<Type>NONE</Type>
@@ -800,7 +800,7 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x06052C52" RevisionNo="#x00110000">EK1541</Type>
-				<HideType RevisionNo="#x00100000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1541 EtherCAT Coupler (2A E-Bus, POF, ID switch)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1541 EtherCAT-Koppler (2A E-Bus, POF, ID-Switch)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1541]]></URL>
@@ -844,7 +844,7 @@
 			</Device>
 			<Device Physics="YKY">
 				<Type ProductCode="#x06052C52" RevisionNo="#x00120000" CheckRevisionNo="LW_EQ">EK1541</Type>
-				<HideType RevisionNo="#x00110000"/>
+				<HideType RevisionNo="#x00110000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1541 EtherCAT Coupler (2A E-Bus, POF, ID switch)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1541 EtherCAT-Koppler (2A E-Bus, POF, ID-Switch)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1541]]></URL>
@@ -898,7 +898,7 @@
 					</Electrical>
 					<Port>
 						<Type>EBUS</Type>
-						<Label/>
+						<Label></Label>
 					</Port>
 					<Port>
 						<Type>NONE</Type>
@@ -920,7 +920,7 @@
 			</Device>
 			<Device Physics="K KY">
 				<Type ProductCode="#x06192C52" RevisionNo="#x00110000">EK1561</Type>
-				<HideType RevisionNo="#x00100000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1561 1 port EtherCAT junction (POF)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1561 1-Port EtherCAT-Abzweig (POF)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1561]]></URL>
@@ -931,7 +931,7 @@
 					</Electrical>
 					<Port>
 						<Type>EBUS</Type>
-						<Label/>
+						<Label></Label>
 					</Port>
 					<Port>
 						<Type>NONE</Type>
@@ -953,7 +953,7 @@
 			</Device>
 			<Device Physics="K KY">
 				<Type ProductCode="#x06192C52" RevisionNo="#x00120000" CheckRevisionNo="LW_EQ">EK1561</Type>
-				<HideType RevisionNo="#x00110000"/>
+				<HideType RevisionNo="#x00110000"></HideType>
 				<Name LcId="1033"><![CDATA[EK1561 1 port EtherCAT junction (POF)]]></Name>
 				<Name LcId="1031"><![CDATA[EK1561 1-Port EtherCAT-Abzweig (POF)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EK1561]]></URL>
@@ -964,7 +964,7 @@
 					</Electrical>
 					<Port>
 						<Type>EBUS</Type>
-						<Label/>
+						<Label></Label>
 					</Port>
 					<Port>
 						<Type>NONE</Type>

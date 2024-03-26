@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <EtherCATDict xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\EtherCATDict.xsd">
 	<Dictionary>
 		<DataTypes>
@@ -1250,7 +1250,7 @@
 			<DataType>
 				<Name>DT_IDN_S_0_0021_AR</Name>
 				<BaseType>UINT_IDN</BaseType>
-				<BitSize>432</BitSize>
+				<BitSize>400</BitSize>
 				<ArrayInfo>
 					<LBound>0</LBound>
 					<Elements>25</Elements>
@@ -1954,7 +1954,7 @@
 			</DataType>
 			<DataType>
 				<Name>DT_IDN_S_0_0086_BIT0-2</Name>
-				<BitSize>1</BitSize>
+				<BitSize>3</BitSize>
 				<EnumInfo>
 					<Text LcId="1033"><![CDATA[percentage scaling]]></Text>
 					<Enum>0</Enum>
@@ -3183,7 +3183,7 @@
 				<SubItem>
 					<Name>Elements</Name>
 					<DisplayName LcId="1033"><![CDATA[ ]]></DisplayName>
-					<Type>DT_IDN_S_0_0030_AR</Type>
+					<Type>DT_IDN_S_0_0432_AR</Type>
 					<BitSize>144</BitSize>
 					<BitOffs>32</BitOffs>
 				</SubItem>
@@ -7071,7 +7071,7 @@
 				<SubItem>
 					<Name>nEepromSize</Name>
 					<DisplayName LcId="1033"><![CDATA[nEepromSize]]></DisplayName>
-					<Type>UDINT</Type>
+					<Type>UINT</Type>
 					<BitSize>16</BitSize>
 					<BitOffs>640</BitOffs>
 				</SubItem>
@@ -9019,8 +9019,7 @@
 					<BitOffs>48</BitOffs>
 					<Property>
 						<Name>UnitName</Name>
-						<Value>
-            </Value>
+						<Value></Value>
 					</Property>
 				</SubItem>
 				<SubItem>
@@ -12661,7 +12660,7 @@
 				<SubItem>
 					<Name>rsvd</Name>
 					<DisplayName LcId="1033"><![CDATA[rsvd]]></DisplayName>
-					<Type>UINT11</Type>
+					<Type>UINT9</Type>
 					<BitSize>9</BitSize>
 					<BitOffs>7</BitOffs>
 				</SubItem>
@@ -12903,7 +12902,7 @@
 			</DataType>
 			<DataType>
 				<Name>DT_IDN_P_0_0455</Name>
-				<BitSize>160</BitSize>
+				<BitSize>288</BitSize>
 				<SubItem>
 					<Name>Act</Name>
 					<DisplayName LcId="1033"><![CDATA[Actual length]]></DisplayName>
@@ -12928,7 +12927,7 @@
 			</DataType>
 			<DataType>
 				<Name>DT_IDN_P_0_0455_ST</Name>
-				<BitSize>128</BitSize>
+				<BitSize>256</BitSize>
 				<SubItem>
 					<Name>eMode</Name>
 					<DisplayName LcId="1033"><![CDATA[Mode]]></DisplayName>
@@ -16248,7 +16247,7 @@
 				<Name LcId="1033"><![CDATA[Configuration list of AT]]></Name>
 				<Comment LcId="1033"><![CDATA[			This IDN list contains the IDNs whose operation data will be transmitted cyclically in the AT in an application telegram.			Only operation data which are present in the "IDN list of configurable data in the AT" (IDN S-0-0187) are allowed as cyclic AT data.		]]></Comment>
 				<Type>DT_IDN_S_0_0016</Type>
-				<BitSize>384</BitSize>
+				<BitSize>416</BitSize>
 				<Flags>
 					<Attribute>#x60550001</Attribute>
 				</Flags>
@@ -31681,8 +31680,7 @@
 				<Comment LcId="1033"><![CDATA[		]]></Comment>
 				<Type>DT_IDN_P_0_0455</Type>
 				<BitSize>288</BitSize>
-				<Info>
-        </Info>
+				<Info></Info>
 				<Flags>
 					<Attribute>#x00150001</Attribute>
 				</Flags>

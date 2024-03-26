@@ -690,7 +690,7 @@
 			<DataType>
 				<Name>DT_IDN_S_0_0021_AR</Name>
 				<BaseType>UINT_IDN</BaseType>
-				<BitSize>432</BitSize>
+				<BitSize>400</BitSize>
 				<ArrayInfo>
 					<LBound>0</LBound>
 					<Elements>25</Elements>
@@ -1552,7 +1552,7 @@
 				<SubItem>
 					<Name>Elements</Name>
 					<DisplayName LcId="1033"><![CDATA[ ]]></DisplayName>
-					<Type>DT_IDN_S_0_0030_AR</Type>
+					<Type>DT_IDN_S_0_0432_AR</Type>
 					<BitSize>144</BitSize>
 					<BitOffs>32</BitOffs>
 				</SubItem>
@@ -6209,7 +6209,7 @@
 				<Name LcId="1033"><![CDATA[IDN-list of all operation data]]></Name>
 				<Comment LcId="1033"><![CDATA[			All IDNs of all operation data, procedure commands, parameters etc. of a given drive are stored in this IDN-list.		]]></Comment>
 				<Type>DT_IDN_ATTRIBUTE_LIST</Type>
-				<BitSize>1936</BitSize>
+				<BitSize>1872</BitSize>
 				<Info>	</Info>
 				<Flags>
 					<Attribute>#x70550001</Attribute>
@@ -6227,7 +6227,7 @@
 				<Name LcId="1033"><![CDATA[IDN-list of operation data for CP2]]></Name>
 				<Comment LcId="1033"><![CDATA[			IDNs of all operation data needed for CP2 are stored in this IDN-list and must be transferred during CP2.			Processing this list is required before switching to CP3.		]]></Comment>
 				<Type>DT_IDN_ATTRIBUTE_LIST</Type>
-				<BitSize>1936</BitSize>
+				<BitSize>1872</BitSize>
 				<Info>	</Info>
 				<Flags>
 					<Attribute>#x70550001</Attribute>
@@ -6245,7 +6245,7 @@
 				<Name LcId="1033"><![CDATA[IDN-list of operation data for CP3]]></Name>
 				<Comment LcId="1033"><![CDATA[			IDNs of all operation data needed for CP3 are stored in this IDN-list and must be transferred during CP3.			Processing this list is required before switching to CP4.		]]></Comment>
 				<Type>DT_IDN_ATTRIBUTE_LIST</Type>
-				<BitSize>1936</BitSize>
+				<BitSize>1872</BitSize>
 				<Info>	</Info>
 				<Flags>
 					<Attribute>#x70550001</Attribute>
@@ -6263,7 +6263,7 @@
 				<Name LcId="1033"><![CDATA[IDN-list of operation data for CP4]]></Name>
 				<Comment LcId="1033"><![CDATA[			IDNs of all operational data which can be changed during CP4 are stored in this IDN-list.		]]></Comment>
 				<Type>DT_IDN_ATTRIBUTE_LIST</Type>
-				<BitSize>1936</BitSize>
+				<BitSize>1872</BitSize>
 				<Info>	</Info>
 				<Flags>
 					<Attribute>#x70550001</Attribute>
@@ -6339,7 +6339,7 @@
 				<Name LcId="1033"><![CDATA[IDN-list of all procedure commands]]></Name>
 				<Comment LcId="1033"><![CDATA[			All IDNs of all drive procedure commands are stored in this IDN-list.		]]></Comment>
 				<Type>DT_IDN_ATTRIBUTE_LIST</Type>
-				<BitSize>1936</BitSize>
+				<BitSize>1872</BitSize>
 				<Info>	</Info>
 				<Flags>
 					<Attribute>#x70550001</Attribute>
@@ -6574,7 +6574,7 @@
 				<Name LcId="1033"><![CDATA[IDN-list of configurable data in the AT]]></Name>
 				<Comment LcId="1033"><![CDATA[			This list consists of the IDNs of operation data which can be processed by the drive cyclically as feedback			values.		]]></Comment>
 				<Type>DT_IDN_ATTRIBUTE_LIST</Type>
-				<BitSize>1936</BitSize>
+				<BitSize>1872</BitSize>
 				<Info>	</Info>
 				<Flags>
 					<Attribute>#x70550001</Attribute>
@@ -6596,7 +6596,7 @@
 				<Name LcId="1033"><![CDATA[IDN-list of configurable data in the MDT]]></Name>
 				<Comment LcId="1033"><![CDATA[			This list consists of the IDNs of operation data which can be processed by the drive cyclically as			command values.		]]></Comment>
 				<Type>DT_IDN_ATTRIBUTE_LIST</Type>
-				<BitSize>1936</BitSize>
+				<BitSize>1872</BitSize>
 				<Info>	</Info>
 				<Flags>
 					<Attribute>#x70550001</Attribute>
@@ -7072,8 +7072,7 @@
 		]]></Comment>
 				<Type>DT_IDN_P_0_0063</Type>
 				<BitSize>64</BitSize>
-				<Info>
-	</Info>
+				<Info></Info>
 				<Flags>
 					<Attribute>#x61150001</Attribute>
 				</Flags>

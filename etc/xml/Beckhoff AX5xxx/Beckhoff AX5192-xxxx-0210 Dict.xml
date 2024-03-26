@@ -1388,7 +1388,7 @@
       <DataType>
         <Name>DT_IDN_S_0_0021_AR</Name>
         <BaseType>UINT_IDN</BaseType>
-        <BitSize>432</BitSize>
+        <BitSize>400</BitSize>
         <ArrayInfo>
           <LBound>0</LBound>
           <Elements>25</Elements>
@@ -1833,7 +1833,7 @@
         <SubItem>
           <Name>Bit 4-15</Name>
           <DisplayName LcId="1033"><![CDATA[reserved]]></DisplayName>
-          <Type>DT_IDN_S_0_0055_BIT6-15</Type>
+          <Type>DT_IDN_S_0_0055_BIT4-15</Type>
           <BitSize>12</BitSize>
           <BitOffs>4</BitOffs>
         </SubItem>
@@ -1863,12 +1863,12 @@
         </EnumInfo>
       </DataType>
       <DataType>
-        <Name>DT_IDN_S_0_0055_BIT6-15</Name>
+        <Name>DT_IDN_S_0_0055_BIT4-15</Name>
         <BaseType>BIT</BaseType>
-        <BitSize>10</BitSize>
+        <BitSize>12</BitSize>
         <ArrayInfo>
           <LBound>0</LBound>
-          <Elements>10</Elements>
+          <Elements>12</Elements>
         </ArrayInfo>
       </DataType>
       <DataType>
@@ -2150,7 +2150,7 @@
       </DataType>
       <DataType>
         <Name>DT_IDN_S_0_0086_BIT0-2</Name>
-        <BitSize>1</BitSize>
+        <BitSize>3</BitSize>
         <EnumInfo>
           <Text LcId="1033"><![CDATA[percentage scaling]]></Text>
           <Enum>0</Enum>
@@ -3379,7 +3379,7 @@
         <SubItem>
           <Name>Elements</Name>
           <DisplayName LcId="1033"><![CDATA[ ]]></DisplayName>
-          <Type>DT_IDN_S_0_0030_AR</Type>
+          <Type>DT_IDN_S_0_0432_AR</Type>
           <BitSize>144</BitSize>
           <BitOffs>32</BitOffs>
         </SubItem>
@@ -3999,7 +3999,7 @@
       </DataType>
       <DataType>
         <Name>DT_IDN_P_0_0062_ST</Name>
-        <BitSize>64</BitSize>
+        <BitSize>128</BitSize>
         <SubItem>
           <Name>nTimeConstant</Name>
           <DisplayName LcId="1033"><![CDATA[Time constant 1]]></DisplayName>
@@ -4694,7 +4694,7 @@
       </DataType>
       <DataType>
         <Name>DT_IDN_P_0_0076_R</Name>
-        <BaseType>UDINT</BaseType>
+        <BaseType>UINT</BaseType>
         <BitSize>160</BitSize>
         <ArrayInfo>
           <LBound>0</LBound>
@@ -7009,10 +7009,10 @@
       <DataType>
         <Name>DT_IDN_P_0_0150_Para_Reserved</Name>
         <BaseType>UINT</BaseType>
-        <BitSize>64</BitSize>
+        <BitSize>48</BitSize>
         <ArrayInfo>
           <LBound>0</LBound>
-          <Elements>4</Elements>
+          <Elements>3</Elements>
         </ArrayInfo>
       </DataType>
       <DataType>
@@ -7108,11 +7108,18 @@
           </Property>
         </SubItem>
         <SubItem>
+          <Name>eOperationMode</Name>
+          <DisplayName LcId="1033"><![CDATA[Operation mode]]></DisplayName>
+          <Type>DT_IDN_P_0_0150_Operation_Mode</Type>
+          <BitSize>16</BitSize>
+          <BitOffs>192</BitOffs>
+        </SubItem>
+        <SubItem>
           <Name>rsvd</Name>
           <DisplayName LcId="1033"><![CDATA[rsvd]]></DisplayName>
           <Type>DT_IDN_P_0_0150_Para_Reserved</Type>
-          <BitSize>64</BitSize>
-          <BitOffs>192</BitOffs>
+          <BitSize>48</BitSize>
+          <BitOffs>208</BitOffs>
           <Property>
             <Name>UIVisible</Name>
             <Value>False</Value>
@@ -7256,6 +7263,18 @@
         <EnumInfo>
           <Text LcId="1033">Adjustable mechanical offset (P-0-0150)</Text>
           <Enum>3</Enum>
+        </EnumInfo>
+      </DataType>
+      <DataType>
+        <Name>DT_IDN_P_0_0150_Operation_Mode</Name>
+        <BitSize>16</BitSize>
+        <EnumInfo>
+          <Text LcId="1033">Standard</Text>
+          <Enum>0</Enum>
+        </EnumInfo>
+        <EnumInfo>
+          <Text LcId="1033">Get and check feedback status cyclic</Text>
+          <Enum>1</Enum>
         </EnumInfo>
       </DataType>
       <DataType>
@@ -7656,7 +7675,7 @@
         <SubItem>
           <Name>eUsePosDevThreshold</Name>
           <DisplayName LcId="1033"><![CDATA[Use customized "Max accepted position deviation"]]></DisplayName>
-          <Type>DT_IDN_P_0_0150_Para_Data_HiperfaceDSL_UseStatusErrorMasks</Type>
+          <Type>DT_IDN_P_0_0150_Para_Data_HiperfaceDSL_UseCustomizedMaxAcceptedPositionDeviation</Type>
           <BitSize>1</BitSize>
           <BitOffs>175</BitOffs>
         </SubItem>
@@ -7715,6 +7734,18 @@
             <Value>False</Value>
           </Property>
         </SubItem>
+      </DataType>
+      <DataType>
+        <Name>DT_IDN_P_0_0150_Para_Data_HiperfaceDSL_UseCustomizedMaxAcceptedPositionDeviation</Name>
+        <BitSize>1</BitSize>
+        <EnumInfo>
+          <Text LcId="1033">No (Use default!)</Text>
+          <Enum>0</Enum>
+        </EnumInfo>
+        <EnumInfo>
+          <Text LcId="1033">Yes</Text>
+          <Enum>1</Enum>
+        </EnumInfo>
       </DataType>
       <DataType>
         <Name>DT_IDN_P_0_0150_Para_Data_HiperfaceDSL_rsvd</Name>
@@ -9653,7 +9684,7 @@
         <SubItem>
           <Name>rsvd</Name>
           <DisplayName LcId="1033"><![CDATA[rsvd]]></DisplayName>
-          <Type>UDINT</Type>
+          <Type>UINT</Type>
           <BitSize>16</BitSize>
           <BitOffs>48</BitOffs>
           <Property>
@@ -10363,7 +10394,7 @@
       </DataType>
       <DataType>
         <Name>DT_IDN_P_0_0169_ST</Name>
-        <BitSize>832</BitSize>
+        <BitSize>960</BitSize>
         <SubItem>
           <Name>Onboard</Name>
           <DisplayName LcId="1033"><![CDATA[Onboard]]></DisplayName>
@@ -11768,7 +11799,7 @@
       </DataType>
       <DataType>
         <Name>DT_IDN_P_0_0169_EncST4</Name>
-        <BitSize>16</BitSize>
+        <BitSize>8</BitSize>
         <SubItem>
           <Name>InvalidResourceAccessArgument</Name>
           <DisplayName LcId="1033"><![CDATA[Invalid Resource Access Argument]]></DisplayName>
@@ -11822,7 +11853,7 @@
       </DataType>
       <DataType>
         <Name>DT_IDN_P_0_0169_EncST6</Name>
-        <BitSize>16</BitSize>
+        <BitSize>8</BitSize>
         <SubItem>
           <Name>nEncST6</Name>
           <DisplayName LcId="1033"><![CDATA[EncST6]]></DisplayName>
@@ -13175,7 +13206,7 @@
         <BaseType>UINT</BaseType>
         <BitSize>16</BitSize>
         <EnumInfo>
-          <Text LcId="1033">External DC Link connection disabled</Text>
+          <Text LcId="1033">External DC link connection disabled</Text>
           <Enum>0</Enum>
         </EnumInfo>
         <EnumInfo>
@@ -15095,9 +15126,13 @@
         <SubItem>
           <Name>rsvd1</Name>
           <DisplayName LcId="1033"><![CDATA[rsvd]]></DisplayName>
-          <Type>UINT11</Type>
+          <Type>UINT3</Type>
           <BitSize>3</BitSize>
           <BitOffs>5</BitOffs>
+          <Property>
+            <Name>UIVisible</Name>
+            <Value>False</Value>
+          </Property>
         </SubItem>
         <SubItem>
           <Name>bForceFeedbackError</Name>
@@ -15109,9 +15144,13 @@
         <SubItem>
           <Name>rsvd2</Name>
           <DisplayName LcId="1033"><![CDATA[rsvd]]></DisplayName>
-          <Type>UINT11</Type>
+          <Type>UINT7</Type>
           <BitSize>7</BitSize>
           <BitOffs>9</BitOffs>
+          <Property>
+            <Name>UIVisible</Name>
+            <Value>False</Value>
+          </Property>
         </SubItem>
       </DataType>
       <DataType>
@@ -16945,7 +16984,7 @@
       </DataType>
       <DataType>
         <Name>DT_IDN_P_0_0341_ST</Name>
-        <BitSize>96</BitSize>
+        <BitSize>64</BitSize>
         <SubItem>
           <Name>bGantryBrake</Name>
           <DisplayName LcId="1033"><![CDATA[Use 'Gantry-Brake' instead of the 'closed loop ramp']]></DisplayName>
@@ -16973,7 +17012,7 @@
           </Property>
           <Property>
             <Name>MaxValue</Name>
-            <Value>300</Value>
+            <Value>1000</Value>
           </Property>
         </SubItem>
         <SubItem>
@@ -18115,19 +18154,15 @@
           <BitOffs>6</BitOffs>
         </SubItem>
         <SubItem>
-          <Name>rsvd1</Name>
-          <DisplayName LcId="1033"><![CDATA[rsvd]]></DisplayName>
+          <Name>ILimitationActive</Name>
+          <DisplayName LcId="1033"><![CDATA[Current limitation active]]></DisplayName>
           <Type>UINT1</Type>
           <BitSize>1</BitSize>
           <BitOffs>7</BitOffs>
-          <Property>
-            <Name>UIVisible</Name>
-            <Value>False</Value>
-          </Property>
         </SubItem>
         <SubItem>
-          <Name>ILimitationActive</Name>
-          <DisplayName LcId="1033"><![CDATA[Current limitation active]]></DisplayName>
+          <Name>MLimitationActive</Name>
+          <DisplayName LcId="1033"><![CDATA[Torque limitation active]]></DisplayName>
           <Type>UINT1</Type>
           <BitSize>1</BitSize>
           <BitOffs>8</BitOffs>
@@ -18360,7 +18395,7 @@
       </DataType>
       <DataType>
         <Name>DT_IDN_P_0_0464_ST</Name>
-        <BitSize>208</BitSize>
+        <BitSize>224</BitSize>
         <SubItem>
           <Name>eMode</Name>
           <DisplayName LcId="1033"><![CDATA[Mode]]></DisplayName>
@@ -18516,7 +18551,7 @@
         <SubItem>
           <Name>nThresholdSpeed1</Name>
           <DisplayName LcId="1033"><![CDATA[Threshold speed 1]]></DisplayName>
-          <Type>UINT</Type>
+          <Type>UDINT</Type>
           <BitSize>32</BitSize>
           <BitOffs>128</BitOffs>
           <Property>
@@ -18539,7 +18574,7 @@
         <SubItem>
           <Name>nThresholdSpeed2</Name>
           <DisplayName LcId="1033"><![CDATA[Threshold speed 2]]></DisplayName>
-          <Type>UINT</Type>
+          <Type>UDINT</Type>
           <BitSize>32</BitSize>
           <BitOffs>160</BitOffs>
           <Property>
@@ -18562,7 +18597,7 @@
         <SubItem>
           <Name>nRsvd</Name>
           <DisplayName LcId="1033"><![CDATA[rsvd]]></DisplayName>
-          <Type>UINT</Type>
+          <Type>UDINT</Type>
           <BitSize>32</BitSize>
           <BitOffs>192</BitOffs>
           <Property>
@@ -18988,7 +19023,7 @@
           </Property>
           <Property>
             <Name>MinValue</Name>
-            <Value>5000000</Value>
+            <Value>0</Value>
           </Property>
           <Property>
             <Name>MaxValue</Name>
@@ -19034,7 +19069,7 @@
           </Property>
           <Property>
             <Name>MinValue</Name>
-            <Value>5000000</Value>
+            <Value>0</Value>
           </Property>
           <Property>
             <Name>MaxValue</Name>
@@ -23862,7 +23897,7 @@
         <!-- S-0-0092 -->
         <Name LcId="1033"><![CDATA[Bipolar torque/force limit value]]></Name>
         <Comment LcId="1033"><![CDATA[The bipolar torque/force limit value limits the commanded torque/force symmetrically in both directions.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -23897,7 +23932,7 @@
         <!-- S-1-0092 -->
         <Name LcId="1033"><![CDATA[Bipolar torque/force limit value]]></Name>
         <Comment LcId="1033"><![CDATA[The bipolar torque/force limit value limits the commanded torque/force symmetrically in both directions.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -23927,7 +23962,7 @@
         <!-- S-2-0092 -->
         <Name LcId="1033"><![CDATA[Bipolar torque/force limit value]]></Name>
         <Comment LcId="1033"><![CDATA[The bipolar torque/force limit value limits the commanded torque/force symmetrically in both directions.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -23957,7 +23992,7 @@
         <!-- S-3-0092 -->
         <Name LcId="1033"><![CDATA[Bipolar torque/force limit value]]></Name>
         <Comment LcId="1033"><![CDATA[The bipolar torque/force limit value limits the commanded torque/force symmetrically in both directions.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -23987,7 +24022,7 @@
         <!-- S-4-0092 -->
         <Name LcId="1033"><![CDATA[Bipolar torque/force limit value]]></Name>
         <Comment LcId="1033"><![CDATA[The bipolar torque/force limit value limits the commanded torque/force symmetrically in both directions.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -24017,7 +24052,7 @@
         <!-- S-5-0092 -->
         <Name LcId="1033"><![CDATA[Bipolar torque/force limit value]]></Name>
         <Comment LcId="1033"><![CDATA[The bipolar torque/force limit value limits the commanded torque/force symmetrically in both directions.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -24047,7 +24082,7 @@
         <!-- S-6-0092 -->
         <Name LcId="1033"><![CDATA[Bipolar torque/force limit value]]></Name>
         <Comment LcId="1033"><![CDATA[The bipolar torque/force limit value limits the commanded torque/force symmetrically in both directions.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -24077,7 +24112,7 @@
         <!-- S-7-0092 -->
         <Name LcId="1033"><![CDATA[Bipolar torque/force limit value]]></Name>
         <Comment LcId="1033"><![CDATA[The bipolar torque/force limit value limits the commanded torque/force symmetrically in both directions.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -25121,7 +25156,7 @@
         <!-- S-0-0126 -->
         <Name LcId="1033"><![CDATA[Torque/force threshold Tx/Fx]]></Name>
         <Comment LcId="1033"><![CDATA[If the torque/force feedback absolute value exceeds the torque/force threshold Tx/Fx, the drive sets the status 'T/F >= Tx/Fx' in C3D.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -26557,7 +26592,7 @@
         <!-- S-0-0256 -->
         <Name LcId="1033"><![CDATA[Multiplication factor 1]]></Name>
         <Comment LcId="1033"><![CDATA[Multiplication Factor 1 defines the factor that the motor feedback signal is multiplied by in the drive.]]></Comment>
-        <Type>DINT</Type>
+        <Type>UDINT</Type>
         <BitSize>32</BitSize>
         <Flags>
           <Attribute>#x70120001</Attribute>
@@ -29386,7 +29421,7 @@
         <BitSize>16</BitSize>
         <Flags>
           <PdoMapping>T</PdoMapping>
-          <Attribute>#x70210001</Attribute>
+          <Attribute>#x70110001</Attribute>
         </Flags>
         <Properties>
           <Property>
@@ -29408,7 +29443,7 @@
         <BitSize>16</BitSize>
         <Flags>
           <PdoMapping>T</PdoMapping>
-          <Attribute>#x73210001</Attribute>
+          <Attribute>#x73110001</Attribute>
         </Flags>
         <Properties>
           <Property>
@@ -29744,7 +29779,7 @@
       <Object>
         <Index>32846</Index>
         <!-- P-0-0078 -->
-        <Name LcId="1033"><![CDATA[Max motor dc link voltage]]></Name>
+        <Name LcId="1033"><![CDATA[Max motor DC link voltage]]></Name>
         <Comment LcId="1033"><![CDATA[The motor maximal dc link voltage describes the isolation capability of the motor winding.]]></Comment>
         <Type>UINT</Type>
         <BitSize>16</BitSize>
@@ -29896,7 +29931,7 @@
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
         <Info>
-          <MinValue>25000</MinValue>
+          <MinValue>35000</MinValue>
           <MaxValue>240000</MaxValue>
           <DefaultValue>140000</DefaultValue>
         </Info>
@@ -29930,7 +29965,7 @@
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
         <Info>
-          <MinValue>25000</MinValue>
+          <MinValue>35000</MinValue>
           <MaxValue>240000</MaxValue>
           <DefaultValue>140000</DefaultValue>
         </Info>
@@ -29960,7 +29995,7 @@
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
         <Info>
-          <MinValue>25000</MinValue>
+          <MinValue>35000</MinValue>
           <MaxValue>240000</MaxValue>
           <DefaultValue>140000</DefaultValue>
         </Info>
@@ -29990,7 +30025,7 @@
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
         <Info>
-          <MinValue>25000</MinValue>
+          <MinValue>35000</MinValue>
           <MaxValue>240000</MaxValue>
           <DefaultValue>140000</DefaultValue>
         </Info>
@@ -30020,7 +30055,7 @@
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
         <Info>
-          <MinValue>25000</MinValue>
+          <MinValue>35000</MinValue>
           <MaxValue>240000</MaxValue>
           <DefaultValue>140000</DefaultValue>
         </Info>
@@ -30050,7 +30085,7 @@
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
         <Info>
-          <MinValue>25000</MinValue>
+          <MinValue>35000</MinValue>
           <MaxValue>240000</MaxValue>
           <DefaultValue>140000</DefaultValue>
         </Info>
@@ -30080,7 +30115,7 @@
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
         <Info>
-          <MinValue>25000</MinValue>
+          <MinValue>35000</MinValue>
           <MaxValue>240000</MaxValue>
           <DefaultValue>140000</DefaultValue>
         </Info>
@@ -30110,7 +30145,7 @@
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
         <Info>
-          <MinValue>25000</MinValue>
+          <MinValue>35000</MinValue>
           <MaxValue>240000</MaxValue>
           <DefaultValue>140000</DefaultValue>
         </Info>
@@ -33163,7 +33198,7 @@
         <!-- P-0-0112 -->
         <Name LcId="1033"><![CDATA[ASM: Acceleration control, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value to control acceleration of an induction motor.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -33197,7 +33232,7 @@
         <!-- P-1-0112 -->
         <Name LcId="1033"><![CDATA[ASM: Acceleration control, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value to control acceleration of an induction motor.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -33227,7 +33262,7 @@
         <!-- P-2-0112 -->
         <Name LcId="1033"><![CDATA[ASM: Acceleration control, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value to control acceleration of an induction motor.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -33257,7 +33292,7 @@
         <!-- P-3-0112 -->
         <Name LcId="1033"><![CDATA[ASM: Acceleration control, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value to control acceleration of an induction motor.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -33287,7 +33322,7 @@
         <!-- P-4-0112 -->
         <Name LcId="1033"><![CDATA[ASM: Acceleration control, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value to control acceleration of an induction motor.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -33317,7 +33352,7 @@
         <!-- P-5-0112 -->
         <Name LcId="1033"><![CDATA[ASM: Acceleration control, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value to control acceleration of an induction motor.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -33347,7 +33382,7 @@
         <!-- P-6-0112 -->
         <Name LcId="1033"><![CDATA[ASM: Acceleration control, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value to control acceleration of an induction motor.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -33377,7 +33412,7 @@
         <!-- P-7-0112 -->
         <Name LcId="1033"><![CDATA[ASM: Acceleration control, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value to control acceleration of an induction motor.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -33895,7 +33930,7 @@
         <!-- P-0-0115 -->
         <Name LcId="1033"><![CDATA[ASM: Stall protection loop, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value for the induction motor stall protection control loop.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -33929,7 +33964,7 @@
         <!-- P-1-0115 -->
         <Name LcId="1033"><![CDATA[ASM: Stall protection loop, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value for the induction motor stall protection control loop.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -33959,7 +33994,7 @@
         <!-- P-2-0115 -->
         <Name LcId="1033"><![CDATA[ASM: Stall protection loop, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value for the induction motor stall protection control loop.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -33989,7 +34024,7 @@
         <!-- P-3-0115 -->
         <Name LcId="1033"><![CDATA[ASM: Stall protection loop, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value for the induction motor stall protection control loop.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -34019,7 +34054,7 @@
         <!-- P-4-0115 -->
         <Name LcId="1033"><![CDATA[ASM: Stall protection loop, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value for the induction motor stall protection control loop.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -34049,7 +34084,7 @@
         <!-- P-5-0115 -->
         <Name LcId="1033"><![CDATA[ASM: Stall protection loop, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value for the induction motor stall protection control loop.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -34079,7 +34114,7 @@
         <!-- P-6-0115 -->
         <Name LcId="1033"><![CDATA[ASM: Stall protection loop, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value for the induction motor stall protection control loop.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -34109,7 +34144,7 @@
         <!-- P-7-0115 -->
         <Name LcId="1033"><![CDATA[ASM: Stall protection loop, torque limit value]]></Name>
         <Comment LcId="1033"><![CDATA[This IDN configures the torque limit value for the induction motor stall protection control loop.]]></Comment>
-        <Type>INT</Type>
+        <Type>UINT</Type>
         <BitSize>16</BitSize>
         <Info>
           <MinValue>0</MinValue>
@@ -37337,8 +37372,8 @@
       <Object>
         <Index>32982</Index>
         <!-- P-0-0214 -->
-        <Name LcId="1033"><![CDATA[DC Link connection mode]]></Name>
-        <Comment LcId="1033"><![CDATA[This parameter defines "DC Link connection" mode. The used value must be choosen depending on the physical wiring of the DC link circuit.]]></Comment>
+        <Name LcId="1033"><![CDATA[DC link connection mode]]></Name>
+        <Comment LcId="1033"><![CDATA[This parameter defines "DC link connection" mode. The used value must be choosen depending on the physical wiring of the DC link circuit.]]></Comment>
         <Type>DT_IDN_P_0_0214</Type>
         <BitSize>16</BitSize>
         <Info>
@@ -39938,8 +39973,7 @@
         <Comment LcId="1033"><![CDATA[This IDN can be used con configure field weakening for permanent magnet synchronous motors to achieve higher speeds.]]></Comment>
         <Type>DT_IDN_P_0_0455</Type>
         <BitSize>160</BitSize>
-        <Info>
-        </Info>
+        <Info></Info>
         <Flags>
           <Attribute>#x60150001</Attribute>
         </Flags>
@@ -40137,8 +40171,7 @@
         <Comment LcId="1033"><![CDATA[This IDN can be used to configure sensorless control of permanent magnet synchronous motors.]]></Comment>
         <Type>DT_IDN_P_0_0464</Type>
         <BitSize>256</BitSize>
-        <Info>
-        </Info>
+        <Info></Info>
         <Flags>
           <Attribute>#x00150001</Attribute>
         </Flags>
@@ -41143,7 +41176,7 @@
           <DefaultValue>5000</DefaultValue>
         </Info>
         <Flags>
-          <Attribute>#x70210001</Attribute>
+          <Attribute>#x70110001</Attribute>
         </Flags>
         <Properties>
           <Property>

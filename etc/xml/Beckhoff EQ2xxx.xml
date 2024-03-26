@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
-	<Vendor>
+	<Vendor FileVersion="4">
 		<Id>2</Id>
 		<Name>Beckhoff Automation GmbH &amp; Co. KG</Name>
 		<ImageData16x14>424DE6000000000000007600000028000000100000000E000000010004000000000070000000120B0000120B0000100000001000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF009D9DD99DD9DDD9DD9D9D9DD9D9DDD9DD999D9DD9D999D9999D9D9DD9D9DDD9DD9D9DD99DD999D999DDDDDDDDDDDDDDDD88888888888888888888888888888888DDDDDDDDDDDDDDDD999D999DD99DD9D99D9D9DDD9DD9D9D999DD999D9DDDD99D9D9D9DDD9DD9D99D999D999DD99DD9D9</ImageData16x14>
@@ -31,12 +31,12 @@
 				<Type ProductCode="#x07D84452" RevisionNo="#x00100002">EQ2008-0002</Type>
 				<Name LcId="1033"><![CDATA[EQ2008-0002 8 Ch. Dig. Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[EQ2008-0002 8 K. Dig. Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ2008]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ2008]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ2008-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ2008-0002]]></URL>
 				<GroupType>FieldbusBoxEQ2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -132,15 +132,15 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07D84452" RevisionNo="#x00110002">EQ2008-0002</Type>
-				<HideType RevisionNo="#x00100002"/>
+				<HideType RevisionNo="#x00100002"></HideType>
 				<Name LcId="1033"><![CDATA[EQ2008-0002 8 Ch. Dig. Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[EQ2008-0002 8 K. Dig. Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ2008]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ2008]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ2008-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ2008-0002]]></URL>
 				<GroupType>FieldbusBoxEQ2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -236,15 +236,15 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07D84452" RevisionNo="#x00120002">EQ2008-0002</Type>
-				<HideType RevisionNo="#x00110002"/>
+				<HideType RevisionNo="#x00110002"></HideType>
 				<Name LcId="1033"><![CDATA[EQ2008-0002 8 Ch. Dig. Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[EQ2008-0002 8 K. Dig. Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ2008]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ2008]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ2008-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ2008-0002]]></URL>
 				<GroupType>FieldbusBoxEQ2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -340,15 +340,15 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07D84452" RevisionNo="#x00130002">EQ2008-0002</Type>
-				<HideType RevisionNo="#x00120002"/>
+				<HideType RevisionNo="#x00120002"></HideType>
 				<Name LcId="1033"><![CDATA[EQ2008-0002 8 Ch. Dig. Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[EQ2008-0002 8 K. Dig. Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ2008]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ2008]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ2008-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ2008-0002]]></URL>
 				<GroupType>FieldbusBoxEQ2xxx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -446,8 +446,8 @@
 				<Type ProductCode="#x09234452" RevisionNo="#x00100016">EQ2339-0022</Type>
 				<Name LcId="1033"><![CDATA[EQ2339-0022 16 Ch. Dig. Input/Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[EQ2339-0022 16 K. Dig. Ein-/Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ2339]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ2339]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ2339-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ2339-0022]]></URL>
 				<GroupType>FieldbusBoxEQ23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
@@ -457,7 +457,7 @@
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1001" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 17</Name>
@@ -817,11 +817,11 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09234452" RevisionNo="#x00110016">EQ2339-0022</Type>
-				<HideType RevisionNo="#x00100016"/>
+				<HideType RevisionNo="#x00100016"></HideType>
 				<Name LcId="1033"><![CDATA[EQ2339-0022 16 Ch. Dig. Input/Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[EQ2339-0022 16 K. Dig. Ein-/Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ2339]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ2339]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ2339-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ2339-0022]]></URL>
 				<GroupType>FieldbusBoxEQ23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
@@ -831,7 +831,7 @@
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1001" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 17</Name>
@@ -1191,11 +1191,11 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09234452" RevisionNo="#x00120016">EQ2339-0022</Type>
-				<HideType RevisionNo="#x00110016"/>
+				<HideType RevisionNo="#x00110016"></HideType>
 				<Name LcId="1033"><![CDATA[EQ2339-0022 16 Ch. Dig. Input/Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[EQ2339-0022 16 K. Dig. Ein-/Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ2339]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ2339]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ2339-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ2339-0022]]></URL>
 				<GroupType>FieldbusBoxEQ23xx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
@@ -1205,7 +1205,7 @@
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1001" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 17</Name>
@@ -1565,11 +1565,11 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x09234452" RevisionNo="#x00130016">EQ2339-0022</Type>
-				<HideType RevisionNo="#x00120016"/>
+				<HideType RevisionNo="#x00120016"></HideType>
 				<Name LcId="1033"><![CDATA[EQ2339-0022 16 Ch. Dig. Input/Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[EQ2339-0022 16 K. Dig. Ein-/Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ2339]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ2339]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ2339-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ2339-0022]]></URL>
 				<GroupType>FieldbusBoxEQ23xx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Fmmu>Outputs</Fmmu>
@@ -1579,7 +1579,7 @@
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1000" ControlByte="#x0" Enable="1">Inputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x1001" ControlByte="#x0" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 17</Name>
@@ -1941,13 +1941,13 @@
 				<Type ProductCode="#x0AF94452" RevisionNo="#x00100016">EQ2809-0022</Type>
 				<Name LcId="1033"><![CDATA[EQ2809-0022 16 Ch. Dig. Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[EQ2809-0022 16 K. Dig. Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ2809]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ2809]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ2809-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ2809-0022]]></URL>
 				<GroupType>FieldbusBoxEQ2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -2131,16 +2131,16 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0AF94452" RevisionNo="#x00110016">EQ2809-0022</Type>
-				<HideType RevisionNo="#x00100016"/>
+				<HideType RevisionNo="#x00100016"></HideType>
 				<Name LcId="1033"><![CDATA[EQ2809-0022 16 Ch. Dig. Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[EQ2809-0022 16 K. Dig. Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ2809]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ2809]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ2809-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ2809-0022]]></URL>
 				<GroupType>FieldbusBoxEQ2xxx</GroupType>
 				<Fmmu OpOnly="1">Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>
@@ -2324,16 +2324,16 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0AF94452" RevisionNo="#x00120016">EQ2809-0022</Type>
-				<HideType RevisionNo="#x00110016"/>
+				<HideType RevisionNo="#x00110016"></HideType>
 				<Name LcId="1033"><![CDATA[EQ2809-0022 16 Ch. Dig. Output 24V, 0,5A, M12]]></Name>
 				<Name LcId="1031"><![CDATA[EQ2809-0022 16 K. Dig. Ausgang 24V, 0,5A, M12]]></Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ2809]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ2809]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ2809-0022]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ2809-0022]]></URL>
 				<GroupType>FieldbusBoxEQ2xxx</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f00" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
 				<Sm MinSize="1" MaxSize="1" DefaultSize="1" StartAddress="#x0f01" ControlByte="#x44" OpOnly="1" Enable="1">Outputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<RxPdo Fixed="1" Mandatory="1" Sm="0">
 					<Index>#x1600</Index>
 					<Name>Channel 1</Name>

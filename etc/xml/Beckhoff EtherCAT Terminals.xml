@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <EtherCATInfo Version="1.2">
-	<Vendor>
+	<Vendor FileVersion="3">
 		<Id>2</Id>
 		<Name>Beckhoff Automation GmbH &amp; Co. KG</Name>
 		<ImageData16x14>424DE6000000000000007600000028000000100000000E000000010004000000000070000000120B0000120B0000100000001000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF009D9DD99DD9DDD9DD9D9D9DD9D9DDD9DD999D9DD9D999D9999D9D9DD9D9DDD9DD9D9DD99DD999D999DDDDDDDDDDDDDDDD88888888888888888888888888888888DDDDDDDDDDDDDDDD999D999DD99DD9D99D9D9DDD9DD9D9D999DD999D9DDDD99D9D9D9DDD9DD9D99D999D999DD99DD9D9</ImageData16x14>
@@ -83,7 +83,7 @@
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1400" ControlByte="#x20" Enable="1">Inputs</Sm>
 				<Mailbox>
-					<CoE/>
+					<CoE></CoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -106,9 +106,9 @@
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1400" ControlByte="#x20" Enable="1">Inputs</Sm>
 				<Mailbox>
-					<EoE MAC="1" IP="1"/>
-					<CoE EdsFile="BK1120.eds"/>
-					<FoE/>
+					<EoE MAC="1" IP="1"></EoE>
+					<CoE EdsFile="BK1120.eds"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -131,8 +131,8 @@
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1400" ControlByte="#x20" Enable="1">Inputs</Sm>
 				<Mailbox>
-					<CoE SdoInfo="1"/>
-					<FoE/>
+					<CoE SdoInfo="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -143,11 +143,11 @@
 			</Device>
 			<Device Physics="YY">
 				<Type TcSmClass="BK1120" ProductCode="#x04602c22" RevisionNo="#x270e0000">BK1120</Type>
-				<HideType ProductRevision="BK1120-0000-9991"/>
-				<HideType ProductRevision="BK1120-0000-9902"/>
-				<HideType ProductRevision="BK1120-0000-9995"/>
-				<HideType ProductRevision="BK1120-0000-9996"/>
-				<HideType ProductRevision="BK1120-0000-9997"/>
+				<HideType ProductRevision="BK1120-0000-9991"></HideType>
+				<HideType ProductRevision="BK1120-0000-9902"></HideType>
+				<HideType ProductRevision="BK1120-0000-9995"></HideType>
+				<HideType ProductRevision="BK1120-0000-9996"></HideType>
+				<HideType ProductRevision="BK1120-0000-9997"></HideType>
 				<Name LcId="1033"><![CDATA[BK1120 EtherCAT Fieldbus coupler]]></Name>
 				<Name LcId="1031"><![CDATA[BK1120 EtherCAT Buskoppler]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/english/default.htm?busterm/bk1120.htm]]></URL>
@@ -160,8 +160,8 @@
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1600" ControlByte="#x00" Enable="1">Inputs</Sm>
 				<Mailbox>
-					<CoE SdoInfo="1"/>
-					<FoE/>
+					<CoE SdoInfo="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -175,15 +175,15 @@
 				<Name LcId="1033"><![CDATA[AX2000-B120 EtherCAT Drive (E-Bus)]]></Name>
 				<Name LcId="1031"><![CDATA[AX2000-B120 EtherCAT Antrieb (E-Bus)]]></Name>
 				<GroupType>Drive</GroupType>
-				<Fmmu/>
-				<Fmmu/>
-				<Fmmu/>
-				<Fmmu/>
-				<Fmmu/>
+				<Fmmu></Fmmu>
+				<Fmmu></Fmmu>
+				<Fmmu></Fmmu>
+				<Fmmu></Fmmu>
+				<Fmmu></Fmmu>
 				<Sm MinSize="2" MaxSize="2" DefaultSize="2" StartAddress="#x110a" ControlByte="#x26" Enable="1">Outputs</Sm>
 				<Sm DefaultSize="2" StartAddress="#x1388" ControlByte="#x20" Enable="0">Inputs</Sm>
-				<RxPdo Ref="AX2000Out" Fixed="1" Mandatory="1" Sm="0"/>
-				<TxPdo Ref="AX2000In" Fixed="1" Mandatory="1" Sm="1"/>
+				<RxPdo Ref="AX2000Out" Fixed="1" Mandatory="1" Sm="0"></RxPdo>
+				<TxPdo Ref="AX2000In" Fixed="1" Mandatory="1" Sm="1"></TxPdo>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
 					<ConfigData>09010000</ConfigData>
@@ -195,11 +195,11 @@
 				<Name LcId="1033"><![CDATA[AX2000-B110 EtherCAT Drive]]></Name>
 				<Name LcId="1031"><![CDATA[AX2000-B110 EtherCAT Antrieb]]></Name>
 				<GroupType>Drive</GroupType>
-				<Fmmu/>
-				<Fmmu/>
-				<Fmmu/>
-				<Fmmu/>
-				<Fmmu/>
+				<Fmmu></Fmmu>
+				<Fmmu></Fmmu>
+				<Fmmu></Fmmu>
+				<Fmmu></Fmmu>
+				<Fmmu></Fmmu>
 				<Sm MinSize="2" MaxSize="2" DefaultSize="2" StartAddress="#x110a" ControlByte="#x26" Enable="1">Outputs</Sm>
 				<Sm DefaultSize="2" StartAddress="#x1388" ControlByte="#x20" Enable="0">Inputs</Sm>
 				<Eeprom>
@@ -279,8 +279,8 @@
 				<GroupType>DigIn</GroupType>
 				<Fmmu>Inputs</Fmmu>
 				<Sm StartAddress="#x1000" ControlByte="0" Enable="0">Inputs</Sm>
-				<TxPdo Ref="DigInputBit" Chn="0" Fixed="1" Mandatory="1" Sm="0"/>
-				<TxPdo Ref="DigInputBit" Chn="1" Fixed="1" Mandatory="1" Sm="0"/>
+				<TxPdo Ref="DigInputBit" Chn="0" Fixed="1" Mandatory="1" Sm="0"></TxPdo>
+				<TxPdo Ref="DigInputBit" Chn="1" Fixed="1" Mandatory="1" Sm="0"></TxPdo>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
 					<ConfigData>0101</ConfigData>
@@ -298,10 +298,10 @@
 				<GroupType>DigIn</GroupType>
 				<Fmmu>Inputs</Fmmu>
 				<Sm StartAddress="#x1000" ControlByte="0" Enable="0">Inputs</Sm>
-				<TxPdo Ref="DigInputBit" Chn="0" Fixed="1" Mandatory="1" Sm="0"/>
-				<TxPdo Ref="DigInputBit" Chn="1" Fixed="1" Mandatory="1" Sm="0"/>
-				<TxPdo Ref="DigInputBit" Chn="2" Fixed="1" Mandatory="1" Sm="0"/>
-				<TxPdo Ref="DigInputBit" Chn="3" Fixed="1" Mandatory="1" Sm="0"/>
+				<TxPdo Ref="DigInputBit" Chn="0" Fixed="1" Mandatory="1" Sm="0"></TxPdo>
+				<TxPdo Ref="DigInputBit" Chn="1" Fixed="1" Mandatory="1" Sm="0"></TxPdo>
+				<TxPdo Ref="DigInputBit" Chn="2" Fixed="1" Mandatory="1" Sm="0"></TxPdo>
+				<TxPdo Ref="DigInputBit" Chn="3" Fixed="1" Mandatory="1" Sm="0"></TxPdo>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
 					<ConfigData>0101</ConfigData>
@@ -309,8 +309,8 @@
 			</Device>
 			<Device>
 				<Type ProductCode="#x03f43052" RevisionNo="#x270b0000">EL1012</Type>
-				<Name LcId="1033"><![CDATA[EL1012 2Ch. Dig. Input 24V, 10Âµs]]></Name>
-				<Name LcId="1031"><![CDATA[EL1012 2K. Dig. Eingang 24V, 10Âµs]]></Name>
+				<Name LcId="1033"><![CDATA[EL1012 2Ch. Dig. Input 24V, 10µs]]></Name>
+				<Name LcId="1031"><![CDATA[EL1012 2K. Dig. Eingang 24V, 10µs]]></Name>
 				<Info>
 					<Electrical>
 						<EBusCurrent>110</EBusCurrent>
@@ -319,8 +319,8 @@
 				<GroupType>DigIn</GroupType>
 				<Fmmu>Inputs</Fmmu>
 				<Sm StartAddress="#x1000" ControlByte="0" Enable="0">Inputs</Sm>
-				<TxPdo Ref="DigInputBit" Chn="0" Fixed="1" Mandatory="1" Sm="0"/>
-				<TxPdo Ref="DigInputBit" Chn="1" Fixed="1" Mandatory="1" Sm="0"/>
+				<TxPdo Ref="DigInputBit" Chn="0" Fixed="1" Mandatory="1" Sm="0"></TxPdo>
+				<TxPdo Ref="DigInputBit" Chn="1" Fixed="1" Mandatory="1" Sm="0"></TxPdo>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
 					<ConfigData>0101</ConfigData>
@@ -328,8 +328,8 @@
 			</Device>
 			<Device>
 				<Type ProductCode="#x03f63052" RevisionNo="#x270b0000">EL1014</Type>
-				<Name LcId="1033"><![CDATA[EL1014 4Ch. Dig. Input 24V, 10Âµs]]></Name>
-				<Name LcId="1031"><![CDATA[EL1014 4K. Dig. Eingang 24V, 10Âµs]]></Name>
+				<Name LcId="1033"><![CDATA[EL1014 4Ch. Dig. Input 24V, 10µs]]></Name>
+				<Name LcId="1031"><![CDATA[EL1014 4K. Dig. Eingang 24V, 10µs]]></Name>
 				<Info>
 					<Electrical>
 						<EBusCurrent>110</EBusCurrent>
@@ -338,10 +338,10 @@
 				<GroupType>DigIn</GroupType>
 				<Fmmu>Inputs</Fmmu>
 				<Sm StartAddress="#x1000" ControlByte="0" Enable="0">Inputs</Sm>
-				<TxPdo Ref="DigInputBit" Chn="0" Fixed="1" Mandatory="1" Sm="0"/>
-				<TxPdo Ref="DigInputBit" Chn="1" Fixed="1" Mandatory="1" Sm="0"/>
-				<TxPdo Ref="DigInputBit" Chn="2" Fixed="1" Mandatory="1" Sm="0"/>
-				<TxPdo Ref="DigInputBit" Chn="3" Fixed="1" Mandatory="1" Sm="0"/>
+				<TxPdo Ref="DigInputBit" Chn="0" Fixed="1" Mandatory="1" Sm="0"></TxPdo>
+				<TxPdo Ref="DigInputBit" Chn="1" Fixed="1" Mandatory="1" Sm="0"></TxPdo>
+				<TxPdo Ref="DigInputBit" Chn="2" Fixed="1" Mandatory="1" Sm="0"></TxPdo>
+				<TxPdo Ref="DigInputBit" Chn="3" Fixed="1" Mandatory="1" Sm="0"></TxPdo>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
 					<ConfigData>0101</ConfigData>
@@ -359,8 +359,8 @@
 				<GroupType>DigOut</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Sm StartAddress="#x0f00" ControlByte="#x44" Enable="1">Outputs</Sm>
-				<RxPdo Ref="DigOutputBit" Chn="0" Fixed="1" Mandatory="1" Sm="0"/>
-				<RxPdo Ref="DigOutputBit" Chn="1" Fixed="1" Mandatory="1" Sm="0"/>
+				<RxPdo Ref="DigOutputBit" Chn="0" Fixed="1" Mandatory="1" Sm="0"></RxPdo>
+				<RxPdo Ref="DigOutputBit" Chn="1" Fixed="1" Mandatory="1" Sm="0"></RxPdo>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
 					<ConfigData>0201</ConfigData>
@@ -378,10 +378,10 @@
 				<GroupType>DigOut</GroupType>
 				<Fmmu>Outputs</Fmmu>
 				<Sm StartAddress="#x0f00" ControlByte="#x44" Enable="1">Outputs</Sm>
-				<RxPdo Ref="DigOutputBit" Chn="0" Fixed="1" Mandatory="1" Sm="0"/>
-				<RxPdo Ref="DigOutputBit" Chn="1" Fixed="1" Mandatory="1" Sm="0"/>
-				<RxPdo Ref="DigOutputBit" Chn="2" Fixed="1" Mandatory="1" Sm="0"/>
-				<RxPdo Ref="DigOutputBit" Chn="3" Fixed="1" Mandatory="1" Sm="0"/>
+				<RxPdo Ref="DigOutputBit" Chn="0" Fixed="1" Mandatory="1" Sm="0"></RxPdo>
+				<RxPdo Ref="DigOutputBit" Chn="1" Fixed="1" Mandatory="1" Sm="0"></RxPdo>
+				<RxPdo Ref="DigOutputBit" Chn="2" Fixed="1" Mandatory="1" Sm="0"></RxPdo>
+				<RxPdo Ref="DigOutputBit" Chn="3" Fixed="1" Mandatory="1" Sm="0"></RxPdo>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
 					<ConfigData>0201</ConfigData>
@@ -401,10 +401,10 @@
 				<Fmmu>Inputs</Fmmu>
 				<Sm StartAddress="#x0f00" ControlByte="#x44" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1000" ControlByte="0" Enable="0">Inputs</Sm>
-				<RxPdo Ref="DigOutputBit" Chn="0" Fixed="1" Mandatory="1" Sm="0"/>
-				<RxPdo Ref="DigOutputBit" Chn="1" Fixed="1" Mandatory="1" Sm="0"/>
-				<TxPdo Ref="DigDiagBit" Chn="0" Fixed="1" Mandatory="1" Sm="1"/>
-				<TxPdo Ref="DigDiagBit" Chn="1" Fixed="1" Mandatory="1" Sm="1"/>
+				<RxPdo Ref="DigOutputBit" Chn="0" Fixed="1" Mandatory="1" Sm="0"></RxPdo>
+				<RxPdo Ref="DigOutputBit" Chn="1" Fixed="1" Mandatory="1" Sm="0"></RxPdo>
+				<TxPdo Ref="DigDiagBit" Chn="0" Fixed="1" Mandatory="1" Sm="1"></TxPdo>
+				<TxPdo Ref="DigDiagBit" Chn="1" Fixed="1" Mandatory="1" Sm="1"></TxPdo>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
 					<ConfigData>0301</ConfigData>
@@ -426,10 +426,10 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<TxPdo Ref="TxEL3xxNComplex10-10V" Chn="0" Fixed="1" Sm="3"/>
-				<TxPdo Ref="TxEL3xxNComplex10-10V" Chn="1" Fixed="1" Sm="3"/>
+				<TxPdo Ref="TxEL3xxNComplex10-10V" Chn="0" Fixed="1" Sm="3"></TxPdo>
+				<TxPdo Ref="TxEL3xxNComplex10-10V" Chn="1" Fixed="1" Sm="3"></TxPdo>
 				<Mailbox>
-					<AoE/>
+					<AoE></AoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -452,10 +452,10 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="0" Fixed="1" Sm="3"/>
-				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="1" Fixed="1" Sm="3"/>
+				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="0" Fixed="1" Sm="3"></TxPdo>
+				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="1" Fixed="1" Sm="3"></TxPdo>
 				<Mailbox>
-					<AoE/>
+					<AoE></AoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -478,10 +478,10 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="0" Fixed="1" Sm="3"/>
-				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="1" Fixed="1" Sm="3"/>
+				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="0" Fixed="1" Sm="3"></TxPdo>
+				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="1" Fixed="1" Sm="3"></TxPdo>
 				<Mailbox>
-					<AoE/>
+					<AoE></AoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -504,10 +504,10 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="0" Fixed="1" Sm="3"/>
-				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="1" Fixed="1" Sm="3"/>
+				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="0" Fixed="1" Sm="3"></TxPdo>
+				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="1" Fixed="1" Sm="3"></TxPdo>
 				<Mailbox>
-					<AoE/>
+					<AoE></AoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -530,11 +530,11 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="0" Fixed="1" Sm="3"/>
-				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="1" Fixed="1" Sm="3"/>
+				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="0" Fixed="1" Sm="3"></TxPdo>
+				<TxPdo Ref="TxEL3xxNComplex0-20mA" Chn="1" Fixed="1" Sm="3"></TxPdo>
 				<Mailbox>
-					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1" PdoConfig="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -558,10 +558,10 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<TxPdo Ref="TxEL3xxNComplex4-20mA" Chn="0" Fixed="1" Sm="3"/>
-				<TxPdo Ref="TxEL3xxNComplex4-20mA" Chn="1" Fixed="1" Sm="3"/>
+				<TxPdo Ref="TxEL3xxNComplex4-20mA" Chn="0" Fixed="1" Sm="3"></TxPdo>
+				<TxPdo Ref="TxEL3xxNComplex4-20mA" Chn="1" Fixed="1" Sm="3"></TxPdo>
 				<Mailbox>
-					<AoE/>
+					<AoE></AoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -584,10 +584,10 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<TxPdo Ref="TxEL3xxNComplex10-10V" Chn="0" Fixed="1" Sm="3"/>
-				<TxPdo Ref="TxEL3xxNComplex10-10V" Chn="1" Fixed="1" Sm="3"/>
+				<TxPdo Ref="TxEL3xxNComplex10-10V" Chn="0" Fixed="1" Sm="3"></TxPdo>
+				<TxPdo Ref="TxEL3xxNComplex10-10V" Chn="1" Fixed="1" Sm="3"></TxPdo>
 				<Mailbox>
-					<AoE/>
+					<AoE></AoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -610,10 +610,10 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<RxPdo Ref="TxEL4xxNComplex0-10V" Chn="0" Fixed="1" Sm="2"/>
-				<RxPdo Ref="TxEL4xxNComplex0-10V" Chn="1" Fixed="1" Sm="2"/>
+				<RxPdo Ref="TxEL4xxNComplex0-10V" Chn="0" Fixed="1" Sm="2"></RxPdo>
+				<RxPdo Ref="TxEL4xxNComplex0-10V" Chn="1" Fixed="1" Sm="2"></RxPdo>
 				<Mailbox>
-					<AoE/>
+					<AoE></AoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -636,10 +636,10 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<RxPdo Ref="TxEL4xxNComplex0-20mA" Chn="0" Fixed="1" Sm="2"/>
-				<RxPdo Ref="TxEL4xxNComplex0-20mA" Chn="1" Fixed="1" Sm="2"/>
+				<RxPdo Ref="TxEL4xxNComplex0-20mA" Chn="0" Fixed="1" Sm="2"></RxPdo>
+				<RxPdo Ref="TxEL4xxNComplex0-20mA" Chn="1" Fixed="1" Sm="2"></RxPdo>
 				<Mailbox>
-					<AoE/>
+					<AoE></AoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -662,10 +662,10 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<RxPdo Ref="TxEL4xxNComplex10-10V" Chn="0" Fixed="1" Sm="2"/>
-				<RxPdo Ref="TxEL4xxNComplex10-10V" Chn="1" Fixed="1" Sm="2"/>
+				<RxPdo Ref="TxEL4xxNComplex10-10V" Chn="0" Fixed="1" Sm="2"></RxPdo>
+				<RxPdo Ref="TxEL4xxNComplex10-10V" Chn="1" Fixed="1" Sm="2"></RxPdo>
 				<Mailbox>
-					<AoE/>
+					<AoE></AoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -688,9 +688,9 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<TxPdo Ref="TxEL5xx1" Chn="0" Fixed="1" Sm="3"/>
+				<TxPdo Ref="TxEL5xx1" Chn="0" Fixed="1" Sm="3"></TxPdo>
 				<Mailbox>
-					<AoE/>
+					<AoE></AoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -713,10 +713,10 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<TxPdo Ref="TxEL5xx1" Chn="0" Fixed="1" Sm="3"/>
+				<TxPdo Ref="TxEL5xx1" Chn="0" Fixed="1" Sm="3"></TxPdo>
 				<Mailbox>
-					<CoE SdoInfo="1"/>
-					<FoE/>
+					<CoE SdoInfo="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -740,10 +740,10 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<RxPdo Ref="TxEL5151Out" Chn="0" Fixed="1" Sm="2"/>
-				<TxPdo Ref="TxEL5151In" Chn="0" Fixed="1" Sm="3"/>
+				<RxPdo Ref="TxEL5151Out" Chn="0" Fixed="1" Sm="2"></RxPdo>
+				<TxPdo Ref="TxEL5151In" Chn="0" Fixed="1" Sm="3"></TxPdo>
 				<Mailbox>
-					<AoE/>
+					<AoE></AoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -766,10 +766,10 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<RxPdo Ref="TxEL5151Out" Chn="0" Fixed="1" Sm="2"/>
-				<TxPdo Ref="TxEL5151In" Chn="0" Fixed="1" Sm="3"/>
+				<RxPdo Ref="TxEL5151Out" Chn="0" Fixed="1" Sm="2"></RxPdo>
+				<TxPdo Ref="TxEL5151In" Chn="0" Fixed="1" Sm="3"></TxPdo>
 				<Mailbox>
-					<AoE/>
+					<AoE></AoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -792,10 +792,10 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<RxPdo Ref="TxEL5151Out" Chn="0" Fixed="1" Sm="2"/>
-				<TxPdo Ref="TxEL5151In" Chn="0" Fixed="1" Sm="3"/>
+				<RxPdo Ref="TxEL5151Out" Chn="0" Fixed="1" Sm="2"></RxPdo>
+				<TxPdo Ref="TxEL5151In" Chn="0" Fixed="1" Sm="3"></TxPdo>
 				<Mailbox>
-					<AoE/>
+					<AoE></AoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -818,10 +818,10 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="246" StartAddress="#x18f6" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1100" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<RxPdo Ref="TxEL60X0_16Out" Chn="0" Fixed="1" Sm="2"/>
-				<TxPdo Ref="TxEL60X0_16In" Chn="0" Fixed="1" Sm="3"/>
+				<RxPdo Ref="TxEL60X0_16Out" Chn="0" Fixed="1" Sm="2"></RxPdo>
+				<TxPdo Ref="TxEL60X0_16In" Chn="0" Fixed="1" Sm="3"></TxPdo>
 				<Mailbox>
-					<AoE/>
+					<AoE></AoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -842,9 +842,9 @@
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="520" StartAddress="#x1800" ControlByte="#x26" Enable="1">MBoxOut</Sm>
 				<Sm MinSize="40" MaxSize="1486" DefaultSize="520" StartAddress="6664" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Mailbox>
-					<EoE/>
-					<CoE/>
-					<FoE/>
+					<EoE></EoE>
+					<CoE></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -869,8 +869,8 @@
 				<Sm StartAddress="#x1000" ControlByte="#x26" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1400" ControlByte="#x22" Enable="1">Inputs</Sm>
 				<Mailbox>
-					<AoE AdsRouter="1"/>
-					<FoE/>
+					<AoE AdsRouter="1"></AoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -904,8 +904,8 @@
 					<Index>#x1a00</Index>
 				</TxPdo>
 				<Mailbox>
-					<AoE AdsRouter="1"/>
-					<FoE/>
+					<AoE AdsRouter="1"></AoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -931,9 +931,9 @@
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1400" ControlByte="#x20" Enable="1">Inputs</Sm>
 				<Mailbox>
-					<AoE AdsRouter="1"/>
-					<CoE SdoInfo="1"/>
-					<FoE/>
+					<AoE AdsRouter="1"></AoE>
+					<CoE SdoInfo="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>
@@ -959,9 +959,9 @@
 				<Sm StartAddress="#x1000" ControlByte="#x24" Enable="1">Outputs</Sm>
 				<Sm StartAddress="#x1400" ControlByte="#x20" Enable="1">Inputs</Sm>
 				<Mailbox>
-					<AoE AdsRouter="1"/>
-					<CoE SdoInfo="1"/>
-					<FoE/>
+					<AoE AdsRouter="1"></AoE>
+					<CoE SdoInfo="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>128</ByteSize>

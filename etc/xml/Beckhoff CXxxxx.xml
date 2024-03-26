@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
-	<Vendor>
+	<Vendor FileVersion="3">
 		<Id>2</Id>
 		<Name>Beckhoff Automation GmbH</Name>
 	</Vendor>
@@ -40,7 +40,7 @@
 			</Device>
 			<Device Physics="YK">
 				<Type ProductCode="#x044C6032" RevisionNo="#x00010004">CX1100-0004</Type>
-				<HideType RevisionNo="#x00000004"/>
+				<HideType RevisionNo="#x00000004"></HideType>
 				<Name LcId="1033"><![CDATA[CX1100-0004 EtherCAT Power supply (2A E-Bus)]]></Name>
 				<Name LcId="1031"><![CDATA[CX1100-0004 EtherCAT Netzteil (2A E-Bus)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX]]></URL>
@@ -59,8 +59,8 @@
 			</Device>
 			<Device Physics="YK">
 				<Type ProductCode="#x044C6032" RevisionNo="#x00020004">CX1100-0004</Type>
-				<HideType RevisionNo="#x00000004"/>
-				<HideType RevisionNo="#x00010004"/>
+				<HideType RevisionNo="#x00000004"></HideType>
+				<HideType RevisionNo="#x00010004"></HideType>
 				<Name LcId="1033"><![CDATA[CX1100-0004 EtherCAT Power supply (2A E-Bus)]]></Name>
 				<Name LcId="1031"><![CDATA[CX1100-0004 EtherCAT Netzteil (2A E-Bus)]]></Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX]]></URL>
@@ -126,9 +126,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"/>
+					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -158,7 +158,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x13926034" RevisionNo="#x00111B82" TcSmClass="CX5000">CX5010 EtherCAT slave</Type>
-				<HideType RevisionNo="#x00101B82"/>
+				<HideType RevisionNo="#x00101B82"></HideType>
 				<Name LcId="1033">CX5010 EtherCAT slave</Name>
 				<Name LcId="1031">CX5010 EtherCAT slave</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX5000]]></URL>
@@ -209,9 +209,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"/>
+					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -288,9 +288,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"/>
+					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -320,7 +320,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x139C6034" RevisionNo="#x00111B82" TcSmClass="CX5000">CX5020 EtherCAT slave</Type>
-				<HideType RevisionNo="#x00101B82"/>
+				<HideType RevisionNo="#x00101B82"></HideType>
 				<Name LcId="1033">CX5020 EtherCAT slave</Name>
 				<Name LcId="1031">CX5020 EtherCAT slave</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX5000]]></URL>
@@ -371,9 +371,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"/>
+					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -450,9 +450,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"/>
+					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -482,7 +482,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x1F4A6032" RevisionNo="#x00110000" TcSmClass="CX8010">CX8010 EtherCAT slave</Type>
-				<HideType RevisionNo="#x00100000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
 				<Name LcId="1033">CX8010 EtherCAT slave</Name>
 				<Name LcId="1031">CX8010 EtherCAT slave</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX8010]]></URL>
@@ -533,9 +533,99 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"/>
+					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"></CoE>
+				</Mailbox>
+				<Dc>
+					<OpMode>
+						<Name>FreeRun</Name>
+						<Desc>FreeRun</Desc>
+						<AssignActivate>#x0</AssignActivate>
+						<CycleTimeSync0 Factor="0">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+					<OpMode>
+						<Name>DC</Name>
+						<Desc>DC-Synchron</Desc>
+						<AssignActivate>#x320</AssignActivate>
+						<CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+				</Dc>
+				<Eeprom>
+					<ByteSize>2048</ByteSize>
+					<ConfigData>080C00000000</ConfigData>
+				</Eeprom>
+				<ImageData16x14>424DD6020000000000003600000028000000100000000E00000001001800000000000000000074120000741200000000000000000000DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDC808080808080808080808080808080DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080</ImageData16x14>
+			</Device>
+			<Device Physics="YY">
+				<Type ProductCode="#x1FAE6032" RevisionNo="#x00100000" TcSmClass="CX8010">CX8110 EtherCAT slave</Type>
+				<Name LcId="1033">CX8110 EtherCAT slave</Name>
+				<Name LcId="1031">CX8110 EtherCAT slave</Name>
+				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX8110]]></URL>
+				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/CX8110]]></URL>
+				<Info>
+					<StateMachine>
+						<Timeout>
+							<PreopTimeout>10000</PreopTimeout>
+							<SafeopOpTimeout>10000</SafeopOpTimeout>
+							<BackToInitTimeout>5000</BackToInitTimeout>
+							<BackToSafeopTimeout>200</BackToSafeopTimeout>
+						</Timeout>
+					</StateMachine>
+					<IdentificationReg134>1</IdentificationReg134>
+				</Info>
+				<GroupType>CxDevice</GroupType>
+				<Fmmu>Outputs</Fmmu>
+				<Fmmu>Inputs</Fmmu>
+				<Fmmu>MBoxState</Fmmu>
+				<Sm MinSize="64" MaxSize="1024" DefaultSize="512" StartAddress="#x1000" ControlByte="#x26" Enable="1">MBoxOut</Sm>
+				<Sm MinSize="64" MaxSize="1024" DefaultSize="512" StartAddress="#x1200" ControlByte="#x22" Enable="1">MBoxIn</Sm>
+				<Sm StartAddress="#x1A00" ControlByte="#x64" Enable="0">Outputs</Sm>
+				<Sm StartAddress="#x1400" ControlByte="#x20" Enable="0">Inputs</Sm>
+				<RxPdo Mandatory="1" Sm="2" Virtual="1">
+					<Index>#x1600</Index>
+					<Name>IO Outputs</Name>
+				</RxPdo>
+				<TxPdo Mandatory="1" Sm="3" Virtual="1">
+					<Index>#x1a00</Index>
+					<Name>IO Inputs</Name>
+				</TxPdo>
+				<TxPdo Sm="3" Fixed="1">
+					<Index>#x1a80</Index>
+					<Name>Device Status Mapping</Name>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>8</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>6</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoState</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoToggle</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+				</TxPdo>
+				<Mailbox DataLinkLayer="true">
+					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -612,9 +702,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"/>
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -644,7 +734,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07e46034" RevisionNo="#x00111B82" TcSmClass="CX5000">CX2020 EtherCAT slave</Type>
-				<HideType RevisionNo="#x00101B82"/>
+				<HideType RevisionNo="#x00101B82"></HideType>
 				<Name LcId="1033">CX2020 EtherCAT slave</Name>
 				<Name LcId="1031">CX2020 EtherCAT slave</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX2000]]></URL>
@@ -695,9 +785,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"/>
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -727,7 +817,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07e46034" RevisionNo="#x00121B82" TcSmClass="CX5000">CX2020 EtherCAT slave</Type>
-				<HideType RevisionNo="#x00111B82"/>
+				<HideType RevisionNo="#x00111B82"></HideType>
 				<Name LcId="1033">CX2020 EtherCAT slave</Name>
 				<Name LcId="1031">CX2020 EtherCAT slave</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX2000]]></URL>
@@ -778,9 +868,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"/>
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -857,9 +947,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"/>
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -889,7 +979,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07ee6034" RevisionNo="#x00111B82" TcSmClass="CX5000">CX2030 EtherCAT slave</Type>
-				<HideType RevisionNo="#x00101B82"/>
+				<HideType RevisionNo="#x00101B82"></HideType>
 				<Name LcId="1033">CX2030 EtherCAT slave</Name>
 				<Name LcId="1031">CX2030 EtherCAT slave</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX2000]]></URL>
@@ -940,9 +1030,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"/>
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -972,7 +1062,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07ee6034" RevisionNo="#x00121B82" TcSmClass="CX5000">CX2030 EtherCAT slave</Type>
-				<HideType RevisionNo="#x00111B82"/>
+				<HideType RevisionNo="#x00111B82"></HideType>
 				<Name LcId="1033">CX2030 EtherCAT slave</Name>
 				<Name LcId="1031">CX2030 EtherCAT slave</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX2000]]></URL>
@@ -1023,9 +1113,91 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"/>
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"></CoE>
+				</Mailbox>
+				<Dc>
+					<OpMode>
+						<Name>FreeRun</Name>
+						<Desc>FreeRun</Desc>
+						<AssignActivate>#x0</AssignActivate>
+						<CycleTimeSync0 Factor="0">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+					<OpMode>
+						<Name>DC</Name>
+						<Desc>DC-Synchron</Desc>
+						<AssignActivate>#x320</AssignActivate>
+						<CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+				</Dc>
+				<Eeprom>
+					<ByteSize>2048</ByteSize>
+					<ConfigData>080C00000000</ConfigData>
+				</Eeprom>
+				<ImageData16x14>424DD6020000000000003600000028000000100000000E00000001001800000000000000000074120000741200000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC474747404040404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC424242404040404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCD9D9D94A4A4A444444404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</ImageData16x14>
+			</Device>
+			<Device Physics="YY">
+				<Type ProductCode="#x07f16034" RevisionNo="#x00101B82" TcSmClass="CX5000">CX2033 EtherCAT slave</Type>
+				<Name LcId="1033">CX2033 EtherCAT slave</Name>
+				<Name LcId="1031">CX2033 EtherCAT slave</Name>
+				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX2000]]></URL>
+				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/CX2000]]></URL>
+				<Info>
+					<IdentificationReg134>1</IdentificationReg134>
+				</Info>
+				<GroupType>CxDevice</GroupType>
+				<Fmmu>Outputs</Fmmu>
+				<Fmmu>Inputs</Fmmu>
+				<Fmmu>MBoxState</Fmmu>
+				<Sm ControlByte="#x26" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1000">MBoxOut</Sm>
+				<Sm ControlByte="#x22" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1200">MBoxIn</Sm>
+				<Sm ControlByte="#x64" Enable="0" StartAddress="#x1A00">Outputs</Sm>
+				<Sm ControlByte="#x20" Enable="0" StartAddress="#x1400">Inputs</Sm>
+				<RxPdo Mandatory="1" Sm="2" Virtual="1">
+					<Index>#x1600</Index>
+					<Name>IO Outputs</Name>
+				</RxPdo>
+				<TxPdo Mandatory="1" Sm="3" Virtual="1">
+					<Index>#x1a00</Index>
+					<Name>IO Inputs</Name>
+				</TxPdo>
+				<TxPdo Fixed="1" Sm="3">
+					<Index>#x1a80</Index>
+					<Name>Device Status Mapping</Name>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>8</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>6</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoState</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoToggle</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+				</TxPdo>
+				<Mailbox DataLinkLayer="true">
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -1102,9 +1274,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"/>
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -1134,7 +1306,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07F86034" RevisionNo="#x00111B82" TcSmClass="CX5000">CX2040 EtherCAT slave</Type>
-				<HideType RevisionNo="#x00101B82"/>
+				<HideType RevisionNo="#x00101B82"></HideType>
 				<Name LcId="1033">CX2040 EtherCAT slave</Name>
 				<Name LcId="1031">CX2040 EtherCAT slave</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX2000]]></URL>
@@ -1185,9 +1357,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"/>
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -1217,7 +1389,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x07F86034" RevisionNo="#x00121B82" TcSmClass="CX5000">CX2040 EtherCAT slave</Type>
-				<HideType RevisionNo="#x00111B82"/>
+				<HideType RevisionNo="#x00111B82"></HideType>
 				<Name LcId="1033">CX2040 EtherCAT slave</Name>
 				<Name LcId="1031">CX2040 EtherCAT slave</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX2000]]></URL>
@@ -1268,9 +1440,325 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"/>
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"></CoE>
+				</Mailbox>
+				<Dc>
+					<OpMode>
+						<Name>FreeRun</Name>
+						<Desc>FreeRun</Desc>
+						<AssignActivate>#x0</AssignActivate>
+						<CycleTimeSync0 Factor="0">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+					<OpMode>
+						<Name>DC</Name>
+						<Desc>DC-Synchron</Desc>
+						<AssignActivate>#x320</AssignActivate>
+						<CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+				</Dc>
+				<Eeprom>
+					<ByteSize>2048</ByteSize>
+					<ConfigData>080C00000000</ConfigData>
+				</Eeprom>
+				<ImageData16x14>424DD6020000000000003600000028000000100000000E00000001001800000000000000000074120000741200000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC474747404040404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC424242404040404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCD9D9D94A4A4A444444404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</ImageData16x14>
+			</Device>
+			<Device Physics="YY">
+				<Type ProductCode="#x07fa6034" RevisionNo="#x00101b82" TcSmClass="CX5000">CX2042 EtherCAT slave</Type>
+				<Name LcId="1033">CX2042 EtherCAT slave</Name>
+				<Name LcId="1031">CX2042 EtherCAT slave</Name>
+				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX2042]]></URL>
+				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/CX2042]]></URL>
+				<GroupType>CxDevice</GroupType>
+				<Fmmu>Outputs</Fmmu>
+				<Fmmu>Inputs</Fmmu>
+				<Fmmu>MBoxState</Fmmu>
+				<Sm ControlByte="#x26" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1000">MBoxOut</Sm>
+				<Sm ControlByte="#x22" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1200">MBoxIn</Sm>
+				<Sm ControlByte="#x64" Enable="0" StartAddress="#x1A00">Outputs</Sm>
+				<Sm ControlByte="#x20" Enable="0" StartAddress="#x1400">Inputs</Sm>
+				<RxPdo Mandatory="1" Sm="2" Virtual="1">
+					<Index>#x1600</Index>
+					<Name>IO Outputs</Name>
+				</RxPdo>
+				<TxPdo Mandatory="1" Sm="3" Virtual="1">
+					<Index>#x1a00</Index>
+					<Name>IO Inputs</Name>
+				</TxPdo>
+				<TxPdo Fixed="1" Sm="3">
+					<Index>#x1a80</Index>
+					<Name>Device Status Mapping</Name>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>8</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>6</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoState</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoToggle</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+				</TxPdo>
+				<Mailbox DataLinkLayer="true">
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"></CoE>
+				</Mailbox>
+				<Dc>
+					<OpMode>
+						<Name>FreeRun</Name>
+						<Desc>FreeRun</Desc>
+						<AssignActivate>#x0</AssignActivate>
+						<CycleTimeSync0 Factor="0">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+					<OpMode>
+						<Name>DC</Name>
+						<Desc>DC-Synchron</Desc>
+						<AssignActivate>#x320</AssignActivate>
+						<CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+				</Dc>
+				<Eeprom>
+					<ByteSize>2048</ByteSize>
+					<ConfigData>080C00000000</ConfigData>
+				</Eeprom>
+				<ImageData16x14>424DD6020000000000003600000028000000100000000E00000001001800000000000000000074120000741200000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC474747404040404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC424242404040404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCD9D9D94A4A4A444444404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</ImageData16x14>
+			</Device>
+			<Device Physics="YY">
+				<Type ProductCode="#x07fb6034" RevisionNo="#x00101b82" TcSmClass="CX5000">CX2043 EtherCAT slave</Type>
+				<Name LcId="1033">CX2043 EtherCAT slave</Name>
+				<Name LcId="1031">CX2043 EtherCAT slave</Name>
+				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX2000]]></URL>
+				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/CX2000]]></URL>
+				<GroupType>CxDevice</GroupType>
+				<Fmmu>Outputs</Fmmu>
+				<Fmmu>Inputs</Fmmu>
+				<Fmmu>MBoxState</Fmmu>
+				<Sm ControlByte="#x26" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1000">MBoxOut</Sm>
+				<Sm ControlByte="#x22" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1200">MBoxIn</Sm>
+				<Sm ControlByte="#x64" Enable="0" StartAddress="#x1A00">Outputs</Sm>
+				<Sm ControlByte="#x20" Enable="0" StartAddress="#x1400">Inputs</Sm>
+				<RxPdo Mandatory="1" Sm="2" Virtual="1">
+					<Index>#x1600</Index>
+					<Name>IO Outputs</Name>
+				</RxPdo>
+				<TxPdo Mandatory="1" Sm="3" Virtual="1">
+					<Index>#x1a00</Index>
+					<Name>IO Inputs</Name>
+				</TxPdo>
+				<TxPdo Fixed="1" Sm="3">
+					<Index>#x1a80</Index>
+					<Name>Device Status Mapping</Name>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>8</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>6</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoState</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoToggle</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+				</TxPdo>
+				<Mailbox DataLinkLayer="true">
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"></CoE>
+				</Mailbox>
+				<Dc>
+					<OpMode>
+						<Name>FreeRun</Name>
+						<Desc>FreeRun</Desc>
+						<AssignActivate>#x0</AssignActivate>
+						<CycleTimeSync0 Factor="0">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+					<OpMode>
+						<Name>DC</Name>
+						<Desc>DC-Synchron</Desc>
+						<AssignActivate>#x320</AssignActivate>
+						<CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+				</Dc>
+				<Eeprom>
+					<ByteSize>2048</ByteSize>
+					<ConfigData>080C00000000</ConfigData>
+				</Eeprom>
+				<ImageData16x14>424DD6020000000000003600000028000000100000000E00000001001800000000000000000074120000741200000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC474747404040404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC424242404040404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCD9D9D94A4A4A444444404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</ImageData16x14>
+			</Device>
+			<Device Physics="YY">
+				<Type ProductCode="#x080e6034" RevisionNo="#x00101B82" TcSmClass="CX5000">CX2062 EtherCAT slave</Type>
+				<Name LcId="1033">CX2062 EtherCAT slave</Name>
+				<Name LcId="1031">CX2062 EtherCAT slave</Name>
+				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX2062]]></URL>
+				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/CX2062]]></URL>
+				<GroupType>CxDevice</GroupType>
+				<Fmmu>Outputs</Fmmu>
+				<Fmmu>Inputs</Fmmu>
+				<Fmmu>MBoxState</Fmmu>
+				<Sm ControlByte="#x26" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1000">MBoxOut</Sm>
+				<Sm ControlByte="#x22" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1200">MBoxIn</Sm>
+				<Sm ControlByte="#x64" Enable="0" StartAddress="#x1A00">Outputs</Sm>
+				<Sm ControlByte="#x20" Enable="0" StartAddress="#x1400">Inputs</Sm>
+				<RxPdo Mandatory="1" Sm="2" Virtual="1">
+					<Index>#x1600</Index>
+					<Name>IO Outputs</Name>
+				</RxPdo>
+				<TxPdo Mandatory="1" Sm="3" Virtual="1">
+					<Index>#x1a00</Index>
+					<Name>IO Inputs</Name>
+				</TxPdo>
+				<TxPdo Fixed="1" Sm="3">
+					<Index>#x1a80</Index>
+					<Name>Device Status Mapping</Name>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>8</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>6</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoState</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoToggle</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+				</TxPdo>
+				<Mailbox DataLinkLayer="true">
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"></CoE>
+				</Mailbox>
+				<Dc>
+					<OpMode>
+						<Name>FreeRun</Name>
+						<Desc>FreeRun</Desc>
+						<AssignActivate>#x0</AssignActivate>
+						<CycleTimeSync0 Factor="0">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+					<OpMode>
+						<Name>DC</Name>
+						<Desc>DC-Synchron</Desc>
+						<AssignActivate>#x320</AssignActivate>
+						<CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+				</Dc>
+				<Eeprom>
+					<ByteSize>2048</ByteSize>
+					<ConfigData>080C00000000</ConfigData>
+				</Eeprom>
+				<ImageData16x14>424DD6020000000000003600000028000000100000000E00000001001800000000000000000074120000741200000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC404040DCDCDC404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFF00DCDCDCDCDCDC474747404040404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC424242404040404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCD9D9D94A4A4A444444404040DCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</ImageData16x14>
+			</Device>
+			<Device Physics="YY">
+				<Type ProductCode="#x08186034" RevisionNo="#x00101B82" TcSmClass="CX5000">CX2072 EtherCAT slave</Type>
+				<Name LcId="1033">CX2072 EtherCAT slave</Name>
+				<Name LcId="1031">CX2072 EtherCAT slave</Name>
+				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX2072]]></URL>
+				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/CX2072]]></URL>
+				<GroupType>CxDevice</GroupType>
+				<Fmmu>Outputs</Fmmu>
+				<Fmmu>Inputs</Fmmu>
+				<Fmmu>MBoxState</Fmmu>
+				<Sm ControlByte="#x26" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1000">MBoxOut</Sm>
+				<Sm ControlByte="#x22" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1200">MBoxIn</Sm>
+				<Sm ControlByte="#x64" Enable="0" StartAddress="#x1A00">Outputs</Sm>
+				<Sm ControlByte="#x20" Enable="0" StartAddress="#x1400">Inputs</Sm>
+				<RxPdo Mandatory="1" Sm="2" Virtual="1">
+					<Index>#x1600</Index>
+					<Name>IO Outputs</Name>
+				</RxPdo>
+				<TxPdo Mandatory="1" Sm="3" Virtual="1">
+					<Index>#x1a00</Index>
+					<Name>IO Inputs</Name>
+				</TxPdo>
+				<TxPdo Fixed="1" Sm="3">
+					<Index>#x1a80</Index>
+					<Name>Device Status Mapping</Name>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>8</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>6</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoState</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoToggle</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+				</TxPdo>
+				<Mailbox DataLinkLayer="true">
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -1347,9 +1835,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"/>
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -1379,7 +1867,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x233c6034" RevisionNo="#x00111B82" TcSmClass="CX8010">CX9020 EtherCAT slave</Type>
-				<HideType RevisionNo="#x00101B82"/>
+				<HideType RevisionNo="#x00101B82"></HideType>
 				<Name LcId="1033">CX9020 EtherCAT slave</Name>
 				<Name LcId="1031">CX9020 EtherCAT slave</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX9020]]></URL>
@@ -1430,9 +1918,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"/>
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" SdoInfo="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -1459,6 +1947,85 @@
 					<ConfigData>080C00000000</ConfigData>
 				</Eeprom>
 				<ImageData16x14>424DD6020000000000003600000028000000100000000E00000001001800000000000000000074120000741200000000000000000000DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC0000FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC0000FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC0000FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC0000FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC0000FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDC0000FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDC404040404040808080404040404040DCDCDC21FF00DCDCDC0000FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDC808080808080808080808080808080DCDCDC21FF00DCDCDC0000FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDC404040404040808080404040404040DCDCDC21FF00DCDCDC0000FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDC404040404040808080404040404040DCDCDC21FF00DCDCDC0000FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</ImageData16x14>
+			</Device>
+			<Device Physics="YY">
+				<Type ProductCode="#x13f66034" RevisionNo="#x00101B82" TcSmClass="CX5000">CX5110 EtherCAT slave</Type>
+				<Name LcId="1033">CX5110 EtherCAT slave</Name>
+				<Name LcId="1031">CX5110 EtherCAT slave</Name>
+				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX5000]]></URL>
+				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/CX5000]]></URL>
+				<GroupType>CxDevice</GroupType>
+				<Fmmu>Outputs</Fmmu>
+				<Fmmu>Inputs</Fmmu>
+				<Fmmu>MBoxState</Fmmu>
+				<Sm ControlByte="#x26" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1000">MBoxOut</Sm>
+				<Sm ControlByte="#x22" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1200">MBoxIn</Sm>
+				<Sm ControlByte="#x64" Enable="0" StartAddress="#x1A00">Outputs</Sm>
+				<Sm ControlByte="#x20" Enable="0" StartAddress="#x1400">Inputs</Sm>
+				<RxPdo Mandatory="1" Sm="2" Virtual="1">
+					<Index>#x1600</Index>
+					<Name>IO Outputs</Name>
+				</RxPdo>
+				<TxPdo Mandatory="1" Sm="3" Virtual="1">
+					<Index>#x1a00</Index>
+					<Name>IO Inputs</Name>
+				</TxPdo>
+				<TxPdo Fixed="1" Sm="3">
+					<Index>#x1a80</Index>
+					<Name>Device Status Mapping</Name>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>8</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>6</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoState</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoToggle</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+				</TxPdo>
+				<Mailbox DataLinkLayer="true">
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"></CoE>
+				</Mailbox>
+				<Dc>
+					<OpMode>
+						<Name>FreeRun</Name>
+						<Desc>FreeRun</Desc>
+						<AssignActivate>#x0</AssignActivate>
+						<CycleTimeSync0 Factor="0">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+					<OpMode>
+						<Name>DC</Name>
+						<Desc>DC-Synchron</Desc>
+						<AssignActivate>#x320</AssignActivate>
+						<CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+				</Dc>
+				<Eeprom>
+					<ByteSize>2048</ByteSize>
+					<ConfigData>080C00000000</ConfigData>
+				</Eeprom>
+				<ImageData16x14>424DD6020000000000003600000028000000100000000E00000001001800000000000000000074120000741200000000000000000000DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDC808080808080808080808080808080DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080</ImageData16x14>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x14006034" RevisionNo="#x00101B82" TcSmClass="CX5000">CX5120 EtherCAT slave</Type>
@@ -1509,9 +2076,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"/>
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -1588,9 +2155,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"/>
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -1667,9 +2234,167 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"/>
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"></CoE>
+				</Mailbox>
+				<Dc>
+					<OpMode>
+						<Name>FreeRun</Name>
+						<Desc>FreeRun</Desc>
+						<AssignActivate>#x0</AssignActivate>
+						<CycleTimeSync0 Factor="0">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+					<OpMode>
+						<Name>DC</Name>
+						<Desc>DC-Synchron</Desc>
+						<AssignActivate>#x320</AssignActivate>
+						<CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+				</Dc>
+				<Eeprom>
+					<ByteSize>2048</ByteSize>
+					<ConfigData>080C00000000</ConfigData>
+				</Eeprom>
+				<ImageData16x14>424DD6020000000000003600000028000000100000000E00000001001800000000000000000074120000741200000000000000000000DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDC808080808080808080808080808080DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080</ImageData16x14>
+			</Device>
+			<Device Physics="YY">
+				<Type ProductCode="#x146E6034" RevisionNo="#x00101B82" TcSmClass="CX5000">CX5230 EtherCAT slave</Type>
+				<Name LcId="1033">CX5230 EtherCAT slave</Name>
+				<Name LcId="1031">CX5230 EtherCAT slave</Name>
+				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX5000]]></URL>
+				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/CX5000]]></URL>
+				<GroupType>CxDevice</GroupType>
+				<Fmmu>Outputs</Fmmu>
+				<Fmmu>Inputs</Fmmu>
+				<Fmmu>MBoxState</Fmmu>
+				<Sm ControlByte="#x26" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1000">MBoxOut</Sm>
+				<Sm ControlByte="#x22" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1200">MBoxIn</Sm>
+				<Sm ControlByte="#x64" Enable="0" StartAddress="#x1A00">Outputs</Sm>
+				<Sm ControlByte="#x20" Enable="0" StartAddress="#x1400">Inputs</Sm>
+				<RxPdo Mandatory="1" Sm="2" Virtual="1">
+					<Index>#x1600</Index>
+					<Name>IO Outputs</Name>
+				</RxPdo>
+				<TxPdo Mandatory="1" Sm="3" Virtual="1">
+					<Index>#x1a00</Index>
+					<Name>IO Inputs</Name>
+				</TxPdo>
+				<TxPdo Fixed="1" Sm="3">
+					<Index>#x1a80</Index>
+					<Name>Device Status Mapping</Name>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>8</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>6</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoState</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoToggle</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+				</TxPdo>
+				<Mailbox DataLinkLayer="true">
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"></CoE>
+				</Mailbox>
+				<Dc>
+					<OpMode>
+						<Name>FreeRun</Name>
+						<Desc>FreeRun</Desc>
+						<AssignActivate>#x0</AssignActivate>
+						<CycleTimeSync0 Factor="0">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+					<OpMode>
+						<Name>DC</Name>
+						<Desc>DC-Synchron</Desc>
+						<AssignActivate>#x320</AssignActivate>
+						<CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+						<ShiftTimeSync0>0</ShiftTimeSync0>
+						<CycleTimeSync1 Factor="1">0</CycleTimeSync1>
+						<ShiftTimeSync1>0</ShiftTimeSync1>
+					</OpMode>
+				</Dc>
+				<Eeprom>
+					<ByteSize>2048</ByteSize>
+					<ConfigData>080C00000000</ConfigData>
+				</Eeprom>
+				<ImageData16x14>424DD6020000000000003600000028000000100000000E00000001001800000000000000000074120000741200000000000000000000DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040DCDCDC404040404040DCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC404040404040DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDC808080808080808080808080808080DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDC404040404040808080404040404040DCDCDCDCDCDCDCDCDCDCDCDC21FF00DCDCDC0000FF0000FFDCDCDC808080DCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDCDC0000FF0000FFDCDCDC808080</ImageData16x14>
+			</Device>
+			<Device Physics="YY">
+				<Type ProductCode="#x14786034" RevisionNo="#x00101B82" TcSmClass="CX5000">CX5240 EtherCAT slave</Type>
+				<Name LcId="1033">CX5240 EtherCAT slave</Name>
+				<Name LcId="1031">CX5240 EtherCAT slave</Name>
+				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/CX5000]]></URL>
+				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/CX5000]]></URL>
+				<GroupType>CxDevice</GroupType>
+				<Fmmu>Outputs</Fmmu>
+				<Fmmu>Inputs</Fmmu>
+				<Fmmu>MBoxState</Fmmu>
+				<Sm ControlByte="#x26" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1000">MBoxOut</Sm>
+				<Sm ControlByte="#x22" DefaultSize="512" Enable="1" MaxSize="1024" MinSize="64" StartAddress="#x1200">MBoxIn</Sm>
+				<Sm ControlByte="#x64" Enable="0" StartAddress="#x1A00">Outputs</Sm>
+				<Sm ControlByte="#x20" Enable="0" StartAddress="#x1400">Inputs</Sm>
+				<RxPdo Mandatory="1" Sm="2" Virtual="1">
+					<Index>#x1600</Index>
+					<Name>IO Outputs</Name>
+				</RxPdo>
+				<TxPdo Mandatory="1" Sm="3" Virtual="1">
+					<Index>#x1a00</Index>
+					<Name>IO Inputs</Name>
+				</TxPdo>
+				<TxPdo Fixed="1" Sm="3">
+					<Index>#x1a80</Index>
+					<Name>Device Status Mapping</Name>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>8</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#x0</Index>
+						<BitLen>6</BitLen>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>15</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoState</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+					<Entry>
+						<Index>#xf100</Index>
+						<SubIndex>16</SubIndex>
+						<BitLen>1</BitLen>
+						<Name>TxPdoToggle</Name>
+						<DataType>BOOL</DataType>
+					</Entry>
+				</TxPdo>
+				<Mailbox DataLinkLayer="true">
+					<AoE AdsRouter="1" GenerateOwnNetId="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE CompleteAccess="1" PdoAssign="1" PdoUpload="1" SdoInfo="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>

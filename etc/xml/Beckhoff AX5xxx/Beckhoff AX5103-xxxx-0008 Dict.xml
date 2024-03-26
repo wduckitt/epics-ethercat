@@ -47,172 +47,12 @@
 				</Properties>
 			</DataType>
 			<DataType>
-				<Name>INT24</Name>
-				<BitSize>24</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>signed decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
 				<Name>DINT</Name>
 				<BitSize>32</BitSize>
 				<Properties>
 					<Property>
 						<Name>DisplayFormat</Name>
 						<Value>signed decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT1</Name>
-				<BitSize>1</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT2</Name>
-				<BitSize>2</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT3</Name>
-				<BitSize>3</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT4</Name>
-				<BitSize>4</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT5</Name>
-				<BitSize>5</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT6</Name>
-				<BitSize>6</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT7</Name>
-				<BitSize>7</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>USINT</Name>
-				<BitSize>8</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT9</Name>
-				<BitSize>9</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT10</Name>
-				<BitSize>10</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT11</Name>
-				<BitSize>11</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT12</Name>
-				<BitSize>12</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT13</Name>
-				<BitSize>13</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT14</Name>
-				<BitSize>14</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT15</Name>
-				<BitSize>15</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
 					</Property>
 				</Properties>
 			</DataType>
@@ -251,166 +91,6 @@
 				</Properties>
 			</DataType>
 			<DataType>
-				<Name>UINT17</Name>
-				<BitSize>17</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT18</Name>
-				<BitSize>18</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT19</Name>
-				<BitSize>19</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT20</Name>
-				<BitSize>20</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT21</Name>
-				<BitSize>21</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT22</Name>
-				<BitSize>22</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT23</Name>
-				<BitSize>23</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT24</Name>
-				<BitSize>24</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT25</Name>
-				<BitSize>25</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT26</Name>
-				<BitSize>26</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT27</Name>
-				<BitSize>27</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT28</Name>
-				<BitSize>28</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT29</Name>
-				<BitSize>29</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT30</Name>
-				<BitSize>30</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UINT31</Name>
-				<BitSize>31</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>UDINT</Name>
-				<BitSize>32</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>unsigned decimal</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
 				<Name>UDINT_hex</Name>
 				<BitSize>32</BitSize>
 				<Properties>
@@ -431,26 +111,6 @@
 					<Property>
 						<Name>UIVisible</Name>
 						<Value>False</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>STRING30</Name>
-				<BitSize>240</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>text</Value>
-					</Property>
-				</Properties>
-			</DataType>
-			<DataType>
-				<Name>STRING40</Name>
-				<BitSize>320</BitSize>
-				<Properties>
-					<Property>
-						<Name>DisplayFormat</Name>
-						<Value>text</Value>
 					</Property>
 				</Properties>
 			</DataType>
@@ -1042,7 +702,7 @@
 			<DataType>
 				<Name>DT_IDN_S_0_0021_AR</Name>
 				<BaseType>Uint16_IDN</BaseType>
-				<BitSize>432</BitSize>
+				<BitSize>400</BitSize>
 				<ArrayInfo>
 					<LBound>0</LBound>
 					<Elements>25</Elements>
@@ -1751,7 +1411,7 @@
 			</DataType>
 			<DataType>
 				<Name>DT_IDN_S_0_0086_BIT0-2</Name>
-				<BitSize>1</BitSize>
+				<BitSize>3</BitSize>
 				<EnumInfo>
 					<Text LcId="1033"><![CDATA[percentage scaling]]></Text>
 					<Enum>0</Enum>
@@ -2737,7 +2397,7 @@
 				<SubItem>
 					<Name>Elements</Name>
 					<DisplayName LcId="1033"><![CDATA[ ]]></DisplayName>
-					<Type>DT_IDN_S_0_0030_AR</Type>
+					<Type>DT_IDN_S_0_0432_AR</Type>
 					<BitSize>144</BitSize>
 					<BitOffs>32</BitOffs>
 				</SubItem>
@@ -3440,7 +3100,7 @@
 				<SubItem>
 					<Name>reserved</Name>
 					<DisplayName LcId="1033"><![CDATA[reserved]]></DisplayName>
-					<Type>Uint16</Type>
+					<Type>Uint14</Type>
 					<BitSize>14</BitSize>
 					<BitOffs>2</BitOffs>
 				</SubItem>
@@ -3599,7 +3259,7 @@
 				<SubItem>
 					<Name>lStructureVersion</Name>
 					<DisplayName LcId="1033"><![CDATA[Version No.]]></DisplayName>
-					<Type>Uint32</Type>
+					<Type>Uint16</Type>
 					<BitSize>16</BitSize>
 					<BitOffs>64</BitOffs>
 				</SubItem>
@@ -5586,7 +5246,7 @@
 					<Name>arFirmwareDate</Name>
 					<DisplayName LcId="1033"><![CDATA[Firmware date]]></DisplayName>
 					<Type>DT_IDN_P_0_0151_ST_Para_Data_Hiperface_FirmwareDate</Type>
-					<BitSize>120</BitSize>
+					<BitSize>128</BitSize>
 					<BitOffs>528</BitOffs>
 				</SubItem>
 			</DataType>
@@ -5643,7 +5303,7 @@
 			<DataType>
 				<Name>DT_IDN_P_0_0151_ST_Para_Data_Hiperface_FirmwareDate</Name>
 				<BaseType>Uint16</BaseType>
-				<BitSize>120</BitSize>
+				<BitSize>128</BitSize>
 				<ArrayInfo>
 					<LBound>0</LBound>
 					<Elements>8</Elements>
@@ -6577,7 +6237,7 @@
 				<SubItem>
 					<Name>Bit5-15</Name>
 					<DisplayName LcId="1033"><![CDATA[reserved]]></DisplayName>
-					<Type>Uint12</Type>
+					<Type>Uint11</Type>
 					<BitSize>11</BitSize>
 					<BitOffs>5</BitOffs>
 				</SubItem>
@@ -7708,7 +7368,7 @@
 			<DataType>
 				<Name>DT_IDN_P_0_0256_AR</Name>
 				<BaseType>Uint32</BaseType>
-				<BitSize>48</BitSize>
+				<BitSize>64</BitSize>
 				<ArrayInfo>
 					<LBound>0</LBound>
 					<Elements>2</Elements>

@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
-	<Vendor>
+	<Vendor FileVersion="5">
 		<Id>2</Id>
 		<Name>Beckhoff Automation GmbH &amp; Co. KG</Name>
 		<ImageData16x14>424DE6000000000000007600000028000000100000000E000000010004000000000070000000120B0000120B0000100000001000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF009D9DD99DD9DDD9DD9D9D9DD9D9DDD9DD999D9DD9D999D9999D9D9DD9D9DDD9DD9D9DD99DD999D999DDDDDDDDDDDDDDDD88888888888888888888888888888888DDDDDDDDDDDDDDDD999D999DD99DD9D99D9D9DDD9DD9D9D999DD999D9DDDD99D9D9D9DDD9DD9D99D999D999DD99DD9D9</ImageData16x14>
@@ -25,8 +25,8 @@
 				<Type ProductCode="#x0c664452" RevisionNo="#x00100002">EQ3174-0002</Type>
 				<Name LcId="1033">EQ3174-0002 4Ch. Ana. Input +/-10V, 0-10V, 0/4-20mA configurable</Name>
 				<Name LcId="1031">EQ3174-0002 4K. Ana. Eingang +/-10V, 0-10V, 0/4-20mA konfigurierbar</Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ3174]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ3174]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ3174-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ3174-0002]]></URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -3885,8 +3885,8 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -3925,11 +3925,11 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0c664452" RevisionNo="#x00110002">EQ3174-0002</Type>
-				<HideType RevisionNo="#x00100002"/>
+				<HideType RevisionNo="#x00100002"></HideType>
 				<Name LcId="1033">EQ3174-0002 4Ch. Ana. Input +/-10V, 0-10V, 0/4-20mA configurable</Name>
 				<Name LcId="1031">EQ3174-0002 4K. Ana. Eingang +/-10V, 0-10V, 0/4-20mA konfigurierbar</Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ3174]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ3174]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ3174-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ3174-0002]]></URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -7788,8 +7788,8 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -7828,11 +7828,11 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0c664452" RevisionNo="#x00150002">EQ3174-0002</Type>
-				<HideType RevisionNo="#x00110002"/>
+				<HideType RevisionNo="#x00110002"></HideType>
 				<Name LcId="1033">EQ3174-0002 4Ch. Ana. Input +/-10V, 0-10V, 0/4-20mA configurable</Name>
 				<Name LcId="1031">EQ3174-0002 4K. Ana. Eingang +/-10V, 0-10V, 0/4-20mA konfigurierbar</Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ3174]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ3174]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ3174-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ3174-0002]]></URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -11691,8 +11691,8 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -11731,11 +11731,11 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0c664452" RevisionNo="#x00160002">EQ3174-0002</Type>
-				<HideType RevisionNo="#x00150002"/>
+				<HideType RevisionNo="#x00150002"></HideType>
 				<Name LcId="1033">EQ3174-0002 4Ch. Ana. Input +/-10V, 0-10V, 0/4-20mA configurable</Name>
 				<Name LcId="1031">EQ3174-0002 4K. Ana. Eingang +/-10V, 0-10V, 0/4-20mA konfigurierbar</Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ3174]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ3174]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ3174-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ3174-0002]]></URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -15624,8 +15624,8 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -15664,11 +15664,11 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0c664452" RevisionNo="#x00170002">EQ3174-0002</Type>
-				<HideType RevisionNo="#x00160002"/>
+				<HideType RevisionNo="#x00160002"></HideType>
 				<Name LcId="1033">EQ3174-0002 4Ch. Ana. Input +/-10V, 0-10V, 0/4-20mA configurable</Name>
 				<Name LcId="1031">EQ3174-0002 4K. Ana. Eingang +/-10V, 0-10V, 0/4-20mA konfigurierbar</Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ3174]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ3174]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ3174-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ3174-0002]]></URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -17927,33 +17927,27 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>Underrange</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Overrange</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Limit 1</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Limit 2</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Error</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Value</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 								</Info>
 								<Flags>
@@ -17974,33 +17968,27 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>Underrange</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Overrange</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Limit 1</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Limit 2</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Error</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Value</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 								</Info>
 								<Flags>
@@ -18015,38 +18003,31 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 								<Info>
 									<SubItem>
 										<Name>SubIndex 000</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Underrange</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Overrange</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Limit 1</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Limit 2</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Error</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Value</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 								</Info>
 								<Flags>
@@ -18067,33 +18048,27 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>Underrange</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Overrange</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Limit 1</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Limit 2</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Error</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Value</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 								</Info>
 								<Flags>
@@ -18227,8 +18202,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>ADC raw value</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 								</Info>
 								<Flags>
@@ -18415,8 +18389,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>ADC raw value</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 								</Info>
 								<Flags>
@@ -18603,8 +18576,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>ADC raw value</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 								</Info>
 								<Flags>
@@ -18791,8 +18763,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									</SubItem>
 									<SubItem>
 										<Name>ADC raw value</Name>
-										<Info>
-										</Info>
+										<Info></Info>
 									</SubItem>
 								</Info>
 								<Flags>
@@ -19379,8 +19350,8 @@ Bit1: Value smaller than Limit2</Comment>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -19421,8 +19392,8 @@ Bit1: Value smaller than Limit2</Comment>
 				<Type ProductCode="#x0C844452" RevisionNo="#x00100002">EQ3204-0002</Type>
 				<Name LcId="1033">EQ3204-0002 4Ch. Ana. Input PT100 (RTD)</Name>
 				<Name LcId="1031">EQ3204-0002 4K. Ana. Eingang PT100 (RTD)</Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ3204]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ3204]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ3204-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ3204-0002]]></URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -19491,7 +19462,7 @@ Bit1: Value smaller than Limit2</Comment>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>High resolution (1/100Â°C)</Text>
+									<Text>High resolution (1/100°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 							</DataType>
@@ -19553,35 +19524,35 @@ Bit1: Value smaller than Limit2</Comment>
 								<BaseType>UINT</BaseType>
 								<BitSize>16</BitSize>
 								<EnumInfo>
-									<Text>PT100 (-200...850Â°C)</Text>
+									<Text>PT100 (-200...850°C)</Text>
 									<Enum>0</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI100 (-60...250Â°C)</Text>
+									<Text>NI100 (-60...250°C)</Text>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT1000 (-200...850Â°C)</Text>
+									<Text>PT1000 (-200...850°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT500 (-200...850Â°C)</Text>
+									<Text>PT500 (-200...850°C)</Text>
 									<Enum>3</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT200 (-200...850Â°C)</Text>
+									<Text>PT200 (-200...850°C)</Text>
 									<Enum>4</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI1000 (-60...250Â°C)</Text>
+									<Text>NI1000 (-60...250°C)</Text>
 									<Enum>5</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI1000 100Â°C: 1500Ohm (-30...160Â°C)</Text>
+									<Text>NI1000 100°C: 1500Ohm (-30...160°C)</Text>
 									<Enum>6</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI120 (-60..320Â°C)</Text>
+									<Text>NI120 (-60..320°C)</Text>
 									<Enum>7</Enum>
 								</EnumInfo>
 								<EnumInfo>
@@ -22831,7 +22802,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -22909,7 +22880,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -22987,7 +22958,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -23065,12 +23036,12 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -23080,11 +23051,11 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0C844452" RevisionNo="#x00110002">EQ3204-0002</Type>
-				<HideType RevisionNo="#x00100002"/>
+				<HideType RevisionNo="#x00100002"></HideType>
 				<Name LcId="1033">EQ3204-0002 4Ch. Ana. Input PT100 (RTD)</Name>
 				<Name LcId="1031">EQ3204-0002 4K. Ana. Eingang PT100 (RTD)</Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ3204]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ3204]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ3204-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ3204-0002]]></URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -23153,7 +23124,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>High resolution (1/100Â°C)</Text>
+									<Text>High resolution (1/100°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 							</DataType>
@@ -23215,35 +23186,35 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 								<BaseType>UINT</BaseType>
 								<BitSize>16</BitSize>
 								<EnumInfo>
-									<Text>PT100 (-200...850Â°C)</Text>
+									<Text>PT100 (-200...850°C)</Text>
 									<Enum>0</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI100 (-60...250Â°C)</Text>
+									<Text>NI100 (-60...250°C)</Text>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT1000 (-200...850Â°C)</Text>
+									<Text>PT1000 (-200...850°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT500 (-200...850Â°C)</Text>
+									<Text>PT500 (-200...850°C)</Text>
 									<Enum>3</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT200 (-200...850Â°C)</Text>
+									<Text>PT200 (-200...850°C)</Text>
 									<Enum>4</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI1000 (-60...250Â°C)</Text>
+									<Text>NI1000 (-60...250°C)</Text>
 									<Enum>5</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI1000 100Â°C: 1500Ohm (-30...160Â°C)</Text>
+									<Text>NI1000 100°C: 1500Ohm (-30...160°C)</Text>
 									<Enum>6</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI120 (-60..320Â°C)</Text>
+									<Text>NI120 (-60..320°C)</Text>
 									<Enum>7</Enum>
 								</EnumInfo>
 								<EnumInfo>
@@ -26493,7 +26464,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -26571,7 +26542,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -26649,7 +26620,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -26727,12 +26698,12 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -26742,11 +26713,11 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0C844452" RevisionNo="#x00140002">EQ3204-0002</Type>
-				<HideType RevisionNo="#x00110002"/>
+				<HideType RevisionNo="#x00110002"></HideType>
 				<Name LcId="1033">EQ3204-0002 4Ch. Ana. Input PT100 (RTD)</Name>
 				<Name LcId="1031">EQ3204-0002 4K. Ana. Eingang PT100 (RTD)</Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ3204]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ3204]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ3204-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ3204-0002]]></URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -26815,7 +26786,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>High resolution (1/100Â°C)</Text>
+									<Text>High resolution (1/100°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 							</DataType>
@@ -26877,35 +26848,35 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 								<BaseType>UINT</BaseType>
 								<BitSize>16</BitSize>
 								<EnumInfo>
-									<Text>PT100 (-200...850Â°C)</Text>
+									<Text>PT100 (-200...850°C)</Text>
 									<Enum>0</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI100 (-60...250Â°C)</Text>
+									<Text>NI100 (-60...250°C)</Text>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT1000 (-200...850Â°C)</Text>
+									<Text>PT1000 (-200...850°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT500 (-200...850Â°C)</Text>
+									<Text>PT500 (-200...850°C)</Text>
 									<Enum>3</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT200 (-200...850Â°C)</Text>
+									<Text>PT200 (-200...850°C)</Text>
 									<Enum>4</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI1000 (-60...250Â°C)</Text>
+									<Text>NI1000 (-60...250°C)</Text>
 									<Enum>5</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI1000 100Â°C: 1500Ohm (-30...160Â°C)</Text>
+									<Text>NI1000 100°C: 1500Ohm (-30...160°C)</Text>
 									<Enum>6</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI120 (-60..320Â°C)</Text>
+									<Text>NI120 (-60..320°C)</Text>
 									<Enum>7</Enum>
 								</EnumInfo>
 								<EnumInfo>
@@ -30155,7 +30126,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -30233,7 +30204,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -30311,7 +30282,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -30389,12 +30360,12 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -30404,11 +30375,11 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0C844452" RevisionNo="#x00150002">EQ3204-0002</Type>
-				<HideType RevisionNo="#x00140002"/>
+				<HideType RevisionNo="#x00140002"></HideType>
 				<Name LcId="1033">EQ3204-0002 4Ch. Ana. Input PT100 (RTD)</Name>
 				<Name LcId="1031">EQ3204-0002 4K. Ana. Eingang PT100 (RTD)</Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ3204]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ3204]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ3204-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ3204-0002]]></URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -30477,7 +30448,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>High resolution (1/100Â°C)</Text>
+									<Text>High resolution (1/100°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 							</DataType>
@@ -30539,35 +30510,35 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 								<BaseType>UINT</BaseType>
 								<BitSize>16</BitSize>
 								<EnumInfo>
-									<Text>PT100 (-200...850Â°C)</Text>
+									<Text>PT100 (-200...850°C)</Text>
 									<Enum>0</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI100 (-60...250Â°C)</Text>
+									<Text>NI100 (-60...250°C)</Text>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT1000 (-200...850Â°C)</Text>
+									<Text>PT1000 (-200...850°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT500 (-200...850Â°C)</Text>
+									<Text>PT500 (-200...850°C)</Text>
 									<Enum>3</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT200 (-200...850Â°C)</Text>
+									<Text>PT200 (-200...850°C)</Text>
 									<Enum>4</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI1000 (-60...250Â°C)</Text>
+									<Text>NI1000 (-60...250°C)</Text>
 									<Enum>5</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI1000 100Â°C: 1500Ohm (-30...160Â°C)</Text>
+									<Text>NI1000 100°C: 1500Ohm (-30...160°C)</Text>
 									<Enum>6</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI120 (-60..320Â°C)</Text>
+									<Text>NI120 (-60..320°C)</Text>
 									<Enum>7</Enum>
 								</EnumInfo>
 								<EnumInfo>
@@ -33372,7 +33343,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 				<Sm MinSize="128" MaxSize="128" DefaultSize="128" StartAddress="#x1080" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm DefaultSize="0" StartAddress="#x1100" ControlByte="#x4" Enable="0">Outputs</Sm>
 				<Sm DefaultSize="16" StartAddress="#x1180" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<TxPdo Fixed="1" Sm="3">
 					<Index>#x1a00</Index>
 					<Name>RTD RTDInputs Channel 1</Name>
@@ -33381,7 +33352,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>1</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Underrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst mÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst möglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -33389,7 +33360,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>2</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Overrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors Ã¼berschritten wird oder das Prozessdatum den hÃ¶chstmÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors überschritten wird oder das Prozessdatum den höchstmöglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -33397,7 +33368,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>3</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 1</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -33405,7 +33376,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>5</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 2</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -33413,7 +33384,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>7</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Error</Name>
-						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungÃ¼ltig ist.</Comment>
+						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungültig ist.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -33440,7 +33411,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -33451,7 +33422,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>1</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Underrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst mÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst möglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -33459,7 +33430,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>2</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Overrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors Ã¼berschritten wird oder das Prozessdatum den hÃ¶chstmÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors überschritten wird oder das Prozessdatum den höchstmöglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -33467,7 +33438,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>3</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 1</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -33475,7 +33446,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>5</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 2</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -33483,7 +33454,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>7</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Error</Name>
-						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungÃ¼ltig ist.</Comment>
+						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungültig ist.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -33510,7 +33481,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -33521,7 +33492,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>1</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Underrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst mÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst möglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -33529,7 +33500,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>2</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Overrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors Ã¼berschritten wird oder das Prozessdatum den hÃ¶chstmÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors überschritten wird oder das Prozessdatum den höchstmöglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -33537,7 +33508,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>3</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 1</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -33545,7 +33516,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>5</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 2</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -33553,7 +33524,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>7</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Error</Name>
-						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungÃ¼ltig ist.</Comment>
+						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungültig ist.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -33580,7 +33551,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -33591,7 +33562,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>1</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Underrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst mÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst möglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -33599,7 +33570,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>2</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Overrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors Ã¼berschritten wird oder das Prozessdatum den hÃ¶chstmÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors überschritten wird oder das Prozessdatum den höchstmöglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -33607,7 +33578,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>3</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 1</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -33615,7 +33586,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>5</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 2</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -33623,7 +33594,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>7</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Error</Name>
-						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungÃ¼ltig ist.</Comment>
+						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungültig ist.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -33650,12 +33621,12 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -33665,11 +33636,11 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0C844452" RevisionNo="#x00160002">EQ3204-0002</Type>
-				<HideType RevisionNo="#x00150002"/>
+				<HideType RevisionNo="#x00150002"></HideType>
 				<Name LcId="1033">EQ3204-0002 4Ch. Ana. Input PT100 (RTD)</Name>
 				<Name LcId="1031">EQ3204-0002 4K. Ana. Eingang PT100 (RTD)</Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EQ3204]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/EQ3204]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/EQ3204-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/EQ3204-0002]]></URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -33738,7 +33709,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>High resolution (1/100Â°C)</Text>
+									<Text>High resolution (1/100°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 							</DataType>
@@ -33800,35 +33771,35 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 								<BaseType>UINT</BaseType>
 								<BitSize>16</BitSize>
 								<EnumInfo>
-									<Text>PT100 (-200...850Â°C)</Text>
+									<Text>PT100 (-200...850°C)</Text>
 									<Enum>0</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI100 (-60...250Â°C)</Text>
+									<Text>NI100 (-60...250°C)</Text>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT1000 (-200...850Â°C)</Text>
+									<Text>PT1000 (-200...850°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT500 (-200...850Â°C)</Text>
+									<Text>PT500 (-200...850°C)</Text>
 									<Enum>3</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>PT200 (-200...850Â°C)</Text>
+									<Text>PT200 (-200...850°C)</Text>
 									<Enum>4</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI1000 (-60...250Â°C)</Text>
+									<Text>NI1000 (-60...250°C)</Text>
 									<Enum>5</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI1000 100Â°C: 1500Ohm (-30...160Â°C)</Text>
+									<Text>NI1000 100°C: 1500Ohm (-30...160°C)</Text>
 									<Enum>6</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>NI120 (-60..320Â°C)</Text>
+									<Text>NI120 (-60..320°C)</Text>
 									<Enum>7</Enum>
 								</EnumInfo>
 								<EnumInfo>
@@ -36633,7 +36604,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 				<Sm MinSize="128" MaxSize="128" DefaultSize="128" StartAddress="#x1080" ControlByte="#x22" Enable="1">MBoxIn</Sm>
 				<Sm DefaultSize="0" StartAddress="#x1100" ControlByte="#x4" Enable="0">Outputs</Sm>
 				<Sm DefaultSize="16" StartAddress="#x1180" ControlByte="#x20" Enable="1">Inputs</Sm>
-				<Su FrameRepeatSupport="1"/>
+				<Su FrameRepeatSupport="1"></Su>
 				<TxPdo Fixed="1" Sm="3">
 					<Index>#x1a00</Index>
 					<Name>RTD RTDInputs Channel 1</Name>
@@ -36642,7 +36613,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>1</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Underrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst mÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst möglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -36650,7 +36621,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>2</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Overrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors Ã¼berschritten wird oder das Prozessdatum den hÃ¶chstmÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors überschritten wird oder das Prozessdatum den höchstmöglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -36658,7 +36629,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>3</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 1</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -36666,7 +36637,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>5</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 2</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -36674,7 +36645,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>7</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Error</Name>
-						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungÃ¼ltig ist.</Comment>
+						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungültig ist.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -36701,7 +36672,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -36712,7 +36683,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>1</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Underrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst mÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst möglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -36720,7 +36691,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>2</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Overrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors Ã¼berschritten wird oder das Prozessdatum den hÃ¶chstmÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors überschritten wird oder das Prozessdatum den höchstmöglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -36728,7 +36699,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>3</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 1</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -36736,7 +36707,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>5</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 2</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -36744,7 +36715,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>7</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Error</Name>
-						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungÃ¼ltig ist.</Comment>
+						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungültig ist.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -36771,7 +36742,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -36782,7 +36753,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>1</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Underrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst mÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst möglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -36790,7 +36761,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>2</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Overrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors Ã¼berschritten wird oder das Prozessdatum den hÃ¶chstmÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors überschritten wird oder das Prozessdatum den höchstmöglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -36798,7 +36769,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>3</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 1</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -36806,7 +36777,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>5</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 2</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -36814,7 +36785,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>7</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Error</Name>
-						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungÃ¼ltig ist.</Comment>
+						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungültig ist.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -36841,7 +36812,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -36852,7 +36823,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>1</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Underrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst mÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors unterschritten wird oder das Prozessdatum den niedrigst möglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -36860,7 +36831,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>2</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Overrange</Name>
-						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors Ã¼berschritten wird oder das Prozessdatum den hÃ¶chstmÃ¶glichen Wert enthÃ¤lt.</Comment>
+						<Comment>Wird gesetzt, wenn der Arbeitsbereich des Sensors überschritten wird oder das Prozessdatum den höchstmöglichen Wert enthält.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -36868,7 +36839,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>3</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 1</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -36876,7 +36847,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>5</SubIndex>
 						<BitLen>2</BitLen>
 						<Name>Status__Limit 2</Name>
-						<Comment>Nur bei aktivierter Limit-PrÃ¼fung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit Ã¼berschritten</Comment>
+						<Comment>Nur bei aktivierter Limit-Prüfung. 1: Eingestelltes Limit unterschitten, 2:Eingestelltes Limit erreicht, 3: Eingestelltes Limit überschritten</Comment>
 						<DataType>BIT2</DataType>
 					</Entry>
 					<Entry>
@@ -36884,7 +36855,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>7</SubIndex>
 						<BitLen>1</BitLen>
 						<Name>Status__Error</Name>
-						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungÃ¼ltig ist.</Comment>
+						<Comment>Das Error-Bit wird gesetzt, wenn das Prozessdatum ungültig ist.</Comment>
 						<DataType>BOOL</DataType>
 					</Entry>
 					<Entry>
@@ -36911,12 +36882,12 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -36928,8 +36899,8 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 				<Type ProductCode="#x0CF24452" RevisionNo="#x00100002">EQ3314-0002</Type>
 				<Name LcId="1033">EQ3314-0002 4Ch. Ana. Input Thermocouple (TC)</Name>
 				<Name LcId="1031">EQ3314-0002 4K. Ana. Eingang Thermoelement (TC)</Name>
-				<URL LcId="1033">http://www.beckhoff.com/EQ3314</URL>
-				<URL LcId="1031">http://www.beckhoff.de/EQ3314</URL>
+				<URL LcId="1033">https://www.beckhoff.com/EQ3314-0002</URL>
+				<URL LcId="1031">https://www.beckhoff.de/EQ3314-0002</URL>
 				<Info>
 					<StateMachine>
 						<Timeout>
@@ -37006,7 +36977,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>High resolution (1/100Â°C)</Text>
+									<Text>High resolution (1/100°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 							</DataType>
@@ -37068,59 +37039,59 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 								<BaseType>UINT</BaseType>
 								<BitSize>16</BitSize>
 								<EnumInfo>
-									<Text>Typ K (-200...1370Â°C)</Text>
+									<Text>Typ K (-200...1370°C)</Text>
 									<Enum>0</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ J (-100...1200Â°C)</Text>
+									<Text>Typ J (-100...1200°C)</Text>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ L (0...900Â°C)</Text>
+									<Text>Typ L (0...900°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ E (-100...1000Â°C)</Text>
+									<Text>Typ E (-100...1000°C)</Text>
 									<Enum>3</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ T (-200...400Â°C)</Text>
+									<Text>Typ T (-200...400°C)</Text>
 									<Enum>4</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ N (-100...1300Â°C)</Text>
+									<Text>Typ N (-100...1300°C)</Text>
 									<Enum>5</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ U (0...600Â°C)</Text>
+									<Text>Typ U (0...600°C)</Text>
 									<Enum>6</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ B (600...1800Â°C)</Text>
+									<Text>Typ B (600...1800°C)</Text>
 									<Enum>7</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ R (0...1767Â°C)</Text>
+									<Text>Typ R (0...1767°C)</Text>
 									<Enum>8</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ S (0...1760Â°C)</Text>
+									<Text>Typ S (0...1760°C)</Text>
 									<Enum>9</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ C (0...2320Â°C)</Text>
+									<Text>Typ C (0...2320°C)</Text>
 									<Enum>10</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>+/-30mV 1ÂµV resolution</Text>
+									<Text>+/-30mV 1µV resolution</Text>
 									<Enum>100</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>+/-60mV 2ÂµV resolution</Text>
+									<Text>+/-60mV 2µV resolution</Text>
 									<Enum>101</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>+/-75mV 4ÂµV resolution</Text>
+									<Text>+/-75mV 4µV resolution</Text>
 									<Enum>102</Enum>
 								</EnumInfo>
 							</DataType>
@@ -37137,7 +37108,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>external processdata (1/100Â°C)</Text>
+									<Text>external processdata (1/100°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 								<EnumInfo>
@@ -40599,7 +40570,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1">
@@ -40611,7 +40582,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1">
@@ -40623,7 +40594,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1">
@@ -40635,7 +40606,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -40707,7 +40678,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -40779,7 +40750,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -40851,7 +40822,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -40923,12 +40894,12 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -40938,11 +40909,11 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0CF24452" RevisionNo="#x00110002">EQ3314-0002</Type>
-				<HideType RevisionNo="#x00100002"/>
+				<HideType RevisionNo="#x00100002"></HideType>
 				<Name LcId="1033">EQ3314-0002 4Ch. Ana. Input Thermocouple (TC)</Name>
 				<Name LcId="1031">EQ3314-0002 4K. Ana. Eingang Thermoelement (TC)</Name>
-				<URL LcId="1033">http://www.beckhoff.com/EQ3314</URL>
-				<URL LcId="1031">http://www.beckhoff.de/EQ3314</URL>
+				<URL LcId="1033">https://www.beckhoff.com/EQ3314-0002</URL>
+				<URL LcId="1031">https://www.beckhoff.de/EQ3314-0002</URL>
 				<Info>
 					<StateMachine>
 						<Timeout>
@@ -41019,7 +40990,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>High resolution (1/100Â°C)</Text>
+									<Text>High resolution (1/100°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 							</DataType>
@@ -41081,59 +41052,59 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 								<BaseType>UINT</BaseType>
 								<BitSize>16</BitSize>
 								<EnumInfo>
-									<Text>Typ K (-200...1370Â°C)</Text>
+									<Text>Typ K (-200...1370°C)</Text>
 									<Enum>0</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ J (-100...1200Â°C)</Text>
+									<Text>Typ J (-100...1200°C)</Text>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ L (0...900Â°C)</Text>
+									<Text>Typ L (0...900°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ E (-100...1000Â°C)</Text>
+									<Text>Typ E (-100...1000°C)</Text>
 									<Enum>3</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ T (-200...400Â°C)</Text>
+									<Text>Typ T (-200...400°C)</Text>
 									<Enum>4</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ N (-100...1300Â°C)</Text>
+									<Text>Typ N (-100...1300°C)</Text>
 									<Enum>5</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ U (0...600Â°C)</Text>
+									<Text>Typ U (0...600°C)</Text>
 									<Enum>6</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ B (600...1800Â°C)</Text>
+									<Text>Typ B (600...1800°C)</Text>
 									<Enum>7</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ R (0...1767Â°C)</Text>
+									<Text>Typ R (0...1767°C)</Text>
 									<Enum>8</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ S (0...1760Â°C)</Text>
+									<Text>Typ S (0...1760°C)</Text>
 									<Enum>9</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ C (0...2320Â°C)</Text>
+									<Text>Typ C (0...2320°C)</Text>
 									<Enum>10</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>+/-30mV 1ÂµV resolution</Text>
+									<Text>+/-30mV 1µV resolution</Text>
 									<Enum>100</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>+/-60mV 2ÂµV resolution</Text>
+									<Text>+/-60mV 2µV resolution</Text>
 									<Enum>101</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>+/-75mV 4ÂµV resolution</Text>
+									<Text>+/-75mV 4µV resolution</Text>
 									<Enum>102</Enum>
 								</EnumInfo>
 							</DataType>
@@ -41150,7 +41121,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>external processdata (1/100Â°C)</Text>
+									<Text>external processdata (1/100°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 								<EnumInfo>
@@ -44612,7 +44583,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1">
@@ -44624,7 +44595,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1">
@@ -44636,7 +44607,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1">
@@ -44648,7 +44619,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -44720,7 +44691,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -44792,7 +44763,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -44864,7 +44835,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -44936,12 +44907,12 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -44951,11 +44922,11 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0CF24452" RevisionNo="#x00150002">EQ3314-0002</Type>
-				<HideType RevisionNo="#x00110002"/>
+				<HideType RevisionNo="#x00110002"></HideType>
 				<Name LcId="1033">EQ3314-0002 4Ch. Ana. Input Thermocouple (TC)</Name>
 				<Name LcId="1031">EQ3314-0002 4K. Ana. Eingang Thermoelement (TC)</Name>
-				<URL LcId="1033">http://www.beckhoff.com/EQ3314</URL>
-				<URL LcId="1031">http://www.beckhoff.de/EQ3314</URL>
+				<URL LcId="1033">https://www.beckhoff.com/EQ3314-0002</URL>
+				<URL LcId="1031">https://www.beckhoff.de/EQ3314-0002</URL>
 				<Info>
 					<StateMachine>
 						<Timeout>
@@ -45032,7 +45003,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>High resolution (1/100Â°C)</Text>
+									<Text>High resolution (1/100°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 							</DataType>
@@ -45094,59 +45065,59 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 								<BaseType>UINT</BaseType>
 								<BitSize>16</BitSize>
 								<EnumInfo>
-									<Text>Typ K (-200...1370Â°C)</Text>
+									<Text>Typ K (-200...1370°C)</Text>
 									<Enum>0</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ J (-100...1200Â°C)</Text>
+									<Text>Typ J (-100...1200°C)</Text>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ L (0...900Â°C)</Text>
+									<Text>Typ L (0...900°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ E (-100...1000Â°C)</Text>
+									<Text>Typ E (-100...1000°C)</Text>
 									<Enum>3</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ T (-200...400Â°C)</Text>
+									<Text>Typ T (-200...400°C)</Text>
 									<Enum>4</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ N (-100...1300Â°C)</Text>
+									<Text>Typ N (-100...1300°C)</Text>
 									<Enum>5</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ U (0...600Â°C)</Text>
+									<Text>Typ U (0...600°C)</Text>
 									<Enum>6</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ B (600...1800Â°C)</Text>
+									<Text>Typ B (600...1800°C)</Text>
 									<Enum>7</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ R (0...1767Â°C)</Text>
+									<Text>Typ R (0...1767°C)</Text>
 									<Enum>8</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ S (0...1760Â°C)</Text>
+									<Text>Typ S (0...1760°C)</Text>
 									<Enum>9</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ C (0...2320Â°C)</Text>
+									<Text>Typ C (0...2320°C)</Text>
 									<Enum>10</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>+/-30mV 1ÂµV resolution</Text>
+									<Text>+/-30mV 1µV resolution</Text>
 									<Enum>100</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>+/-60mV 2ÂµV resolution</Text>
+									<Text>+/-60mV 2µV resolution</Text>
 									<Enum>101</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>+/-75mV 4ÂµV resolution</Text>
+									<Text>+/-75mV 4µV resolution</Text>
 									<Enum>102</Enum>
 								</EnumInfo>
 							</DataType>
@@ -45163,7 +45134,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>external processdata (1/100Â°C)</Text>
+									<Text>external processdata (1/100°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 								<EnumInfo>
@@ -48625,7 +48596,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1">
@@ -48637,7 +48608,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1">
@@ -48649,7 +48620,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1">
@@ -48661,7 +48632,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -48733,7 +48704,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -48805,7 +48776,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -48877,7 +48848,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -48949,12 +48920,12 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -48964,11 +48935,11 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x0CF24452" RevisionNo="#x00160002">EQ3314-0002</Type>
-				<HideType RevisionNo="#x00150002"/>
+				<HideType RevisionNo="#x00150002"></HideType>
 				<Name LcId="1033">EQ3314-0002 4Ch. Ana. Input Thermocouple (TC)</Name>
 				<Name LcId="1031">EQ3314-0002 4K. Ana. Eingang Thermoelement (TC)</Name>
-				<URL LcId="1033">http://www.beckhoff.com/EQ3314</URL>
-				<URL LcId="1031">http://www.beckhoff.de/EQ3314</URL>
+				<URL LcId="1033">https://www.beckhoff.com/EQ3314-0002</URL>
+				<URL LcId="1031">https://www.beckhoff.de/EQ3314-0002</URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -49037,7 +49008,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>High resolution (1/100Â°C)</Text>
+									<Text>High resolution (1/100°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 							</DataType>
@@ -49099,59 +49070,59 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 								<BaseType>UINT</BaseType>
 								<BitSize>16</BitSize>
 								<EnumInfo>
-									<Text>Typ K (-200...1370Â°C)</Text>
+									<Text>Typ K (-200...1370°C)</Text>
 									<Enum>0</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ J (-100...1200Â°C)</Text>
+									<Text>Typ J (-100...1200°C)</Text>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ L (0...900Â°C)</Text>
+									<Text>Typ L (0...900°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ E (-100...1000Â°C)</Text>
+									<Text>Typ E (-100...1000°C)</Text>
 									<Enum>3</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ T (-200...400Â°C)</Text>
+									<Text>Typ T (-200...400°C)</Text>
 									<Enum>4</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ N (-100...1300Â°C)</Text>
+									<Text>Typ N (-100...1300°C)</Text>
 									<Enum>5</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ U (0...600Â°C)</Text>
+									<Text>Typ U (0...600°C)</Text>
 									<Enum>6</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ B (600...1800Â°C)</Text>
+									<Text>Typ B (600...1800°C)</Text>
 									<Enum>7</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ R (0...1767Â°C)</Text>
+									<Text>Typ R (0...1767°C)</Text>
 									<Enum>8</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ S (0...1760Â°C)</Text>
+									<Text>Typ S (0...1760°C)</Text>
 									<Enum>9</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>Typ C (0...2320Â°C)</Text>
+									<Text>Typ C (0...2320°C)</Text>
 									<Enum>10</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>+/-30mV 1ÂµV resolution</Text>
+									<Text>+/-30mV 1µV resolution</Text>
 									<Enum>100</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>+/-60mV 2ÂµV resolution</Text>
+									<Text>+/-60mV 2µV resolution</Text>
 									<Enum>101</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>+/-75mV 4ÂµV resolution</Text>
+									<Text>+/-75mV 4µV resolution</Text>
 									<Enum>102</Enum>
 								</EnumInfo>
 							</DataType>
@@ -49168,7 +49139,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 									<Enum>1</Enum>
 								</EnumInfo>
 								<EnumInfo>
-									<Text>external processdata (1/100Â°C)</Text>
+									<Text>external processdata (1/100°C)</Text>
 									<Enum>2</Enum>
 								</EnumInfo>
 								<EnumInfo>
@@ -52100,7 +52071,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1">
@@ -52112,7 +52083,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1">
@@ -52124,7 +52095,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<RxPdo Fixed="1">
@@ -52136,7 +52107,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<BitLen>16</BitLen>
 						<Name>CJCompensation</Name>
 						<Comment>If coldjunction temperature is measured external, </Comment>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</RxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -52206,7 +52177,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -52276,7 +52247,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -52346,7 +52317,7 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="1" Sm="3">
@@ -52416,12 +52387,12 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 						<SubIndex>17</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
-						<DataType DScale="0.1Â°">INT</DataType>
+						<DataType DScale="0.1°">INT</DataType>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>

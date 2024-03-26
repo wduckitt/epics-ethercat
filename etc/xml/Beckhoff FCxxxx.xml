@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
-	<Vendor>
+	<Vendor FileVersion="2">
 		<Id>2</Id>
 		<Name>Beckhoff Automation GmbH &amp; Co. KG</Name>
 	</Vendor>
@@ -37,9 +37,9 @@
 					<Name>IO Inputs</Name>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE SdoInfo="1" CompleteAccess="1" PdoUpload="1"/>
+					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE SdoInfo="1" CompleteAccess="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -49,7 +49,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x44C0C62" RevisionNo="#x00110000" TcSmClass="FC1100">FC1100 EtherCAT PCI slave card</Type>
-				<HideType RevisionNo="#x00100000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
 				<Name LcId="1033">FC1100 EtherCAT PCI slave card</Name>
 				<Name LcId="1031">FC1100 EtherCAT PCI slave card</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/FC1100]]></URL>
@@ -100,9 +100,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"/>
+					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -153,9 +153,9 @@
 					<Name>IO Inputs</Name>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE SdoInfo="1" CompleteAccess="1" PdoUpload="1"/>
+					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE SdoInfo="1" CompleteAccess="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -165,7 +165,7 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x4610C62" RevisionNo="#x00110000" TcSmClass="FC1121">FC1121 EtherCAT PCIe slave card</Type>
-				<HideType RevisionNo="#x00100000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
 				<Name LcId="1033">FC1121 EtherCAT PCIe slave card</Name>
 				<Name LcId="1031">FC1121 EtherCAT PCIe slave card</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/FC1121]]></URL>
@@ -216,9 +216,9 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"/>
-					<EoE/>
-					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"/>
+					<AoE GenerateOwnNetId="1" AdsRouter="1" InitializeOwnNetId="1"></AoE>
+					<EoE></EoE>
+					<CoE SdoInfo="1" PdoAssign="1" CompleteAccess="1" PdoUpload="1"></CoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>

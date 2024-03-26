@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
-	<Vendor>
+	<Vendor FileVersion="3">
 		<Id>2</Id>
 		<Name>Beckhoff Automation GmbH &amp; Co. KG</Name>
 		<ImageData16x14>424DE6000000000000007600000028000000100000000E000000010004000000000070000000120B0000120B0000100000001000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF009D9DD99DD9DDD9DD9D9D9DD9D9DDD9DD999D9DD9D999D9999D9D9DD9D9DDD9DD9D9DD99DD999D999DDDDDDDDDDDDDDDD88888888888888888888888888888888DDDDDDDDDDDDDDDD999D999DD99DD9D99D9D9DDD9DD9D9D999DD999D9DDDD99D9D9D9DDD9DD9D99D999D999DD99DD9D9</ImageData16x14>
@@ -3222,8 +3222,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -3233,7 +3233,7 @@
 			</Device>
 			<Device Physics="KK">
 				<Type ProductCode="#x05de3052" RevisionNo="#x00010000">EL1502</Type>
-				<HideType RevisionNo="#x00000000"/>
+				<HideType RevisionNo="#x00000000"></HideType>
 				<Name LcId="1033">EL1502 2Ch. +/- Counter 24V, 100kHz</Name>
 				<Name LcId="1031">EL1502 2K. +/- Zaehler 24V, 100kHz</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EL1502]]></URL>
@@ -6659,8 +6659,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -6690,8 +6690,8 @@
 			</Device>
 			<Device Physics="KK">
 				<Type ProductCode="#x05de3052" RevisionNo="#x00100000">EL1502</Type>
-				<HideType RevisionNo="#x00000000"/>
-				<HideType RevisionNo="#x00010000"/>
+				<HideType RevisionNo="#x00000000"></HideType>
+				<HideType RevisionNo="#x00010000"></HideType>
 				<Name LcId="1033">EL1502 2Ch. +/- Counter 24V, 100kHz</Name>
 				<Name LcId="1031">EL1502 2K. +/- Zaehler 24V, 100kHz</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EL1502]]></URL>
@@ -10117,8 +10117,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -10148,7 +10148,7 @@
 			</Device>
 			<Device Physics="KK">
 				<Type ProductCode="#x05de3052" RevisionNo="#x00110000">EL1502</Type>
-				<HideType RevisionNo="#x00100000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
 				<Name LcId="1033">EL1502 2Ch. +/- Counter 24V, 100kHz</Name>
 				<Name LcId="1031">EL1502 2K. +/- Zaehler 24V, 100kHz</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EL1502]]></URL>
@@ -13417,8 +13417,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -13448,8 +13448,8 @@
 			</Device>
 			<Device Physics="KK">
 				<Type ProductCode="#x05de3052" RevisionNo="#x00120000">EL1502</Type>
-				<HideType RevisionNo="#x00100000"/>
-				<HideType RevisionNo="#x00110000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
+				<HideType RevisionNo="#x00110000"></HideType>
 				<Name LcId="1033">EL1502 2Ch. +/- Counter 24V, 100kHz</Name>
 				<Name LcId="1031">EL1502 2K. +/- Zaehler 24V, 100kHz</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EL1502]]></URL>
@@ -16752,8 +16752,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -16783,9 +16783,9 @@
 			</Device>
 			<Device Physics="KK">
 				<Type ProductCode="#x05de3052" RevisionNo="#x00130000" CheckRevisionNo="LW_EQ">EL1502</Type>
-				<HideType RevisionNo="#x00100000"/>
-				<HideType RevisionNo="#x00110000"/>
-				<HideType RevisionNo="#x00120000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
+				<HideType RevisionNo="#x00110000"></HideType>
+				<HideType RevisionNo="#x00120000"></HideType>
 				<Name LcId="1033">EL1502 2Ch. +/- Counter 24V, 100kHz</Name>
 				<Name LcId="1031">EL1502 2K. +/- Zaehler 24V, 100kHz</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EL1502]]></URL>
@@ -20088,8 +20088,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -20119,10 +20119,10 @@
 			</Device>
 			<Device Physics="KK">
 				<Type ProductCode="#x05de3052" RevisionNo="#x00140000" CheckRevisionNo="LW_EQ">EL1502</Type>
-				<HideType RevisionNo="#x00100000"/>
-				<HideType RevisionNo="#x00110000"/>
-				<HideType RevisionNo="#x00120000"/>
-				<HideType RevisionNo="#x00130000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
+				<HideType RevisionNo="#x00110000"></HideType>
+				<HideType RevisionNo="#x00120000"></HideType>
+				<HideType RevisionNo="#x00130000"></HideType>
 				<Name LcId="1033">EL1502 2Ch. +/- Counter 24V, 100kHz</Name>
 				<Name LcId="1031">EL1502 2K. +/- Zaehler 24V, 100kHz</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EL1502]]></URL>
@@ -23425,8 +23425,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -23456,11 +23456,11 @@
 			</Device>
 			<Device Physics="KK">
 				<Type ProductCode="#x05de3052" RevisionNo="#x00150000" CheckRevisionNo="LW_EQ">EL1502</Type>
-				<HideType RevisionNo="#x00100000"/>
-				<HideType RevisionNo="#x00110000"/>
-				<HideType RevisionNo="#x00120000"/>
-				<HideType RevisionNo="#x00130000"/>
-				<HideType RevisionNo="#x00140000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
+				<HideType RevisionNo="#x00110000"></HideType>
+				<HideType RevisionNo="#x00120000"></HideType>
+				<HideType RevisionNo="#x00130000"></HideType>
+				<HideType RevisionNo="#x00140000"></HideType>
 				<Name LcId="1033">EL1502 2Ch. +/- Counter 24V, 100kHz</Name>
 				<Name LcId="1031">EL1502 2K. +/- Zaehler 24V, 100kHz</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EL1502]]></URL>
@@ -25832,11 +25832,11 @@
 									</SubItem>
 									<SubItem>
 										<Name>Sync error</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Counter value</Name>
@@ -25893,11 +25893,11 @@
 									</SubItem>
 									<SubItem>
 										<Name>Sync error</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Counter value</Name>
@@ -25960,11 +25960,11 @@
 									</SubItem>
 									<SubItem>
 										<Name>Sync error</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Counter value</Name>
@@ -26763,8 +26763,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -26803,12 +26803,12 @@
 			</Device>
 			<Device Physics="KK">
 				<Type ProductCode="#x05de3052" RevisionNo="#x00160000" CheckRevisionNo="LW_EQ">EL1502</Type>
-				<HideType RevisionNo="#x00100000"/>
-				<HideType RevisionNo="#x00110000"/>
-				<HideType RevisionNo="#x00120000"/>
-				<HideType RevisionNo="#x00130000"/>
-				<HideType RevisionNo="#x00140000"/>
-				<HideType RevisionNo="#x00150000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
+				<HideType RevisionNo="#x00110000"></HideType>
+				<HideType RevisionNo="#x00120000"></HideType>
+				<HideType RevisionNo="#x00130000"></HideType>
+				<HideType RevisionNo="#x00140000"></HideType>
+				<HideType RevisionNo="#x00150000"></HideType>
 				<Name LcId="1033">EL1502 2Ch. +/- Counter 24V, 100kHz</Name>
 				<Name LcId="1031">EL1502 2K. +/- Zaehler 24V, 100kHz</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EL1502]]></URL>
@@ -29180,11 +29180,11 @@
 									</SubItem>
 									<SubItem>
 										<Name>Sync error</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Counter value</Name>
@@ -29241,11 +29241,11 @@
 									</SubItem>
 									<SubItem>
 										<Name>Sync error</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Counter value</Name>
@@ -29308,11 +29308,11 @@
 									</SubItem>
 									<SubItem>
 										<Name>Sync error</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>TxPDO Toggle</Name>
-										<Info/>
+										<Info></Info>
 									</SubItem>
 									<SubItem>
 										<Name>Counter value</Name>
@@ -30111,8 +30111,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -32772,8 +32772,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -32783,7 +32783,7 @@
 			</Device>
 			<Device Physics="KK">
 				<Type ProductCode="#x05e83052" RevisionNo="#x00110000">EL1512</Type>
-				<HideType RevisionNo="#x00100000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
 				<Name LcId="1033">EL1512 2Ch. +/- Counter 24V, 1kHz</Name>
 				<Name LcId="1031">EL1512 2K. +/- Zaehler 24V, 1kHz</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EL1512]]></URL>
@@ -35442,8 +35442,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -35453,8 +35453,8 @@
 			</Device>
 			<Device Physics="KK">
 				<Type ProductCode="#x05e83052" RevisionNo="#x00120000" CheckRevisionNo="LW_EQ">EL1512</Type>
-				<HideType RevisionNo="#x00100000"/>
-				<HideType RevisionNo="#x00110000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
+				<HideType RevisionNo="#x00110000"></HideType>
 				<Name LcId="1033">EL1512 2Ch. +/- Counter 24V, 1kHz</Name>
 				<Name LcId="1031">EL1512 2K. +/- Zaehler 24V, 1kHz</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EL1512]]></URL>
@@ -38113,8 +38113,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -38124,9 +38124,9 @@
 			</Device>
 			<Device Physics="KK">
 				<Type ProductCode="#x05e83052" RevisionNo="#x00130000" CheckRevisionNo="LW_EQ">EL1512</Type>
-				<HideType RevisionNo="#x00100000"/>
-				<HideType RevisionNo="#x00110000"/>
-				<HideType RevisionNo="#x00120000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
+				<HideType RevisionNo="#x00110000"></HideType>
+				<HideType RevisionNo="#x00120000"></HideType>
 				<Name LcId="1033">EL1512 2Ch. +/- Counter 24V, 1kHz</Name>
 				<Name LcId="1031">EL1512 2K. +/- Zaehler 24V, 1kHz</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EL1512]]></URL>
@@ -40785,8 +40785,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -40796,10 +40796,10 @@
 			</Device>
 			<Device Physics="KK">
 				<Type ProductCode="#x05e83052" RevisionNo="#x00140000" CheckRevisionNo="LW_EQ">EL1512</Type>
-				<HideType RevisionNo="#x00100000"/>
-				<HideType RevisionNo="#x00110000"/>
-				<HideType RevisionNo="#x00120000"/>
-				<HideType RevisionNo="#x00130000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
+				<HideType RevisionNo="#x00110000"></HideType>
+				<HideType RevisionNo="#x00120000"></HideType>
+				<HideType RevisionNo="#x00130000"></HideType>
 				<Name LcId="1033">EL1512 2Ch. +/- Counter 24V, 1kHz</Name>
 				<Name LcId="1031">EL1512 2K. +/- Zaehler 24V, 1kHz</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EL1512]]></URL>
@@ -43044,8 +43044,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>
@@ -43055,11 +43055,11 @@
 			</Device>
 			<Device Physics="KK">
 				<Type ProductCode="#x05e83052" RevisionNo="#x00150000" CheckRevisionNo="LW_EQ">EL1512</Type>
-				<HideType RevisionNo="#x00100000"/>
-				<HideType RevisionNo="#x00110000"/>
-				<HideType RevisionNo="#x00120000"/>
-				<HideType RevisionNo="#x00130000"/>
-				<HideType RevisionNo="#x00140000"/>
+				<HideType RevisionNo="#x00100000"></HideType>
+				<HideType RevisionNo="#x00110000"></HideType>
+				<HideType RevisionNo="#x00120000"></HideType>
+				<HideType RevisionNo="#x00130000"></HideType>
+				<HideType RevisionNo="#x00140000"></HideType>
 				<Name LcId="1033">EL1512 2Ch. +/- Counter 24V, 1kHz</Name>
 				<Name LcId="1031">EL1512 2K. +/- Zaehler 24V, 1kHz</Name>
 				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/EL1512]]></URL>
@@ -45304,8 +45304,8 @@
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Eeprom>
 					<ByteSize>2048</ByteSize>

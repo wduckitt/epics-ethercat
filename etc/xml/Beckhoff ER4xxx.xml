@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
-	<Vendor>
+	<Vendor FileVersion="4">
 		<Id>2</Id>
 		<Name>Beckhoff Automation GmbH &amp; Co. KG</Name>
 		<ImageData16x14>424DE6000000000000007600000028000000100000000E000000010004000000000070000000120B0000120B0000100000001000000000000000000080000080000000808000800000008000800080800000C0C0C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF009D9DD99DD9DDD9DD9D9D9DD9D9DDD9DD999D9DD9D999D9999D9D9DD9D9DDD9DD9D9DD99DD999D999DDDDDDDDDDDDDDDD88888888888888888888888888888888DDDDDDDDDDDDDDDD999D999DD99DD9D99D9D9DDD9DD9D9D999DD999D9DDDD99D9D9D9DDD9DD9D99D999D999DD99DD9D9</ImageData16x14>
@@ -25,8 +25,8 @@
 				<Type ProductCode="#x104E4852" RevisionNo="#x00100002">ER4174-0002</Type>
 				<Name LcId="1033">ER4174-0002 4Ch. Ana. Output +/-10V, 0-10V, 0/4-20mA configurable</Name>
 				<Name LcId="1031">ER4174-0002 4K. Ana. Ausgang +/-10V, 0-10V, 0/4-20mA konfigurierbar</Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER4174]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER4174]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER4174-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER4174-0002]]></URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -2408,8 +2408,8 @@
 					</Entry>
 				</RxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -2439,12 +2439,12 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x104E4852" RevisionNo="#x00130002">ER4174-0002</Type>
-				<HideType RevisionNo="#x00100002"/>
-				<HideType RevisionNo="#x00120002"/>
+				<HideType RevisionNo="#x00100002"></HideType>
+				<HideType RevisionNo="#x00120002"></HideType>
 				<Name LcId="1033">ER4174-0002 4Ch. Ana. Output +/-10V, 0-10V, 0/4-20mA configurable</Name>
 				<Name LcId="1031">ER4174-0002 4K. Ana. Ausgang +/-10V, 0-10V, 0/4-20mA konfigurierbar</Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER4174]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER4174]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER4174-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER4174-0002]]></URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -4826,8 +4826,8 @@
 					</Entry>
 				</RxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE PdoAssign="1" SdoInfo="1"/>
-					<FoE/>
+					<CoE PdoAssign="1" SdoInfo="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -4857,11 +4857,11 @@
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x11164852" RevisionNo="#x00120002">ER4374-0002</Type>
-				<HideType RevisionNo="#x00110002"/>
+				<HideType RevisionNo="#x00110002"></HideType>
 				<Name LcId="1033">ER4374-0002 2Ch. Ana. Input +/-10V, 0-10V, 0/4-20mA configurable; 2Ch. Ana. Output +/-10V, 0-10V, 0/4-20mA configurable</Name>
 				<Name LcId="1031">ER4374-0002 2K. Ana. Eingang +/-10V, 0-10V, 0/4-20mA konfigurierbar; 2K. Ana. Ausgang +/-10V, 0-10V, 0/4-20mA konfigurierbar</Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER4374]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER4374]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER4374-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER4374-0002]]></URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -8585,8 +8585,8 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
@@ -8617,11 +8617,11 @@ Bit1: Value is greater than or equal to limit 2</Comment>
 			</Device>
 			<Device Physics="YY">
 				<Type ProductCode="#x11164852" RevisionNo="#x00130002">ER4374-0002</Type>
-				<HideType RevisionNo="#x00120002"/>
+				<HideType RevisionNo="#x00120002"></HideType>
 				<Name LcId="1033">ER4374-0002 2Ch. Ana. Input +/-10V, 0-10V, 0/4-20mA configurable; 2Ch. Ana. Output +/-10V, 0-10V, 0/4-20mA configurable</Name>
 				<Name LcId="1031">ER4374-0002 2K. Ana. Eingang +/-10V, 0-10V, 0/4-20mA konfigurierbar; 2K. Ana. Ausgang +/-10V, 0-10V, 0/4-20mA konfigurierbar</Name>
-				<URL LcId="1033"><![CDATA[http://www.beckhoff.com/ER4374]]></URL>
-				<URL LcId="1031"><![CDATA[http://www.beckhoff.de/ER4374]]></URL>
+				<URL LcId="1033"><![CDATA[https://www.beckhoff.com/ER4374-0002]]></URL>
+				<URL LcId="1031"><![CDATA[https://www.beckhoff.de/ER4374-0002]]></URL>
 				<Info>
 					<Mailbox>
 						<Timeout>
@@ -11912,8 +11912,8 @@ Bit1: Value smaller than Limit2</Comment>
 					</Entry>
 				</TxPdo>
 				<Mailbox DataLinkLayer="true">
-					<CoE SdoInfo="1" PdoAssign="1"/>
-					<FoE/>
+					<CoE SdoInfo="1" PdoAssign="1"></CoE>
+					<FoE></FoE>
 				</Mailbox>
 				<Dc>
 					<OpMode>
