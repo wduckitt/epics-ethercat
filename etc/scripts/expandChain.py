@@ -1,4 +1,4 @@
-#!/bin/env dls-python
+#!/bin/env python3
 import os, sys
 
 # import ethercat.py from this module's builder
@@ -13,7 +13,7 @@ import ethercat
 
 def main():
     if len(sys.argv) != 2:
-        print "usage: %s chain.xml" % (sys.argv[0])
+        print("usage: %s chain.xml" % (sys.argv[0]))
         sys.exit(1)
     chainfile = sys.argv[1]
 
@@ -68,7 +68,7 @@ def main():
                                      subindex, bit_length)
     ethercat.initialise()
     chain.getDeviceDescriptions()
-    print chain.generateMasterXml()
+    print(chain.generateMasterXml())
 
 if __name__ == "__main__":
     main()

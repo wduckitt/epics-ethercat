@@ -1,4 +1,4 @@
-#!/bin/env dls-python
+#!/bin/env python3
 
 # need system python for libxml2 support with xpath
 
@@ -123,12 +123,12 @@ def shortenname(name):
             }
     short = name.upper()
     count = 0
-    print count,  short
+    print(count,  short)
     for key in map:
         count = count + 1
         if short.find(key) > -1:
             short = short.replace(key,map[key])
-            print count, short
+            print(count, short)
     return short
 
 def fixname(name):
@@ -137,34 +137,34 @@ def fixname(name):
 
     
 def makeTemplate(ai, longin, longout, bi, bo, output, base, devtype, revision, extraPdos):
-    print "Generating template file %s" % output
-    f = file(output, "w")
-    if len(extraPdos) == 0:
-        pdolist = "None"
-    else:
-        pdolist = ""
-    for pdo in extraPdos:
-        pdolist = pdolist + "0x%x," % pdo 
+    print(f"Generating template file {output}")
+    with open(output, 'w') as f:
+        if len(extraPdos) == 0:
+            pdolist = "None"
+        else:
+            pdolist = ""
+        for pdo in extraPdos:
+            pdolist = pdolist + "0x%x," % pdo 
 
-    print >> f, macro_header % { "base":        base , 
-                                 "devtype":     devtype, 
-                                 "revision":    hex(revision),
-                                 "extrapdos":   pdolist}
-    for l in ["AL_STATE"]:
-        print >> f, al_text % {"name": fixname(l), "command": l}
-    for l in ["ERROR_FLAG"]:
-        print >> f, longin_text % {"name": fixname(l), "command": l}
-    for l in longin:
-        print >> f, longin_text % {"name": fixname(l), "command": l}
-    for l in bi:
-        print >> f, bi_text % {"name": fixname(l), "command": l}
-    for l in longout:
-        print >> f, longout_text % {"name": fixname(l), "command": l}
-    for l in bo:
-        print >> f, bo_text % {"name": fixname(l), "command": l}
-    for l in ai:
-        print >> f, ai_text % {"name": fixname(l), "command": l}
-    f.close()
+        f.write(macro_header % { "base":        base , 
+                             "devtype":     devtype, 
+                             "revision":    hex(revision),
+                             "extrapdos":   pdolist})
+        for l in ["AL_STATE"]:
+            f.write(al_text % {"name": fixname(l), "command": l})
+        for l in ["ERROR_FLAG"]:
+            f.write(longin_text % {"name": fixname(l), "command": l})
+        for l in longin:
+            f.write(longin_text % {"name": fixname(l), "command": l})
+        for l in bi:
+            f.write(bi_text % {"name": fixname(l), "command": l})
+        for l in longout:
+            f.write(longout_text % {"name": fixname(l), "command": l})
+        for l in bo:
+            f.write(bo_text % {"name": fixname(l), "command": l})
+        for l in ai:
+            f.write(ai_text % {"name": fixname(l), "command": l})
+    # f.close()
 
 def getPdoName(node):
     name = node.xpathEval("Name")[0].content
@@ -201,7 +201,7 @@ def parseFile(filename, output, list_devices, extraPdos):
         # key = (vendor, product, revision)
         key = (devtype, revision)
         if list_devices:
-            print "%s 0x%08x (product = 0x%08x)" % (  devtype, revision, product)
+            print(f"{devtype} 0x{revision:08x} (product = 0x{product:08x})")
             continue
 
         oversampling = set()
@@ -231,7 +231,7 @@ def parseFile(filename, output, list_devices, extraPdos):
                         else:
                             longin.append(getPdoName(txpdo) + "." + getEntryName(entry) )
                     elif verbose:
-                        print "Ignoring entry in pdo %s" % getPdoName(txpdo)
+                        print(f"Ignoring entry in pdo {getPdoName(txpdo)}")
             for rxpdo in device.xpathEval("RxPdo"):
                 # pdos without sync manager entries are not default
                 if not rxpdo.xpathEval("@Sm"):
@@ -246,21 +246,30 @@ def parseFile(filename, output, list_devices, extraPdos):
                         else:
                             longout.append(getPdoName(rxpdo) + "." + getEntryName(entry) )
                     elif verbose:
-                        print "Ignoring entry in pdo %s" % getPdoName(txpdo)
+                        print(f"Ignoring entry in pdo {getPdoName(rxpdo)}")
 
             makeTemplate(ai, longin, longout, bi, bo, output, base, devtype, revision, extraPdos)
 
 def usage(progname):
-    print "%s: Make EPICS template for EtherCAT device" % progname
-    print "Usage:"
-    print "   %s -h  Shows this usage message" % progname
-    print "   %s -b <xml-base-dir> -l  Lists the devices in the database" % progname
-    print """
-   %s -b <xml-base-dir> -d <device-type> -r <rev-no> [-p comma-separated-pdo-list] -o output-file
-       Generates a template in <output-file> for the given device and revision.
-       rev-no must be input as a hex number, e.g. 0x00100000
-       Use the -p argument to include additional pdos in the template
-       """ % progname
+    # print "%s: Make EPICS template for EtherCAT device" % progname
+    print(f"{progname}: Make EPICS template for EtherCAT device")
+    print("Usage:")
+    # print "   %s -h  Shows this usage message" % progname
+    print(f"   {progname} -h  Shows this usage message")
+    # print "   %s -b <xml-base-dir> -l  Lists the devices in the database" % progname
+    print(f"   {progname} -b <xml-base-dir> -l  Lists the devices in the database")
+#     print """
+#    %s -b <xml-base-dir> -d <device-type> -r <rev-no> [-p comma-separated-pdo-list] -o output-file
+#        Generates a template in <output-file> for the given device and revision.
+#        rev-no must be input as a hex number, e.g. 0x00100000
+#        Use the -p argument to include additional pdos in the template
+#        """ % progname
+    print(f"""
+    {progname} -b <xml-base-dir> -d <device-type> -r <rev-no> [-p comma-separated-pdo-list] -o output-file
+        Generates a template in <output-file> for the given device and revision.
+        rev-no must be input as a hex number, e.g. 0x00100000
+        Use the -p argument to include additional pdos in the template
+        """)  
 
 def parsePdoassignments(s):
     if len(s) == 0:
@@ -282,8 +291,8 @@ if __name__ == "__main__":
         optlist, args = getopt.getopt(sys.argv[1:], 'hlb:d:r:o:vp:',
                     ['help','list','base=','device-type=','rev-no=',
                      'output=','verbose','pdoassignment='])
-    except getopt.GetoptError, err:
-        print str(err)
+    except (getopt.GetoptError, err):
+        print(str(err))
         usage(sys.argv[0])
         sys.exit(2)
     for o,a in optlist:
@@ -308,35 +317,36 @@ if __name__ == "__main__":
             usage(sys.argv[0])
             sys.exit(1)
     if not base:
-        print "No base specified"
+        print("No base specified")
         usage(sys.argv[0])
         sys.exit(1)
     elif verbose:
-        print "base=%s" % base
+        # print "base=%s" % base
+        print(f"base={base}")
     if not list_devices:
         if not devtype :
-            print "No devtype specified"
+            print("No devtype specified")
             usage(sys.argv[0])
             sys.exit(1)
         elif verbose:
-            print "devtype=%s" % devtype
+            print(f"devtype={devtype}")
         if  revision == None:
-            print "No revision specified"
+            print("No revision specified")
             usage(sys.argv[0])
             sys.exit(1)
         elif verbose:
-            print "revision=%s" % revision
+            print(f"revision={revision}")
         if not output:
-            print "No output specified"
+            print(f"No output specified")
             usage(sys.argv[0])
             sys.exit(1)
         elif verbose:
-            print "output=%s" % output
+            print(f"output={output}")
 
         reqs.add((devtype, revision))
         if verbose:
             for obj in reqs:
-                print "Searching device %s, revision 0x%08x" % obj
+                print(f"Searching device {obj[0]}, revision 0x{obj[1]:08x}")
 
     assert(list_devices or len(reqs) == 1)
     import os
@@ -344,7 +354,8 @@ if __name__ == "__main__":
         if f.endswith("xml"):
             filename = os.path.join(base, f)
             if verbose:
-                print "Parsing %s" % filename
+                # print "Parsing %s" % filename
+                print(f"Parsing {filename}")
             parseFile(filename, output, list_devices,
                       parsePdoassignments(pdoassignment))
 
