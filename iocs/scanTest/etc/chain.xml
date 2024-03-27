@@ -1,6 +1,6 @@
-<chain>
-<device type_name="EK1101" revision="0x00110000" position="0" name="COUPLER0" />
-
-<device type_name="EL3702" revision="0x00020000" position="1" name="RF0" oversample="11" />
-
-</chain>
+<components arch="linux-x86_64">
+  <ethercat.EthercatMaster name="ECATM" socket="/tmp/socket0" master_index="0"/>
+  <!-- slaves 2 link up 1 -->
+  <ethercat.EthercatSlave master="ECATM" name="ERIO.0" position="0" type_rev="EK1818 rev 0x00120000"/>
+  <ethercat.EthercatSlave master="ECATM" name="ERIO.1" position="1" type_rev="EL6090 rev 0x00110000"/>
+</components>
