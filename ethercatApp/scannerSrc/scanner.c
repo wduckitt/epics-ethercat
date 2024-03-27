@@ -24,7 +24,12 @@
 #include "unpack.h"
 #include "simulation.h"
 #include "version.h"
-#include "liberror.h"
+// #include "liberror.h"
+#define ERRSTRING_LEN 250
+int ecrt_err_to_stderr = 1;
+char ecrt_errstring[ERRSTRING_LEN];
+
+int ecrt_errcode;
 
 int debug = 1;
 int selftest = 1;
