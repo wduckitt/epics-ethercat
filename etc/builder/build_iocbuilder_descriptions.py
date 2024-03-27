@@ -1,6 +1,5 @@
 # build the ethercat desciptions from the ESI xml files
 
-# using class "iocbuilder.module.ethercat"
 # pickled descriptions in this file build_iocbuilder_descriptions.py
 iocbuilder_descriptions = "iocbuilder_descriptions.pkl"
 
@@ -9,6 +8,7 @@ slaveInfoFiles = [
     "Beckhoff EL1xxx.xml",
     "Beckhoff EL31xx.xml",
     "Beckhoff EK11xx.xml",
+    "Beckhoff EK18xx.xml",
     "Beckhoff EKM1xxx.xml",
     "Beckhoff EL15xx.xml",
     "Beckhoff EL25xx.xml",
@@ -17,6 +17,7 @@ slaveInfoFiles = [
     "Beckhoff EL3xxx.xml",
     "Beckhoff EL37xx.xml",
     "Beckhoff EL4xxx.xml",
+    "Beckhoff EL6xxx.xml",
     "Beckhoff EL47xx.xml",
     "Beckhoff EL9xxx.xml",
     "Beckhoff ELM37xx.xml",
@@ -32,12 +33,6 @@ slaveInfoFiles = [
 def build_iocbuilder_descriptions():
     import os
     import pickle
-    import pkg_resources
-    pkg_resources.require('iocbuilder==3.70')
-
-    import iocbuilder
-    iocbuilder.ConfigureIOC(architecture = 'linux-x86_64')
-    from iocbuilder import ModuleVersion
     builder_dir = os.path.dirname(__file__)
     etc_dir = os.path.realpath(os.path.join(builder_dir,'..'))
     home_dir = os.path.realpath(os.path.join(
@@ -46,21 +41,16 @@ def build_iocbuilder_descriptions():
         etc_dir,'xml'))
     fullpath=os.path.join(builder_dir,iocbuilder_descriptions)
 
-    ModuleVersion('asyn', '4-34')
-    ModuleVersion('busy', '1-7dls1')
-    ModuleVersion('ethercat', home=home_dir, use_name=False)
-
-    from iocbuilder.modules import ethercat
-
+    import ethercat
+    import sys
     dev_descriptions = dict()
     for f in slaveInfoFiles:
         filename = os.path.join(xml_dir, f)
-        for key, dev in ethercat.ethercat.getDescriptions(filename).iteritems():
+        for key, dev in ethercat.getDescriptions(filename).items():
             typename = key[0]
             revision = key[1]
             dev_descriptions[key] = dev
-
-    with open(fullpath,"w") as descriptionsfile:
+    with open(fullpath,"wb") as descriptionsfile:
         pickle.dump(dev_descriptions,descriptionsfile)
 
 if __name__ == "__main__":
