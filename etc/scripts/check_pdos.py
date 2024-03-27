@@ -1,4 +1,4 @@
-#!/bin/env dls-python
+#!/bin/env python3
 
 # script to check whether the revisions of a supported device[1]
 # have modified names, by checking the xml description files
@@ -42,22 +42,18 @@ def compareTwoRevisions(r1,r2):
     # print "r1 %s" % r1
     # print "r2 %s" % r2
     if len(r1["inputs"]) != len(r2["inputs"]):
-        print "number of inputs differ between rev 0x%x and 0x%x" % \
-            (r1["revision"], r2["revision"])
+        print(f"number of inputs differ between rev 0x{r1['revision']} and 0x{r2['revision']}") 
         result = False
     if len(r1["outputs"]) != len(r2["outputs"]):
-        print "number of outputs differ between rev 0x%x and 0x%x" % \
-            (r1["revision"], r2["revision"])
+        print(f"number of outputs differ between rev 0x{r1['revision']} and 0x{r2['revision']}" )
         result = False
     inputsnamescheck = compareNames(r1["inputs"],r2["inputs"])
     outputsnamescheck = compareNames(r1["outputs"],r2["outputs"])
     if not inputsnamescheck:
-        print "input names differ between rev 0x%x and 0x%x" % \
-            (r1["revision"], r2["revision"])
+        print(f"input names differ between rev 0x{r1['revision']} and 0x{r2['revision']}")
         result = False
     if not outputsnamescheck:
-        print "outputs names differ between rev 0x%x and 0x%x" % \
-            (r1["revision"], r2["revision"])
+        print(f"output names differ between rev 0x{r1['revision']} and 0x{r2['revision']}")
         result = False
     # if result:
     #     print "rev 0x%x and 0x%x did not change" % (r1["revision"], r2["revision"])
@@ -74,10 +70,10 @@ def compareAllRevisions(revlist):
         result = result and r1
     return result
 
-def report(data):
-    print "Slave list %s" % data.keys()
+def report(data):   # print "Slave list %s" % data.keys()
+    print(f"Slave list {data.keys()}")
     for n in data:
-        print "device name: %s, revision count %d" % ( n, len(data[n]))
+        print(f"device name: {n}, revision count {len(data[n])}")
         compareAllRevisions(data[n])
 
 ###### read data
@@ -85,7 +81,7 @@ def report(data):
 def parseFile(filename, devlist):
     """check xml file "filename" and return input and output pdos
        as a dictionary"""
-    print "parsing file %s for devices %s" % (filename, devlist)
+    print(f"parsing file {filename} for devices {devlist}")
     doc = libxml2.parseFile(filename)
     vendor = parseInt(doc.xpathEval("//Vendor/Id")[0].content)
     devicedata = {} # dictionary index by device name
@@ -126,7 +122,7 @@ def parseDeviceRev(deviceNode, devtype,product, revision):
                     t = tuple([datatype, name, index, subindex])
                     devicerevdata["inputs"].append(t)
                 elif verbose:
-                    print "Ignoring TxPdo entry in pdo %s" % getPdoName(txpdo)
+                    print(f"Ignoring TxPdo entry in pdo {getPdoName(txpdo)}")
     for rxpdo in deviceNode.xpathEval("RxPdo"):
         # pdos without sync manager entries are not default
         if rxpdo.xpathEval("@Sm"):
@@ -141,7 +137,7 @@ def parseDeviceRev(deviceNode, devtype,product, revision):
                     t = tuple( [datatype, name, index, subindex])
                     devicerevdata["outputs"].append(t)
                 elif verbose:
-                    print "Ignoring RxPdo entry in pdo %s" % getPdoName(txpdo)
+                    print(f"Ignoring RxPdo entry in pdo {getPdoName(rxpdo)}")
     return devicerevdata
 
 def main():
