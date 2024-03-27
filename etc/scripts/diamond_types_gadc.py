@@ -1,4 +1,4 @@
-#!/bin/env dls-python
+#!/bin/env python3
 #
 #  Script to print the names valid for analogue input generic adc "sample" parameters
 #  The names are of the form <pdo_name>.<entry_name>
@@ -11,14 +11,14 @@ import sys
 doFilter = True
 
 def usage():
-    print """diamond_types_gadc.py: print names valid for ethercat generic adb "sample" parameters
-
-Usage:
-         %s [-a]
-
-Names returned are filtered to reflect typical ADC signals only
-Options:
-    -a  Don't filter for typical ADC signals""" % __file__
+    print(f"""diamond_types_gadc.py: print names valid for ethercat generic adb "sample" parameters
+          Usage:
+            {__file__} [-a]
+            Names returned are filtered to reflect typical ADC signals only
+            Options:
+                -a  Don't filter for typical ADC signals""")
+    
+          
     sys.exit(1)
 
 def main():
@@ -30,7 +30,7 @@ def main():
         else:
             signal_list = dev.getDeviceSignals()
         for signal in signal_list:
-            print "%s : %s rev #%08x" % (signal, typename,revision)
+            print(f"{signal} : {typename} rev #{revision:08x}")
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
