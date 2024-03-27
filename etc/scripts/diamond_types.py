@@ -1,4 +1,4 @@
-#!/bin/env dls-python
+#!/bin/env python3
 #
 # script to list ethercat device types supported at 
 # DLS, filtered according to the entries in 
@@ -17,14 +17,14 @@ if builder_dir not in sys.path:
 import ethercat
 
 def usage():
-    print """diamond_types.py: print names valid for ethercat slaves
-
+    print(f"""diamond_types.py: print names valid for ethercat slaves
 Usage:
-         %s [-a]
+         {__file__} [-a]
 
 Names returned are filtered to reflect only devices supported at DLS
 Options:
-    -a  Shows all devices, does not filter for DLS supported devices""" % __file__
+    -a  Shows all devices, does not filter for DLS supported devices""")
+
     sys.exit(1)
 
 doFilter = True
@@ -49,4 +49,4 @@ if __name__ == "__main__":
     ethercat.initialise()
     dev_set = getDiamondDeviceSet()
     for k in sorted(dev_set.keys(), key=keyRepr):
-        print "%s rev 0x%08x" % k
+        print("%s rev 0x%08x" % k)
