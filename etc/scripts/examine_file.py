@@ -1,4 +1,4 @@
-#!/bin/env dls-python
+#!/bin/env python3
 #
 # script to list ethercat device types available in one file
 
@@ -15,18 +15,17 @@ if builder_dir not in sys.path:
 import ethercat
 
 def usage():
-    print """examine_file.py: print device descriptions in file
 
-Usage:
-         %(scriptname)s [-a] file.xml [ file2.xml file3.xml ... ]
-
-Names returned are filtered to reflect only devices supported at DLS
-Options:
-    -a  Shows all devices, does not filter for DLS supported devices
-
-Example:
-      %(scriptname)s ../xml/NI9144.xml 
-""" % dict(scriptname=__file__)
+    print(f"""examine_file.py: print device descriptions in file
+          Usage:
+            {__file__} [-a] file.xml [ file2.xml file3.xml ... ]
+            Names returned are filtered to reflect only devices supported at DLS
+            Options:
+                -a  Shows all devices, does not filter for DLS supported devices
+            Example:
+                {__file__} ../xml/NI9144.xml
+""")
+    
     sys.exit(1)
 
 doFilter = True
@@ -53,11 +52,11 @@ if __name__ == "__main__":
         if dev_set and doFilter:
             fset = ethercat.filteredDescriptions(dev_set)
         if fset:
-            print """File: %(name)s
-Number of entries: %(count)d (Filter: %(filtered)s)
-""" % dict(name = sys.argv[1], count = len(fset), filtered=doFilter)
+            print(f"""File: {sys.argv[1]}
+                  Number of entries: {len(fset)} (Filter: {doFilter})
+""")
             for k in sorted(fset.keys(), key=keyRepr):
-                print "%s rev 0x%08x" % k
+                print(f"{k[0]} rev 0x{k[1]:08x}")
         else:
             print("File: %(name)s has no descriptions" % dict(
                 name = sys.argv[1]))
