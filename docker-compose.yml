@@ -1,0 +1,29 @@
+services:
+  # epicsbase:
+  #   image: epicsbase
+  #   build:
+  #     context: ./
+  #     dockerfile: docker/epicsBase/Dockerfile
+
+  scanner:
+    build:
+      context: ./
+      dockerfile: docker/ubuntu/Dockerfile
+    network_mode: host
+    privileged: true
+
+    volumes:
+      - /dev:/dev
+    
+    command: ["/bin/bash", "-c", "ethercatctl start && sleep 5 && /epics/epics-ethercat/bin/linux-x86_64/scanner -m0 /epics/epics-ethercat/iocs/scanTest/etc/scanner.xml /tmp/socket0 && sleep infinity"]
+  ubuntu:
+    build:
+      context: ./
+      dockerfile: docker/ubuntu/Dockerfile
+    network_mode: host
+    privileged: true
+    volumes:
+      - /dev:/dev
+  
+    
+    

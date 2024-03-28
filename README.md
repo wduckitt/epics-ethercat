@@ -1,3 +1,39 @@
+# epics
+
+
+```bash
+sudo apt-get install -y wget autoconf libtool check patch build-essential libreadline-dev re2c libxml2-dev tmux software-properties-common python3-libxml2 python3
+``
+
+```
+wget https://epics-controls.org/download/base/base-7.0.8.tar.gz
+```
+
+```
+cd /epics
+mkdir support
+cd support
+
+wget https://github.com/epics-modules/asyn/archive/refs/tags/R4-44-2.tar.gz
+tar -xvf R4-44-2.tar.gz
+cd asyn-R4-44-2/
+``
+edit RELEASE and set epics base
+
+```
+EPICS_BASE=/epics/base
+```
+on ubuntu set TIRPC =YES, edit CONFIG_SITE:
+```
+TIRPC=YES
+```
+
+
+
+
+
+
+
 # ethercat
 EPICS support to read/write to ethercat based hardware
 
