@@ -26,3 +26,4 @@ iocs/scanTest/scantestApp/src/O.*
 iocs/scanTest/scantestApp/Db/O.*
 iocs/scanTest/configure/O.*
 iocs/scanTest/bin
+etc/makeIocs/O.*
