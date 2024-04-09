@@ -1,13 +1,65 @@
-# epics
+#.devcontainer
+
+## Using the .devcontainer
+For the first time, open the folder in VSCode and click on the green button at the bottom right corner of the window. This will build the container and open a new window in the container.
+
+### Building the container
+Depending on what you have been working on, you may need to rebuild the applications.
+In a new terminal, run the following commands to build the applications:
 
 
 ```bash
+cd /workspaces/ethercat-test
+make
+
+```
+
+```bash
+cd /workspaces/ethercat-test/iocs/scanTest
+make
+
+```
+Updating the scanner.xml
+```bash
+cd /workspaces/ethercat-test/iocs/scanTest/etc
+../../bin/linux-x86_64/slaveinfo -m 0 > scanner.xml
+```
+
+
+
+### Starting the scanner
+In a new terminal, run the following commands to start the scanner:
+
+```bash
+cd /workspaces/ethercat-test/iocs/scanTest
+../../bin/linux-x86_64/scanner -m 0 etc/scanner.xml /tmp/socket0
+
+```
+### Starting the IOC
+In a new terminal, run the following commands to start the IOC:
+
+```bash
+cd /workspaces/ethercat-test/iocs/scanTest
+./st.cmd
+
+```
+
+
+
+#Setting up the environment locally, not using the .devcontainer or docker
+
+## Epics
+Pre-requisites Ubuntu 22.04
+
+```bash
 sudo apt-get install -y wget autoconf libtool check patch build-essential libreadline-dev re2c libxml2-dev tmux software-properties-common python3-libxml2 python3
-``
+```
 
 ```
 wget https://epics-controls.org/download/base/base-7.0.8.tar.gz
 ```
+
+## Asyn
 
 ```
 cd /epics
@@ -28,13 +80,9 @@ on ubuntu set TIRPC =YES, edit CONFIG_SITE:
 TIRPC=YES
 ```
 
+## Ethercat
 
 
-
-
-
-
-# ethercat
 EPICS support to read/write to ethercat based hardware
 
 Prerequisites: [IgH EtherCAT Master for Linux](http://etherlab.org/en/ethercat/index.php)
