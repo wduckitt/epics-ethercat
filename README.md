@@ -1,4 +1,4 @@
-#.devcontainer
+# .devcontainer
 
 ## Using the .devcontainer
 For the first time, open the folder in VSCode and click on the green button at the bottom right corner of the window. This will build the container and open a new window in the container.
@@ -9,19 +9,19 @@ In a new terminal, run the following commands to build the applications:
 
 
 ```bash
-cd /workspaces/ethercat-test
+cd /workspaces/ethercat
 make
 
 ```
 
 ```bash
-cd /workspaces/ethercat-test/iocs/scanTest
+cd /workspaces/ethercat/iocs/scanTest
 make
 
 ```
 Updating the scanner.xml
 ```bash
-cd /workspaces/ethercat-test/iocs/scanTest/etc
+cd /workspaces/ethercat/iocs/scanTest/etc
 ../../bin/linux-x86_64/slaveinfo -m 0 > scanner.xml
 ```
 
@@ -31,7 +31,7 @@ cd /workspaces/ethercat-test/iocs/scanTest/etc
 In a new terminal, run the following commands to start the scanner:
 
 ```bash
-cd /workspaces/ethercat-test/iocs/scanTest
+cd /workspaces/ethercat/iocs/scanTest
 ../../bin/linux-x86_64/scanner -m 0 etc/scanner.xml /tmp/socket0
 
 ```
@@ -39,14 +39,14 @@ cd /workspaces/ethercat-test/iocs/scanTest
 In a new terminal, run the following commands to start the IOC:
 
 ```bash
-cd /workspaces/ethercat-test/iocs/scanTest
+cd /workspaces/ethercat/iocs/scanTest
 ./st.cmd
 
 ```
 
 
 
-#Setting up the environment locally, not using the .devcontainer or docker
+# Advanced: Setting up the environment locally, not using the .devcontainer or docker
 
 ## Epics
 Pre-requisites Ubuntu 22.04
