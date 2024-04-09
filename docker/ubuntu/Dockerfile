@@ -1,5 +1,5 @@
 
-FROM ubuntu:22.04
+FROM ubuntu:22.04 as epicsethercatbase
 ENV EPICS_BASE=/epics/base/
 WORKDIR /epics
 
@@ -44,5 +44,8 @@ RUN tar -xvf updateToLatest.tar.gz
 RUN mv epics-ethercat-updateToLatest epics-ethercat
 WORKDIR /epics/epics-ethercat
 RUN make
+# WORKDIR /epics/epics-ethercat/iocs/scanTest
+# RUN make
+
 
 
