@@ -1,7 +1,13 @@
-# .devcontainer
+# Devcontainer
 
-## Using the .devcontainer
-For the first time, open the folder in VSCode and click on the green button at the bottom right corner of the window. This will build the container and open a new window in the container.
+We provide a devcontainer for developing the Ethercat EPICS module. See the section below for instructions on how to use the devcontainer. Alternatively, you can set up the environment locally See the section at the bottom of this README for instructions on how to set up the environment locally.
+
+## Using the Devcontainer
+For the first time, open the folder in VSCode and click on the green button at the bottom left corner of the window. 
+
+Open the folder in the container.
+
+This will build the container and open a new window in the container.
 
 ### Building the container
 Depending on what you have been working on, you may need to rebuild the applications.
