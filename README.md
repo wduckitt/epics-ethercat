@@ -1,3 +1,27 @@
+This is a fork of the original Ethercat EPICS module. It has been modified to work with the latest version of EPICS base 7.0.8 and the latest version of asyn 4-44-2. The original module was developed by Diamond Light Source and the original repository can be found at https://github.com/dls-controls/ethercat
+
+We have also added a devcontainer for developing the module. This is a docker container that has all the necessary dependencies installed. This makes it easier to set up the environment for developing the module. 
+
+We have also added a docker-compose file that can be used to run the scanner and IOC in separate containers. This is useful for running the system in a docker environment.
+
+# Instructions
+Firstly, clone the repository.
+
+## Development
+On a linux machine you use the devcontainer to develop the module. See the section below for instructions on how to use the devcontainer. The only pre-requisite is that you have docker installed on your machine. We also advise that you have the Remote - Containers extension installed in VSCode. This will make it easier to use the devcontainer.
+
+Note whe using the devcontainer, it will mount the repository as a volume in the container. This means that any changes you make in the container will be reflected in the local repository and vice versa.
+
+Or you can set up the environment locally. See the section at the bottom of this README for instructions on how to set up the environment locally.
+
+During development, you can build the applications manually. You will also need to update the scanner.xml file. See the section below for instructions on how to build the applications and update the scanner.xml file. Finally you will also start the ethercat master, the scanner and the IOC.
+
+## Production
+For production, you can use the docker-compose file to run the scanner and IOC in separate containers. This is useful for running the system in a docker environment. See the section below for instructions on how to run the scanner and IOC in separate containers.
+
+Alternatively, you can run the scanner and IOC manually. See the sections below for instructions on how to run the scanner and IOC manually.
+
+
 # Devcontainer
 
 We provide a devcontainer for developing the Ethercat EPICS module. See the section below for instructions on how to use the devcontainer. Alternatively, you can set up the environment locally See the section at the bottom of this README for instructions on how to set up the environment locally.
