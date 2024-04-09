@@ -26,7 +26,7 @@ Alternatively, you can run the scanner and IOC manually. See the sections below 
 
 We provide a devcontainer for developing the Ethercat EPICS module. See the section below for instructions on how to use the devcontainer. Alternatively, you can set up the environment locally See the section at the bottom of this README for instructions on how to set up the environment locally.
 
-## Using the Devcontainer
+## Using the Apllications
 For the first time, open the folder in VSCode and click on the green button at the bottom left corner of the window. 
 
 Open the folder in the container.
