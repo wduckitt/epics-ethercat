@@ -3,7 +3,8 @@ services:
     image: epicsethercatbase
     build:
       context: ./
-      dockerfile: docker/ubuntu/Dockerfile
+      dockerfile: docker/epicsEthercatBase/Dockerfile
+    
     network_mode: host
     privileged: true
     volumes:
@@ -19,6 +20,6 @@ services:
       - /tmp:/tmp
     depends_on:
       - scanner
-    command: ["/bin/bash", "-c", "sleep 5 && tmux new-session -s ioc -d ./st.cmd && sleep infinity"]
+    command: ["/bin/bash", "-c", "tmux new-session -s ioc -d ./st.cmd && sleep infinity"]
 
   
