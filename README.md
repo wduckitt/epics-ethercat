@@ -61,7 +61,7 @@ wget https://epics-controls.org/download/base/base-7.0.8.tar.gz
 
 ## Asyn
 
-```
+```bash
 cd /epics
 mkdir support
 cd support
@@ -69,14 +69,15 @@ cd support
 wget https://github.com/epics-modules/asyn/archive/refs/tags/R4-44-2.tar.gz
 tar -xvf R4-44-2.tar.gz
 cd asyn-R4-44-2/
-``
+```
 edit RELEASE and set epics base
 
-```
+```bash
 EPICS_BASE=/epics/base
 ```
 on ubuntu set TIRPC =YES, edit CONFIG_SITE:
-```
+
+```bash
 TIRPC=YES
 ```
 
