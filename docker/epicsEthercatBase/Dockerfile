@@ -38,13 +38,16 @@ RUN make modules_install
 RUN cp /data/usr/local/etc/ethercat.conf /usr/local/etc/ethercat.conf
 RUN depmod -a
 ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib 
-WORKDIR /epics
-RUN echo 1 && wget https://github.com/wduckitt/epics-ethercat/archive/refs/heads/updateToLatest.tar.gz
-RUN tar -xvf updateToLatest.tar.gz
-RUN mv epics-ethercat-updateToLatest epics-ethercat
-WORKDIR /epics/epics-ethercat
+WORKDIR /
+ADD configure /epics/ethercat/configure
+ADD etc /epics/ethercat/etc
+ADD ethercatApp /epics/ethercat/ethercatApp
+ADD include /epics/ethercat/include
+ADD Makefile /epics/ethercat/Makefile
+WORKDIR /epics/ethercat
 RUN make
-# WORKDIR /epics/epics-ethercat/iocs/scanTest
+ADD iocs /epics/ethercat/iocs
+# WORKDIR /epics/ethercat/iocs/scanTest
 # RUN make
 
 

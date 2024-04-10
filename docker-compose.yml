@@ -1,6 +1,10 @@
 services:
-  scanner:
+  epicsethercatbase:
     image: epicsethercatbase
+    build:
+      context: ./
+      dockerfile: docker/epicsEthercatBase/Dockerfile
+  scanner:
     build:
       context: ./
       dockerfile: docker/epicsEthercatBase/Dockerfile
@@ -9,8 +13,8 @@ services:
     privileged: true
     volumes:
       - /dev:/dev
-      - /tmp:/tmp
-    command: ["/bin/bash", "-c", "ethercatctl start && tmux new-session -s scanner -d /epics/epics-ethercat/bin/linux-x86_64/scanner -m0 /epics/epics-ethercat/iocs/scanTest/etc/scanner.xml /tmp/socket0 && sleep infinity"]
+      - ./tmp:/tmp
+    command: ["/bin/bash", "-c", "ethercatctl start && tmux new-session -s scanner -d /epics/ethercat/bin/linux-x86_64/scanner -m0 /epics/ethercat/iocs/scanTest/etc/scanner.xml /tmp/socket0 && sleep infinity"]
   scantestioc:
     build:
       context: ./
