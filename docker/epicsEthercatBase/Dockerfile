@@ -47,10 +47,9 @@ ADD Makefile /epics/ethercat/Makefile
 WORKDIR /epics/ethercat
 RUN make
 ADD iocs /epics/ethercat/iocs
+RUN mkdir -p /tmuxtmp
 ENV TMUX_TMPDIR=/tmuxtmp
 
-# WORKDIR /epics/ethercat/iocs/scanTest
-# RUN make
 
 
 
