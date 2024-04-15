@@ -66,4 +66,5 @@ templates:
 	../../etc/scripts/maketemplate.py -b ../../etc/xml -d EL3602 -r 0x100000 -o EL3602.template
 	../../etc/scripts/maketemplate.py -b ../../etc/xml -d EL9510 -r 0x00110000 -o EL9510.template
 	../../etc/scripts/maketemplate.py -b ../../etc/xml -d EL3356-0010 -r 0x0018000a -o EL3356-0010.template
+	../../etc/scripts/maketemplate.py -b ../../etc/xml -d SAMD51 -r 0x00000001 -o SAMD51.template
 	#../../etc/scripts/maketemplate.py -b ../../etc/xml -d EL4134 -r 0x3fc0000 -o EL4134.template
