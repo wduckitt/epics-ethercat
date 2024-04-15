@@ -1,6 +1,6 @@
 <scanner>
 <devices>
-  <!-- parsed from file /home/wdduckitt/work/ethercat-test/etc/xml/NI9144.xml -->
+  <!-- parsed from file /workspaces/ethercat/etc/xml/NI9144.xml -->
   <device name="NI 9144" vendor="0x000001f9" product="0x000023b8" revision="0x00000003">
     <sync index="0"  dir="MBoxOut"  watchdog="0">
     </sync>
