@@ -44,17 +44,19 @@ make
 
 ```
 
+
+
+Updating the chain.xml
+```bash
+cd /workspaces/ethercat/iocs/scanTest/etc
+../../bin/linux-x86_64/slaveinfo -m 0 > chain.xml
+
+```
+
 ```bash
 cd /workspaces/ethercat/iocs/scanTest
 make
-
 ```
-Updating the scanner.xml
-```bash
-cd /workspaces/ethercat/iocs/scanTest/etc
-../../bin/linux-x86_64/slaveinfo -m 0 > scanner.xml
-```
-
 
 
 ### Starting the scanner
