@@ -30,7 +30,7 @@ RUN tar -xvf ethercat-master.tar.gz
 RUN ln -s /etherlab/ethercat-master /etherlab/ethercat
 WORKDIR /etherlab/ethercat
 RUN ./bootstrap
-RUN ./configure --enable-generic
+RUN ./configure --enable-generic --enable-eoe --enable-cycles --enable-hrtimer
 RUN make
 RUN make install
 RUN make modules
