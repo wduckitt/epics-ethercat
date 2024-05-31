@@ -42,7 +42,6 @@ WORKDIR /
 ADD configure /epics/ethercat/configure
 ADD etc /epics/ethercat/etc
 ADD ethercatApp /epics/ethercat/ethercatApp
-ADD include /epics/ethercat/include
 ADD Makefile /epics/ethercat/Makefile
 WORKDIR /epics/ethercat
 RUN make
