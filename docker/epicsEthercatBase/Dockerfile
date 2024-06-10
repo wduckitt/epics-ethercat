@@ -30,7 +30,7 @@ RUN tar -xvf ethercat-master.tar.gz
 RUN ln -s /etherlab/ethercat-master /etherlab/ethercat
 WORKDIR /etherlab/ethercat
 RUN ./bootstrap
-RUN ./configure --enable-generic --enable-eoe --enable-cycles --enable-hrtimer
+RUN ./configure --enable-generic --enable-eoe 
 RUN make
 RUN make install
 RUN make modules
@@ -48,6 +48,16 @@ RUN make
 ADD iocs /epics/ethercat/iocs
 RUN mkdir -p /tmuxtmp
 ENV TMUX_TMPDIR=/tmuxtmp
+ADD /entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+RUN SNIPPET="export PROMPT_COMMAND='history -a' && export HISTFILE=/commandhistory/.bash_history" \
+    && echo "$SNIPPET" >> "/root/.bashrc"
+
+# Set the entrypoint this setups the ARCH variable
+
+
+ENTRYPOINT ["/entrypoint.sh"]
+CMD [ "sleep", "infinity" ]
 
 
 
