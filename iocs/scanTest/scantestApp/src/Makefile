@@ -4,8 +4,9 @@ include $(TOP)/configure/CONFIG
 
 # IOC
 
-DBD += scantest.dbd
-scantest_DBD += base.dbd ecAsyn.dbd
+DBD += scantest.dbd 
+# scantest_DBD += base.dbd ecAsyn.dbd 
+scantest_DBD += ecAsyn.dbd 
 
 PROD_IOC = scantest
 scantest_SRCS += scantest_registerRecordDeviceDriver.cpp
