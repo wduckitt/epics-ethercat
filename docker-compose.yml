@@ -30,6 +30,7 @@ services:
       - ./tmp:/tmp
       - ./tmp/tmuxtmps/ioc/tmp:/tmuxtmp
       - project-bashhistory:/commandhistory
+      - ./iocs/scanTest:/epics/ethercat/iocs/scanTest
     depends_on:
       - scanner
     command: ["/bin/bash", "-c", "sleep 10 && tmux new-session -s ioc -d './start_ioc.sh' && sleep infinity"]
