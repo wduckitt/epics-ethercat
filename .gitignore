@@ -3,6 +3,7 @@ etc/builder/iocbuilder_descriptions.pkl
 bin/*
 configure/O.*
 
+
 db
 dbd
 documentation/doxygen
@@ -27,3 +28,5 @@ iocs/scanTest/scantestApp/Db/O.*
 iocs/scanTest/configure/O.*
 iocs/scanTest/bin
 etc/makeIocs/O.*
+!data/epics/dbd/
+!data/epics/dbd/menuScan.dbd
