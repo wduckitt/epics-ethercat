@@ -2,7 +2,7 @@
 FROM ubuntu:22.04 as epicsethercatbase
 ENV EPICS_BASE=/epics/base/
 WORKDIR /epics
-RUN apt-get update && apt-get install -y iproute2 wget autoconf libtool check patch build-essential libreadline-dev re2c libxml2-dev tmux software-properties-common python3-libxml2 python3
+RUN apt-get update && apt-get install -y iproute2 wget autoconf libtool check patch build-essential libreadline-dev re2c libxml2-dev tmux software-properties-common python3-libxml2 python3 htop libtool libcap-dev make autoconf automake udev gcc-12 pkg-config linux-headers-$(uname -r) kmod
 RUN wget https://epics-controls.org/download/base/base-7.0.8.tar.gz
 RUN tar -xvf base-7.0.8.tar.gz
 RUN ln -s /epics/base-7.0.8 /epics/base
@@ -22,7 +22,7 @@ RUN cp /data/epics/configs/asyn-R4-44-2/configure/RELEASE /epics/support/asyn-R4
 
 RUN make -j 4
 
-RUN apt-get update && apt-get install -y libtool libcap-dev make autoconf automake udev gcc-12 pkg-config linux-headers-$(uname -r) kmod
+# RUN apt-get update && apt-get install -y libtool libcap-dev make autoconf automake udev gcc-12 pkg-config linux-headers-$(uname -r) kmod
 RUN echo KERNEL==\"EtherCAT[0-9]*\", MODE=\"0664\" > /etc/udev/rules.d/99-EtherCAT.rules
 
 WORKDIR /etherlab
