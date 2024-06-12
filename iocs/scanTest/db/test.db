@@ -1,0 +1,10 @@
+record(calcout, "$(DEVICE):toggle")
+{
+        field(SCAN, ".01 second")
+        field(INPA, "$(DEVICE):toggle")
+        field(CALC, "!A")
+        field(OUT,"$(DEVICE):CHANNEL9:OUTPUT PP")
+        field(OOPT,"Every Time")
+        field(DOPT,"Use CALC")
+       
+}

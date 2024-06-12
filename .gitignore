@@ -30,3 +30,4 @@ iocs/scanTest/bin
 etc/makeIocs/O.*
 !data/epics/dbd/
 !data/epics/dbd/menuScan.dbd
+!iocs/scanTest/db
