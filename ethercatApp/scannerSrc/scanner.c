@@ -41,7 +41,7 @@ long frame_time_ns = 50000;
 
 typedef enum _BOOL { FALSE = 0, TRUE = 1} BOOL;
 
-enum { PERIOD_NS = 10000000 };
+enum { PERIOD_NS = 1000000 };
 #define TIMESPEC2NS(T) ((uint64_t) (T).tv_sec * NSEC_PER_SEC + (T).tv_nsec)
 
 struct CLIENT;

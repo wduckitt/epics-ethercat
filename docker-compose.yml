@@ -20,7 +20,7 @@ services:
       - ./tmp/tmuxtmps/scanner/tmp:/tmuxtmp
       - ./tmp:/tmp
       - project-bashhistory:/commandhistory
-    command: ["/bin/bash", "-c", "ethercatctl start && tmux  new -s scanner -d /epics/ethercat/bin/linux-$(uname -m)/scanner -m0 /epics/ethercat/iocs/scanTest/etc/scanner.xml /tmp/socket0 && tmux ls && sleep infinity"]
+    command: ["/bin/bash", "-c", "ethercatctl start && tmux  new -s scanner -d nice -n -20 /epics/ethercat/bin/linux-$(uname -m)/scanner -m0 /epics/ethercat/iocs/scanTest/etc/scanner.xml /tmp/socket0 && tmux ls && sleep infinity"]
   scantestioc:
     build:
       context: ./
