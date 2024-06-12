@@ -1,6 +1,6 @@
 record(calcout, "$(DEVICE):toggle")
 {
-        field(SCAN, ".01 second")
+        field(SCAN, ".1 second")
         field(INPA, "$(DEVICE):toggle")
         field(CALC, "!A")
         field(OUT,"$(DEVICE):CHANNEL9:OUTPUT PP")
