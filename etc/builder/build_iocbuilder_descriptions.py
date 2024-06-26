@@ -28,7 +28,7 @@ slaveInfoFiles = [
     "SMC EX250-SEN1-X156.xml",
     "SMC EX260-SECx_V11.xml",
     "NI9144.xml",
-    "SAMD51.xml"
+    "sample_app.xml"
     ]
 
 def build_iocbuilder_descriptions():
