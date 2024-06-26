@@ -176,7 +176,15 @@ char *shorten_name(char *name)
     else
     {
         sep = strstr(name, SPACE);
+        if(sep == NULL)
+        {
+            copy_section(shortname, name, name + strlen(name));
+        }
+        else
+        {
+       
         copy_section(shortname, name, sep);
+        }
     }
     return shortname;
 }
