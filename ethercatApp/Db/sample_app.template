@@ -57,3 +57,101 @@ record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM1")
   field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm1")
   field("OMSL", "supervisory")
 }
+
+record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM2")
+{
+  field("DTYP", "asynInt32")
+  field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm2")
+  field("OMSL", "supervisory")
+}
+
+record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM3")
+{
+  field("DTYP", "asynInt32")
+  field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm3")
+  field("OMSL", "supervisory")
+}
+
+record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM4")
+{
+  field("DTYP", "asynInt32")
+  field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm4")
+  field("OMSL", "supervisory")
+}
+
+record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM5")
+{
+  field("DTYP", "asynInt32")
+  field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm5")
+  field("OMSL", "supervisory")
+}
+
+record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM6")
+{
+  field("DTYP", "asynInt32")
+  field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm6")
+  field("OMSL", "supervisory")
+}
+
+record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM7")
+{
+  field("DTYP", "asynInt32")
+  field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm7")
+  field("OMSL", "supervisory")
+}
+
+record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM8")
+{
+  field("DTYP", "asynInt32")
+  field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm8")
+  field("OMSL", "supervisory")
+}
+
+record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM9")
+{
+  field("DTYP", "asynInt32")
+  field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm9")
+  field("OMSL", "supervisory")
+}
+
+record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM10")
+{
+  field("DTYP", "asynInt32")
+  field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm10")
+  field("OMSL", "supervisory")
+}
+
+record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM11")
+{
+  field("DTYP", "asynInt32")
+  field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm11")
+  field("OMSL", "supervisory")
+}
+
+record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM12")
+{
+  field("DTYP", "asynInt32")
+  field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm12")
+  field("OMSL", "supervisory")
+}
+
+record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM13")
+{
+  field("DTYP", "asynInt32")
+  field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm13")
+  field("OMSL", "supervisory")
+}
+
+record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM14")
+{
+  field("DTYP", "asynInt32")
+  field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm14")
+  field("OMSL", "supervisory")
+}
+
+record(longout, "$(DEVICE):OUTPUTSPROCESSDATAMAPPING:PWM15")
+{
+  field("DTYP", "asynInt32")
+  field("OUT",  "@asyn($(PORT))Outputsprocessdatamapping.pwm15")
+  field("OMSL", "supervisory")
+}

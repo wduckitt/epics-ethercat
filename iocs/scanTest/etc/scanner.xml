@@ -54,6 +54,20 @@
         <entry name="enable" index="0x00007010" subindex="0x00000001" bit_length="32" datatype="UDINT" oversample="0" />
         <entry name="pwm0" index="0x00007010" subindex="0x00000002" bit_length="32" datatype="UDINT" oversample="0" />
         <entry name="pwm1" index="0x00007010" subindex="0x00000003" bit_length="32" datatype="UDINT" oversample="0" />
+        <entry name="pwm2" index="0x00007010" subindex="0x00000004" bit_length="32" datatype="UDINT" oversample="0" />
+        <entry name="pwm3" index="0x00007010" subindex="0x00000005" bit_length="32" datatype="UDINT" oversample="0" />
+        <entry name="pwm4" index="0x00007010" subindex="0x00000006" bit_length="32" datatype="UDINT" oversample="0" />
+        <entry name="pwm5" index="0x00007010" subindex="0x00000007" bit_length="32" datatype="UDINT" oversample="0" />
+        <entry name="pwm6" index="0x00007010" subindex="0x00000008" bit_length="32" datatype="UDINT" oversample="0" />
+        <entry name="pwm7" index="0x00007010" subindex="0x00000009" bit_length="32" datatype="UDINT" oversample="0" />
+        <entry name="pwm8" index="0x00007010" subindex="0x0000000a" bit_length="32" datatype="UDINT" oversample="0" />
+        <entry name="pwm9" index="0x00007010" subindex="0x0000000b" bit_length="32" datatype="UDINT" oversample="0" />
+        <entry name="pwm10" index="0x00007010" subindex="0x0000000c" bit_length="32" datatype="UDINT" oversample="0" />
+        <entry name="pwm11" index="0x00007010" subindex="0x0000000d" bit_length="32" datatype="UDINT" oversample="0" />
+        <entry name="pwm12" index="0x00007010" subindex="0x0000000e" bit_length="32" datatype="UDINT" oversample="0" />
+        <entry name="pwm13" index="0x00007010" subindex="0x0000000f" bit_length="32" datatype="UDINT" oversample="0" />
+        <entry name="pwm14" index="0x00007010" subindex="0x00000010" bit_length="32" datatype="UDINT" oversample="0" />
+        <entry name="pwm15" index="0x00007010" subindex="0x00000011" bit_length="32" datatype="UDINT" oversample="0" />
       </pdo>
     </sync>
     <sync index="3"  dir="Inputs"  watchdog="0">

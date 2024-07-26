@@ -15,7 +15,7 @@ build: ../diamond_types.py ../../builder/iocbuilder_descriptions.pkl ../../build
 	cp slave-types.txt ../slave-types.txt
 
 uninstall:
-	-rm ../../builder/*.pkl
+	-rm ../builder/*.pkl
 
 # # rule for building slave types list
 # slave-types.txt:
