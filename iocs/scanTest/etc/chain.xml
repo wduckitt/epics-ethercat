@@ -1,6 +1,15 @@
 <components arch="linux-x86_64">
   <ethercat.EthercatMaster name="ECATM" socket="/tmp/socket0" master_index="0"/>
-  <!-- slaves 2 link up 1 -->
-  <ethercat.EthercatSlave master="ECATM" name="ERIO.0" position="0" type_rev="EK1818 rev 0x00120000"/>
-  <ethercat.EthercatSlave master="ECATM" name="ERIO.1" position="1" type_rev="sample_app rev 0x00000001"/>
+  <!-- slaves 5 link up 1 -->
+  <!-- WARNING: bus contains slaves not supported by the EPICS module at release 7-5-2-->
+  <!-- WARNING: Please attempt upgrade or contact module maintainer -->
+  <ethercat.EthercatSlave master="ECATM" name="ERIO.0" position="0" type_rev="EK1100 rev 0x00120000"/>
+  <!-- Slave not supported -->
+  <ethercat.EthercatSlave master="ECATM" name="ERIO.1" position="1" type_rev="EL1808 rev 0x00120000"/>
+  <!-- Slave not supported -->
+  <ethercat.EthercatSlave master="ECATM" name="ERIO.2" position="2" type_rev="EL3255 rev 0x00160000"/>
+  <!-- Slave not supported -->
+  <ethercat.EthercatSlave master="ECATM" name="ERIO.3" position="3" type_rev="EL7342 rev 0x00140000"/>
+  <!-- Slave not supported -->
+  <ethercat.EthercatSlave master="ECATM" name="ERIO.4" position="4" type_rev="EL2872 rev 0x00120000"/>
 </components>
