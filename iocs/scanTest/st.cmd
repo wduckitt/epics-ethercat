@@ -6,23 +6,15 @@ scantest_registerRecordDeviceDriver(pdbbase)
 
 ecAsynInit("/tmp/socket0", 1000000)
 dbLoadRecords
-dbLoadRecords("../../db/MASTER.template", "DEVICE=ECTest:0,PORT=MASTER0,SCAN=I/O Intr")
-dbLoadRecords("../../ethercatApp/Db/EK1100.template", "DEVICE=ECTest:1,PORT=ERIO.0,SCAN=I/O Intr")
-dbLoadRecords("../../ethercatApp/Db/modified/EL1808.template", "DEVICE=ECTest:1,PORT=ERIO.1,SCAN=I/O Intr")
-dbLoadRecords("../../ethercatApp/Db/modified/EL3255.template", "DEVICE=ECTest:1,PORT=POT.0,SCAN=I/O Intr")
-dbLoadRecords("../../ethercatApp/Db/modified/EL7342.template", "DEVICE=ECTest:1,PORT=ERIO.3,SCAN=I/O Intr")
-dbLoadRecords("../../ethercatApp/Db/EL2872.template", "DEVICE=ECTest:1,PORT=ERIO.4,SCAN=I/O Intr")
+dbLoadRecords("../../db/MASTER.template", "DEVICE=HZBBDM:0,PORT=MASTER0,SCAN=I/O Intr")
+dbLoadRecords("../../ethercatApp/Db/EK1100.template", "DEVICE=HZBBDM:1,PORT=ERIO.0,SCAN=I/O Intr")
+dbLoadRecords("../../ethercatApp/Db/modified/EL1808.template", "DEVICE=HZBBDM:2,PORT=ERIO.1,SCAN=I/O Intr")
+dbLoadRecords("../../ethercatApp/Db/modified/EL3255.template", "DEVICE=HZBBDM:3,PORT=POT.0,SCAN=I/O Intr")
+dbLoadRecords("../../ethercatApp/Db/modified/EL7342.template", "DEVICE=HZBBDM:4,PORT=DRIVE.1,SCAN=I/O Intr")
+dbLoadRecords("../../ethercatApp/Db/EL2872.template", "DEVICE=HZBBDM:5,PORT=ERIO.4,SCAN=I/O Intr")
+
+dbLoadRecords("db/HZB_DC.db", "device=HZB_RF_BUNCHER1_RFM_Trimmer,Pot=HZBBDM:3:INPUT1,MotorDrive==HZBBDM:4,CHANNEL=CHANNEL1,CWLimit=HZBBDM:4:DCMSTATUSCHANNEL1:STATUS__DIGITALINPUT1,CCWLimit=HZBBDM:4:DCMSTATUSCHANNEL1:STATUS__DIGITALINPUT2,Master=HZBCM:0,EL3255=HZBBDM:3")
 
 
-
-
-#dbLoadRecords("db/test.db", "DEVICE=ECTest:1")
-#dbLoadRecords("../../ethercatApp/Db/EL6090.template", "DEVICE=ECTest:2,PORT=ERIO.1,SCAN=I/O Intr")
-#dbLoadRecords("../../ethercatApp/Db/sample_app.template", "DEVICE=ECTest:2,PORT=ERIO.1,SCAN=I/O Intr")
-#dbLoadRecords("../../db/EL1004.template", "DEVICE=ECTest:2,PORT=VACUUM0,SCAN=I/O Intr")
-#dbLoadRecords("../../db/EL3702.template", "DEVICE=ECTest:3,PORT=RF0,SCAN=I/O Intr")
-#dbLoadRecords("../../db/EL2004.template", "DEVICE=ECTest:4,PORT=OUT0,SCAN=I/O Intr")
-#dbLoadRecords("../../db/gadc.template", "DEVICE=ECTest:3,PORT=RF0,SCAN=.1 second,CHANNEL=1,SAMPLES=100840,INTSCAN=.1 second")
-#dbLoadRecords("../../db/xfc.template", "DEVICE=ECTest:3,PORT=RF0,SCAN=.1 second,CHANNEL=1")
 
 iocInit()
