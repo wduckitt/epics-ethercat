@@ -1,0 +1,649 @@
+### START TEST AREA ###
+record(ao,"$(device):testpv") {
+    field(DTYP,"Soft Channel")
+    field(DRVH,"8192")
+    field(DRVL,"0")
+    field(PREC,"0")
+	field(VAL,"10")
+    field(PINI,"YES")	
+}
+record(ao,"$(device):testpv2") {
+    field(DTYP,"Soft Channel")
+    field(DRVH,"8192")
+    field(DRVL,"0")
+    field(PREC,"0")
+	field(VAL,"10")
+    field(PINI,"YES")
+}
+### END TEST AREA ###
+### START CALIBRATION ###
+record(bo,"$(device):isHomed") {
+    field(PINI,"YES")
+    field(DTYP,"Soft Channel")
+    field(VAL,"0")
+}
+record(bo,"$(device):isCalibrated") {
+    field(PINI,"YES")
+    field(DTYP,"Soft Channel")
+    field(VAL,"0")
+}
+record(ao,"$(device):display_ENG") {
+    field(DTYP,"Soft Channel")
+    field(PREC,"3")
+	field(OUT,"$(device):setPos_ENG_val PP")
+}
+record(ai,"$(device):setPos_ENG_val") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"0")
+	field(PREC,"3")
+    field(PINI,"YES")
+}
+record(ao,"$(device):startCal") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"0")
+    field(PINI,"NO")
+	field(FLNK,"$(device):offset_Pot_calc")
+}
+record(calcout,"$(device):offset_Pot_calc"){
+	field(INPA,"$(device):potChVal")
+	field(INPB,"$(device):dist_Pot")
+	field(INPC,"$(device):setPos_ENG_val")
+	field(INPD,"$(device):offset_Pot")
+	field(INPE,"$(device):snlState")
+	field(CALC,"E=0?C-(A/B):D")
+	field(OUT,"$(device):offset_Pot PP")
+}
+### END CALIBRATION ###
+### START INTERNAL COUNTER ###
+### END INTERNAL COUNTER ###
+### START POT ###
+record(mbbo,"$(device):isInstalled_Pot") {
+    field(PINI,"YES")
+	field(VAL,"0")
+    field(DTYP,"Soft Channel")
+    field(NOBT,"1")
+    field(SHFT,"0")
+    field(ZRST,"NO")
+    field(ONST,"YES")
+    field(ZRVL,"0x00")
+    field(ONVL,"0x01")
+	info(autosaveFields_pass0, "VAL")
+}
+record(ao,"$(device):dist_Pot") {
+    field(DTYP,"Soft Channel")
+    field(PREC,"5")
+	field(VAL,"1")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")
+}
+record(ao,"$(device):offset_Pot") {
+    field(DTYP,"Soft Channel")
+    field(PREC,"3")
+	field(VAL,"0")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")
+}
+record (calc, "$(device):potChVal") {
+  field(SCAN,".001 second")
+  field(INPA,"$(Pot):VALUE")
+  field(CALC, "A")
+  field(FLNK,"$(device):potChVal_ENG")
+}
+record (calc, "$(device):potChVal_ENG") {
+  field(INPA,"$(Pot):VALUE")
+  field(INPB,"$(device):dist_Pot")
+  field(INPC,"$(device):offset_Pot")
+  field(CALC, "C+(A/B)")
+}
+### END POT ###
+### START LIMITS ###
+record(bo,"$(device):FSErrorLimEnable") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"0")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")
+}
+record(ao,"$(device):FSErrorLim") {
+    field(DTYP,"Soft Channel")
+    field(PREC,"0")
+	field(VAL,"1")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")
+}
+record(bo,"$(device):softLimEnable") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"0")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")
+}
+record(bo,"$(device):hardLimEnable") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"0")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")
+}
+record(ao,"$(device):upperLim") {
+    field(DTYP,"Soft Channel")
+    field(PREC,"3")
+	field(VAL,"1")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")
+}
+record(ao,"$(device):lowerLim") {
+    field(DTYP,"Soft Channel")
+    field(PREC,"3")
+	field(VAL,"1")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")
+}
+record(ao,"$(device):FSErrorLim_val") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"1")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")
+}
+record (calcout, "$(device):FSError_Self") {
+  field(SCAN,".1 second")
+  field(INPA,"$(device):testpv")
+  field(CALC, "0")
+  field(OUT,"$(device):FSError")
+  field(FLNK,"$(device):FSError")
+}
+record(ao,"$(device):FSError") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"0")
+    field(PINI,"YES")
+	field(FLNK,"$(device):FSError_Event")
+    info(autosaveFields_pass0, "VAL")
+}
+record (calcout, "$(device):FSError_Event") {
+  field(INPA,"$(device):FSError")
+  field(INPB,"$(device):FSErrorLim")
+  field(INPC,"$(device):driveEnable")
+  field(INPD,"$(device):FSErrorLimEnable")
+  field(CALC, "D && (A>B)?0:C")
+  field(OUT,"$(device):driveEnable PP")
+  field(FLNK,"$(device):upperLim_Pot")
+}
+record (calc, "$(device):upperLim_Pot") {
+  field(INPA,"$(device):potChVal_ENG")
+  field(INPB,"$(device):upperLim")
+  field(INPC,"$(device):isInstalled_Pot")
+  field(INPD,"$(device):softLimEnable")
+  field(CALC, "C && D && A>B?1:0")
+  field(FLNK,"$(device):lowerLim_Pot")
+}
+record (calc, "$(device):lowerLim_Pot") {
+  field(INPA,"$(device):potChVal_ENG")
+  field(INPB,"$(device):lowerLim")
+  field(INPC,"$(device):isInstalled_Pot")
+  field(INPD,"$(device):softLimEnable")
+  field(CALC, "C && D && A<B?1:0")
+  field(FLNK,"$(device):CWLimit")
+}
+record (calc, "$(device):CWLimit") {
+  field(INPA,"$(CWLimit)")
+  field(INPB,"$(device):hardLimEnable")
+  field(CALC, "A&&B?1:0")
+  field(FLNK,"$(device):CCWLimit")
+}
+record (calc, "$(device):CCWLimit") {
+  field(INPA,"$(CCWLimit)")
+  field(INPB,"$(device):hardLimEnable")
+  field(CALC, "A&&B?1:0")
+  field(FLNK,"$(device):lowMoveDisable")
+}
+record (calc, "$(device):lowMoveDisable") {
+  field(INPA,"$(device):lowerLim_Pot")
+  field(INPB,"$(device):isInstalled_Pot")
+  field(INPC,"$(device):softLimEnable")
+  field(INPD,"$(device):CCWLimit")
+  field(CALC, "D||(C && (A&&B))")
+  field(FLNK,"$(device):upMoveDisable")
+}
+record (calc, "$(device):upMoveDisable") {
+  field(INPA,"$(device):upperLim_Pot")
+  field(INPB,"$(device):isInstalled_Pot")
+  field(INPC,"$(device):softLimEnable")
+  field(INPD,"$(device):CWLimit")
+  field(CALC, "D||(C && (A&&B))")
+  field(FLNK,"$(device):setCL_setpoint_DRVH")
+}
+record (calcout, "$(device):setCL_setpoint_DRVH") {
+  field(INPA,"$(device):upperLim")
+  field(CALC, "A")
+  field(OUT,"$(device):CL_setpoint_dist.DRVH PP")
+  field(FLNK,"$(device):setCL_setpoint_DRVL")
+}
+record (calcout, "$(device):setCL_setpoint_DRVL") {
+  field(INPA,"$(device):lowerLim")
+  field(CALC, "A")
+  field(OUT,"$(device):CL_setpoint_dist.DRVL PP")
+}
+### END LIMITS ###
+### START CONTROL LOOP ###
+record(stringout,"$(device):CL_FBSensor") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"N/A\n\r")
+    field(PINI,"YES")
+}
+record(stringout,"$(device):CL_FSSensor") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"N/A\n\r")
+    field(PINI,"YES")
+}
+record(bo,"$(device):CL_enable") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"0")
+    field(PINI,"YES")
+}
+record(ao,"$(device):CL_deadband") {
+    field(DTYP,"Soft Channel")
+	field(DRVH,"1000")
+    field(DRVL,"0")
+    field(PREC,"3")
+	field(VAL,"0")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")
+}
+record(bo,"$(device):driveEnable") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"0")
+    field(PINI,"YES")
+	field(OUT,"$(MotorDrive):DCMCONTROL$(CHANNEL):CONTROL__ENABLE")
+	field(FLNK,"$(MotorDrive):DCMCONTROL$(CHANNEL):CONTROL__ENABLE")
+}
+record(ao,"$(device):CL_setpoint_dist") {
+    field(DTYP,"Soft Channel")
+	field(DRVH,"200000")
+	field(HOPR,"200000")
+    field(DRVL,"-200000")
+	field(LOPR,"-200000")
+    field(PREC,"2")
+	field(VAL,"0")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")
+}
+record(ao,"$(device):CL_Kp") {
+    field(DTYP,"Soft Channel")
+    field(DRVH,"1000000")
+    field(DRVL,"0")
+    field(PREC,"3")
+	field(VAL,"0")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")	
+}
+record(ao,"$(device):CL_Ki") {
+    field(DTYP,"Soft Channel")
+    field(DRVH,"1000000")
+    field(DRVL,"0")
+    field(PREC,"3")
+	field(VAL,"0")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")
+}
+record(ao,"$(device):CL_integral") {
+    field(DTYP,"Soft Channel")
+    field(DRVH,"1000000")
+    field(DRVL,"-1000000")
+    field(PREC,"3")
+	field(VAL,"0")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")	
+}
+record(ao,"$(device):CL_windGuard") {
+    field(DTYP,"Soft Channel")
+    field(DRVH,"1000000")
+    field(DRVL,"0")
+    field(PREC,"3")
+	field(VAL,"0")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")	
+}
+record(ao,"$(device):CL_Kd") {
+    field(DTYP,"Soft Channel")
+    field(DRVH,"1000000")
+    field(DRVL,"0")
+    field(PREC,"3")
+	field(VAL,"0")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")	
+}
+record (calcout, "$(device):CL_error_Pot") {
+  field(INPA, "$(device):potChVal_ENG")
+  field(INPB, "$(device):CL_setpoint_dist")
+  field(CALC, "B-A")
+  field(OUT, "$(device):CL_error")
+  field(FLNK, "$(device):display_Pot")
+}
+record (calcout, "$(device):display_Pot") {
+  field(INPA, "$(device):potChVal_ENG")
+  field(CALC, "A")
+  field(OUT, "$(device):display_ENG PP")
+  field(FLNK, "$(device):CL_error")
+}
+record(ao,"$(device):CL_error") {
+    field(DTYP,"Soft Channel")
+    field(PREC,"3")
+	field(FLNK, "$(device):CL_deadband_enable")
+}
+record(calc,"$(device):CL_deadband_enable"){
+  field(INPA, "$(device):CL_deadband")
+  field(INPB, "$(device):CL_error")
+  field(CALC, "ABS(B)>=A?1:0")
+  field(FLNK, "$(device):CL_integral_calc")
+}
+record (calcout, "$(device):CL_integral_calc") {
+  field(INPA, "$(device):CL_integral")
+  field(INPB, "$(device):CL_error")
+  field(INPC, "$(device):CL_pError")
+  field(INPD, "$(device):CL_enable")
+  field(INPE, "$(device):driveEnable")
+  field(INPF, "$(device):CL_deadband_enable")
+  field(CALC, "(B/C)<=0?0:D*E*F*(A+(B*0.1))")
+  field(OUT, "$(device):CL_integral PP")
+  field(FLNK, "$(device):CL_integral_windUP")
+}
+record (calcout, "$(device):CL_integral_windUP") {
+  field(INPA, "$(device):CL_integral")
+  field(INPB, "$(device):CL_windGuard")
+  field(CALC, "A>B?B:A")
+  field(OUT, "$(device):CL_integral PP")
+  field(FLNK, "$(device):CL_integral_windDOWN")
+}
+record (calcout, "$(device):CL_integral_windDOWN") {
+  field(INPA, "$(device):CL_integral")
+  field(INPB, "$(device):CL_windGuard")
+  field(CALC, "A<-B?-B:A")
+  field(OUT, "$(device):CL_integral PP")
+  field(FLNK, "$(device):CL_derivative")
+}
+record (calc, "$(device):CL_derivative") {
+  field(INPA, "$(device):CL_error")
+  field(INPB, "$(device):CL_pError")
+  field(CALC, "(A-B)/0.1")
+  field(FLNK, "$(device):CL_command")
+}
+record (calc, "$(device):CL_command") {
+  field(INPA, "$(device):CL_error")
+  field(INPB, "$(device):CL_integral")
+  field(INPC, "$(device):CL_derivative")
+  field(INPD, "$(device):CL_Kp")
+  field(INPE, "$(device):CL_Ki")
+  field(INPF, "$(device):CL_Kd")
+  field(INPG, "$(device):CL_enable")
+  field(INPH, "$(device):driveEnable")
+  field(INPI, "$(device):CL_deadband_enable")
+  field(CALC, "G*H*I*((A*D)+(B*E)+(C*F))")
+  field(FLNK, "$(device):CL_commandMoveEnable")
+}
+record (calcout, "$(device):CL_commandMoveEnable") {
+  field(INPA, "$(device):CL_command")
+  field(INPB, "$(device):upMoveDisable")
+  field(INPC, "$(device):lowMoveDisable")
+  field(CALC, "(((A>0)&&B)||((A<0)&&C))?0:A")
+  field(OUT, "$(device):CL_velocity")
+  field(FLNK, "$(device):CL_velocity")
+}
+record(ao,"$(device):CL_velocity") {
+	field(OROC,"2000")
+    field(DTYP,"Soft Channel")
+    field(DRVH,"18000")
+    field(DRVL,"-18000")
+    field(PREC,"0")
+	field(VAL,"0")
+    field(PINI,"YES")
+	field(OUT,  "$(MotorDrive):DCMVELOCITY$(CHANNEL):VELOCITY PP")  
+    field(FLNK, "$(device):CL_pError")	
+    info(autosaveFields_pass0, "DRVH DRVL OROC")
+}
+record (calc, "$(device):CL_pError") {
+  field(INPA, "$(device):CL_error")	
+  field(CALC, "A")
+  field(FLNK, "$(device):inCLMode")
+}
+record (calc, "$(device):inCLMode") {
+  field(INPA, "$(device):snlState")	
+  field(CALC, "A==1?1:0")
+  field(FLNK, "$(device):driveTimeOutCount")
+}
+record (calc, "$(device):driveTimeOutCount") {
+  field(INPA, "$(device):CL_command")
+  field(INPB, "$(device):driveEnable")
+  field(INPC, "$(device):driveTimeOutCount")
+  field(INPD, "$(device):inCLMode")
+  field(CALC, "ABS(A)>0?0:D*B*(C+1)")
+  field(FLNK, "$(device):driveTimedOut")
+}
+record (calcout, "$(device):driveTimedOut") {
+  field(INPA, "$(device):driveTimeOutCount")
+  field(INPB, "$(device):driveEnable")
+  field(CALC, "A>100000?0:B")
+  field(OUT, "$(device):driveEnable PP")
+  field(FLNK, "$(device):onPosition")
+}
+record (calc, "$(device):onPosition") {
+  field(INPA, "$(device):CL_command")
+  field(INPB, "$(device):driveEnable")
+  field(INPC, "$(device):driveTimeOutCount")
+  field(INPD, "$(device):inCLMode")
+  field(CALC, "ABS(A)>0?0:D*B")
+}
+### END CONTROL LOOP ###
+### START JOG###
+record(ao,"$(device):fastJogVel") {
+    field(DTYP,"Soft Channel")
+    field(PREC,"0")
+	field(VAL,"1000")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")	
+}
+record(ao,"$(device):slowJogVel") {
+    field(DTYP,"Soft Channel")
+    field(PREC,"0")
+	field(VAL,"100")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")	
+}
+record(bo,"$(device):jog_enable") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"0")
+    field(PINI,"YES")
+	field(FLNK, "$(device):jog_command")
+}
+record(bo,"$(device):jog_ff") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"0")
+    field(PINI,"YES")
+}
+record(bo,"$(device):jog_sf") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"0")
+    field(PINI,"YES")
+}
+record(bo,"$(device):jog_fb") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"0")
+    field(PINI,"YES")
+}
+record(bo,"$(device):jog_sb") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"0")
+    field(PINI,"YES")
+}
+record (calcout, "$(device):jog_command") {
+  field(INPA, "$(device):jog_ff")
+  field(INPB, "$(device):jog_sf")
+  field(INPC, "$(device):jog_fb")
+  field(INPD, "$(device):jog_sb")
+  field(INPE, "$(device):jog_enable")
+  field(INPF, "$(device):fastJogVel")
+  field(INPG, "$(device):slowJogVel")
+  field(INPH, "$(device):lowMoveDisable")
+  field(INPI, "$(device):upMoveDisable")
+  field(CALC, "E*((!I*F*A)+(!I*G*B)+(!H*-F*C)+(!H*-G*D))")
+  field(OUT,  "$(device):jog_velocity")
+  field(FLNK, "$(device):display_Pot_jog")
+}
+record (calcout, "$(device):display_Pot_jog") {
+  field(INPA, "$(device):potChVal_ENG")
+  field(CALC, "A")
+  field(OUT, "$(device):display_ENG PP")
+  field(FLNK, "$(device):jog_velocity")
+}
+record(ao,"$(device):jog_velocity") {
+	field(OROC,"2000")
+    field(DTYP,"Soft Channel")
+    field(DRVH,"32000")
+    field(DRVL,"-32000")
+    field(PREC,"0")
+	field(VAL,"0")
+    field(PINI,"YES")
+	field(OUT,  "$(MotorDrive):DCMVELOCITY$(CHANNEL):VELOCITY")
+    field(FLNK, "$(MotorDrive):DCMVELOCITY$(CHANNEL):VELOCITY")  	
+}
+### END JOG###
+### START STATE MACHINE ###
+record(mbbo,"$(device):snlState") {
+    field(PINI,"YES")
+	field(VAL,"0")
+    field(DTYP,"Soft Channel")
+    field(NOBT,"2")
+    field(SHFT,"0")
+    field(ZRST,"Power On Reset")
+    field(ONST,"Closed Loop")
+    field(TWST,"Open Loop")
+    field(ZRVL,"0x00")
+    field(ONVL,"0x01")
+    field(TWVL,"0x02")
+}
+record(ao,"$(device):fanout_snlState_val") {
+    field(DTYP,"Soft Channel")
+    field(DRVH,"10")
+    field(DRVL,"0")
+    field(PREC,"0")
+	field(VAL,"1")
+    field(PINI,"YES")
+}
+record(mbbo,"$(device):snlCLFeedback") {
+    field(PINI,"YES")
+	field(VAL,"0")
+    field(DTYP,"Soft Channel")
+    field(NOBT,"1")
+    field(SHFT,"0")
+    field(ZRST,"Pot")
+    field(ZRVL,"0x00")
+	info(autosaveFields_pass0, "VAL")
+}
+record(ao,"$(device):fanout_snlCLFeedback_val") {
+    field(DTYP,"Soft Channel")
+    field(DRVH,"10")
+    field(DRVL,"0")
+    field(PREC,"0")
+	field(VAL,"1")
+    field(PINI,"YES")
+}
+record(mbbo,"$(device):snlFailSafe") {
+    field(PINI,"YES")
+	field(VAL,"0")
+    field(DTYP,"Soft Channel")
+    field(NOBT,"1")
+    field(SHFT,"0")
+    field(ZRST,"Pot")
+    field(ZRVL,"0x00")
+	info(autosaveFields_pass0, "VAL")
+}
+record(mbbo,"$(device):snlLimitSide") {
+    field(PINI,"YES")
+	field(VAL,"0")
+    field(DTYP,"Soft Channel")
+    field(NOBT,"1")
+    field(SHFT,"0")
+    field(ZRST,"Hig")
+    field(ONST,"Low")
+    field(ZRVL,"0x00")
+    field(ONVL,"0x01")
+}
+record(fanout,"$(device):fanout_snlState_rec") {
+	field(SCAN,".001 second")
+	# power on reset mode
+	field(LNK1, "$(device):testpv")
+	# control loop choose position sensor
+    field(LNK2, "$(device):CL_error_Pot")
+	# jog mode
+    field(LNK3, "$(device):jog_command")
+	# selection value
+	field(SELL, "$(device):fanout_snlState_val")
+	field(SELM, "Specified")
+}
+### END STATE MACHINE ###
+### START CHECK HARDWARE STATUS ###
+record (calc, "$(device):EL3255_Check") {
+  field(SCAN,".1 second")
+  field(INPA,"$(EL3255):AL_STATE.RVAL")
+  field(CALC, "A=8?1:0")
+  field(FLNK,"$(device):EL7031_Check")
+}
+record (calc, "$(device):EL7031_Check") {
+  field(INPA,"$(MotorDrive):AL_STATE.RVAL")
+  field(CALC, "A=8?1:0")
+  field(FLNK,"$(device):Master_Check")
+}
+record (calc, "$(device):Master_Check") {
+  field(INPA,"$(Master):WCSTATE.RVAL")
+  field(CALC, "A=2?1:0")
+  field(FLNK,"$(device):EtherCAT_Operational")
+}
+record (calc, "$(device):EtherCAT_Operational") {
+  field(INPA,"$(device):EL3255_Check")
+  field(INPB,"$(device):EL7031_Check")
+  field(INPC,"$(device):Master_Check")
+  field(CALC, "A&B&C?1:0")
+  field(FLNK,"$(device):disable_drive")
+}
+record (calcout, "$(device):disable_drive") {
+  field(INPA, "$(device):EtherCAT_Operational")
+  field(OOPT, "When Zero") 
+  field(CALC, "A=0?0:A")
+  field(OUT, "$(device):snlState PP")
+}
+### END CHECK HARDWARE STATUS ###
+### START HEARTBEAT ###
+record (calc, "$(device):heart_beat") {
+  field(SCAN,".2 second")
+  field(INPA,"$(device):heart_beat")
+  field(INPB,"$(device):EtherCAT_Operational")
+  field(CALC, "(!A)&B")
+}
+### END HEARTBEAT ###
+### START AUTO-MODE ###
+record(bo,"$(device):enable_automode") {
+    field(DTYP,"Soft Channel")
+	field(VAL,"0")
+    field(PINI,"YES")
+    info(autosaveFields_pass0, "VAL")
+}
+record(mbbo,"$(device):state_automode") {
+    field(PINI,"YES")
+	field(VAL,"0")
+    field(DTYP,"Soft Channel")
+    field(NOBT,"2")
+    field(SHFT,"0")
+    field(ZRST,"Idle")
+    field(ONST,"Moving")
+    field(TWST,"Error")
+    field(ZRVL,"0x00")
+    field(ONVL,"0x01")
+    field(TWVL,"0x02")
+}
+### END AUTO-MODE  ###
+
+
+
+
+
+
+
+
+
+
