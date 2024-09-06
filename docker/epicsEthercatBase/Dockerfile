@@ -1,5 +1,5 @@
 
-FROM ubuntu:22.04 as epicsethercatbase
+FROM debian:bookworm as epicsethercatbase
 ENV EPICS_BASE=/epics/base/
 WORKDIR /epics
 RUN apt-get update && apt-get install -y iproute2 wget autoconf libtool check patch build-essential libreadline-dev re2c libxml2-dev tmux software-properties-common python3-libxml2 python3 htop libtool libcap-dev make autoconf automake udev gcc-12 pkg-config linux-headers-$(uname -r) kmod
