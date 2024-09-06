@@ -285,7 +285,7 @@
 <device type_name="EK1100" revision="0x00120000" position="0" name="ERIO.0" />
 <device type_name="EL1808" revision="0x00120000" position="1" name="ERIO.1" />
 <device type_name="EL3255" revision="0x00160000" position="2" name="POT.0" />
-<device type_name="EL7342" revision="0x00140000" position="3" name="ERIO.3" />
+<device type_name="EL7342" revision="0x00140000" position="3" name="DRIVE.1" />
 <device type_name="EL2872" revision="0x00120000" position="4" name="ERIO.4" />
 </chain>
 <sdorequests>
@@ -306,6 +306,43 @@
   <sdo name="SDO.POT.0.0X8040" slave="POT.0" index="0x8040" >
     <sdoentry description="Enable filter ch5" subindex="0x06" bit_length="8" datatype="USINT" asynparameter="EnableFilterCh5" />
   </sdo>
+  ######################### DRIVE.1 START #########################
+  # Channel 1
+  <sdo name="SDO.DRIVE.1.0X8020" slave="DRIVE.1" index="0x8020" >
+    <sdoentry description="Maximal Current Ch1" subindex="0x01" bit_length="16" datatype="UINT" asynparameter="MaximalCurrentCh1" />
+	<sdoentry description="Nominal Current Ch1" subindex="0x02" bit_length="16" datatype="UINT" asynparameter="NominalCurrentCh1" />
+	<sdoentry description="Nominal Voltage Ch1" subindex="0x03" bit_length="16" datatype="UINT" asynparameter="NominalVoltageCh1" />
+	<sdoentry description="Motor Coil Resistance Ch1" subindex="0x04" bit_length="16" datatype="UINT" asynparameter="MotorCoilResistanceCh1" />
+	<sdoentry description="Reduced Current Pos Ch1" subindex="0x05" bit_length="16" datatype="UINT" asynparameter="ReducedCurrentPosCh1" />
+	<sdoentry description="Reduced Current Neg Ch1" subindex="0x06" bit_length="16" datatype="UINT" asynparameter="ReducedCurrentNegCh1" />
+  </sdo>
+  <sdo name="SDO.DRIVE.1.0X8022" slave="DRIVE.1" index="0x8022" >
+    <sdoentry description="Operation mode Ch1" subindex="0x01" bit_length="8" datatype="USINT" asynparameter="OperationModeCh1" />
+	<sdoentry description="Invert motor polarity Ch1" subindex="0x09" bit_length="8" datatype="USINT" asynparameter="InvertMotorPolarityCh1" />
+	<sdoentry description="Invert digital input 1 Ch1" subindex="0x30" bit_length="8" datatype="USINT" asynparameter="InvertDigitalInput1Ch1" />
+	<sdoentry description="Invert digital input 2 Ch1" subindex="0x31" bit_length="8" datatype="USINT" asynparameter="InvertDigitalInput2Ch1" />
+	<sdoentry description="Function for input 1 Ch1" subindex="0x32" bit_length="8" datatype="USINT" asynparameter="FunctionInput1Ch1" />
+	<sdoentry description="Function for input 2 Ch1" subindex="0x36" bit_length="8" datatype="USINT" asynparameter="FunctionInput2Ch1" />
+  </sdo>
+  # Channel 2
+  <sdo name="SDO.DRIVE.1.0X8030" slave="DRIVE.1" index="0x8030" >
+    <sdoentry description="Maximal Current Ch2" subindex="0x01" bit_length="16" datatype="UINT" asynparameter="MaximalCurrentCh2" />
+	<sdoentry description="Nominal Current Ch2" subindex="0x02" bit_length="16" datatype="UINT" asynparameter="NominalCurrentCh2" />
+	<sdoentry description="Nominal Voltage Ch2" subindex="0x03" bit_length="16" datatype="UINT" asynparameter="NominalVoltageCh2" />
+	<sdoentry description="Motor Coil Resistance Ch2" subindex="0x04" bit_length="16" datatype="UINT" asynparameter="MotorCoilResistanceCh2" />
+	<sdoentry description="Reduced Current Pos Ch2" subindex="0x05" bit_length="16" datatype="UINT" asynparameter="ReducedCurrentPosCh2" />
+	<sdoentry description="Reduced Current Neg Ch2" subindex="0x06" bit_length="16" datatype="UINT" asynparameter="ReducedCurrentNegCh2" />
+  </sdo>
+  <sdo name="SDO.DRIVE.1.0X8032" slave="DRIVE.1" index="0x8032" >
+    <sdoentry description="Operation mode Ch2" subindex="0x01" bit_length="8" datatype="USINT" asynparameter="OperationModeCh2" />
+	<sdoentry description="Invert motor polarity Ch2" subindex="0x09" bit_length="8" datatype="USINT" asynparameter="InvertMotorPolarityCh2" />
+	<sdoentry description="Invert digital input 1 Ch2" subindex="0x30" bit_length="8" datatype="USINT" asynparameter="InvertDigitalInput1Ch2" />
+	<sdoentry description="Invert digital input 2 Ch2" subindex="0x31" bit_length="8" datatype="USINT" asynparameter="InvertDigitalInput2Ch2" />
+	<sdoentry description="Function for input 1 Ch2" subindex="0x32" bit_length="8" datatype="USINT" asynparameter="FunctionInput1Ch2" />
+	<sdoentry description="Function for input 2 Ch2" subindex="0x36" bit_length="8" datatype="USINT" asynparameter="FunctionInput2Ch2" />
+  </sdo>
+  ######################### DRIVE.1 END #########################
 </sdorequests>
+
 </scanner>
 
