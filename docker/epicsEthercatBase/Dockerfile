@@ -21,31 +21,47 @@ RUN cp /data/epics/configs/asyn-R4-44-2/configure/CONFIG_SITE /epics/support/asy
 RUN cp /data/epics/configs/asyn-R4-44-2/configure/RELEASE /epics/support/asyn-R4-44-2/configure/RELEASE
 
 RUN make -j 4
+WORKDIR /epics/support
+RUN wget https://github.com/epics-modules/autosave/archive/refs/tags/R5-11.tar.gz
+RUN tar -xvf R5-11.tar.gz
+WORKDIR /epics/support/autosave-R5-11
+RUN cp  /data/epics/configs/autosave-R5-11/RELEASE /epics/support/autosave-R5-11/configure/RELEASE
+RUN make -j 4
 
-# RUN apt-get update && apt-get install -y libtool libcap-dev make autoconf automake udev gcc-12 pkg-config linux-headers-$(uname -r) kmod
-RUN echo KERNEL==\"EtherCAT[0-9]*\", MODE=\"0664\" > /etc/udev/rules.d/99-EtherCAT.rules
+WORKDIR /epics/support
+RUN wget https://github.com/epics-modules/sequencer/archive/refs/tags/R2-2-9.tar.gz
+RUN tar -xvf R2-2-9.tar.gz
+WORKDIR /epics/support/sequencer-R2-2-9
+RUN cp /data/epics/configs/sequencer-R2-2-9/RELEASE /epics/support/sequencer-R2-2-9/configure/RELEASE
+RUN make -j 4
 
-WORKDIR /etherlab
-RUN wget https://gitlab.com/etherlab.org/ethercat/-/archive/1.6.0/ethercat-1.6.0.tar.gz
-RUN tar -xvf ethercat-1.6.0.tar.gz
-RUN ln -s /etherlab/ethercat-1.6.0 /etherlab/ethercat
-WORKDIR /etherlab/ethercat
-RUN ./bootstrap
-RUN ./configure --enable-generic --enable-eoe 
-RUN make
-RUN make install
-RUN make modules
-RUN make modules_install
-RUN cp /data/usr/local/etc/ethercat.conf /usr/local/etc/ethercat.conf
-RUN depmod -a
-ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib 
-WORKDIR /
-ADD configure /epics/ethercat/configure
-ADD etc /epics/ethercat/etc
-ADD ethercatApp /epics/ethercat/ethercatApp
-ADD Makefile /epics/ethercat/Makefile
-WORKDIR /epics/ethercat
-RUN make
+
+
+
+# # RUN apt-get update && apt-get install -y libtool libcap-dev make autoconf automake udev gcc-12 pkg-config linux-headers-$(uname -r) kmod
+# RUN echo KERNEL==\"EtherCAT[0-9]*\", MODE=\"0664\" > /etc/udev/rules.d/99-EtherCAT.rules
+
+# WORKDIR /etherlab
+# RUN wget https://gitlab.com/etherlab.org/ethercat/-/archive/1.6.0/ethercat-1.6.0.tar.gz
+# RUN tar -xvf ethercat-1.6.0.tar.gz
+# RUN ln -s /etherlab/ethercat-1.6.0 /etherlab/ethercat
+# WORKDIR /etherlab/ethercat
+# RUN ./bootstrap
+# RUN ./configure --enable-generic --enable-eoe 
+# RUN make
+# RUN make install
+# RUN make modules
+# RUN make modules_install
+# RUN cp /data/usr/local/etc/ethercat.conf /usr/local/etc/ethercat.conf
+# RUN depmod -a
+# ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib 
+# WORKDIR /
+# ADD configure /epics/ethercat/configure
+# ADD etc /epics/ethercat/etc
+# ADD ethercatApp /epics/ethercat/ethercatApp
+# ADD Makefile /epics/ethercat/Makefile
+# WORKDIR /epics/ethercat
+# RUN make
 ADD iocs /epics/ethercat/iocs
 RUN mkdir -p /tmuxtmp
 ENV TMUX_TMPDIR=/tmuxtmp
