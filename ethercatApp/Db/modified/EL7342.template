@@ -571,3 +571,828 @@ record(bo, "$(DEVICE):DCMCONTROLCHANNEL2:CONTROL__REDUCETORQUE")
   field("ZNAM", "OFF")
   field("ONAM", "ON")
 }
+
+#MaximalCurrentCh1
+record(longin, "$(DEVICE):MaximalCurrentCh1_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)MaximalCurrentCh1")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):MaximalCurrentCh1_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)MaximalCurrentCh1_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):MaximalCurrentCh1_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)MaximalCurrentCh1_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(longout, "$(DEVICE):MaximalCurrentCh1") {
+	field(DESC, "MaximalCurrentCh1")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)MaximalCurrentCh1")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "1000")
+	field(FLNK, "$(DEVICE):MaximalCurrentCh1_trig")
+}
+#NominalCurrentCh1
+record(longin, "$(DEVICE):NominalCurrentCh1_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)NominalCurrentCh1")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):NominalCurrentCh1_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)NominalCurrentCh1_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):NominalCurrentCh1_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)NominalCurrentCh1_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(longout, "$(DEVICE):NominalCurrentCh1") {
+	field(DESC, "NominalCurrentCh1")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)NominalCurrentCh1")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "1000")
+	field(FLNK, "$(DEVICE):NominalCurrentCh1_trig")
+}
+#NominalVoltageCh1
+record(longin, "$(DEVICE):NominalVoltageCh1_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)NominalVoltageCh1")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):NominalVoltageCh1_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)NominalVoltageCh1_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):NominalVoltageCh1_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)NominalVoltageCh1_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(longout, "$(DEVICE):NominalVoltageCh1") {
+	field(DESC, "NominalVoltageCh1")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)NominalVoltageCh1")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "24000")
+	field(FLNK, "$(DEVICE):NominalVoltageCh1_trig")
+}
+#MotorCoilResistanceCh1
+record(longin, "$(DEVICE):MotorCoilResistanceCh1_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)MotorCoilResistanceCh1")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):MotorCoilResistanceCh1_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)MotorCoilResistanceCh1_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):MotorCoilResistanceCh1_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)MotorCoilResistanceCh1_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(longout, "$(DEVICE):MotorCoilResistanceCh1") {
+	field(DESC, "MotorCoilResistanceCh1")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)MotorCoilResistanceCh1")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "100")
+	field(FLNK, "$(DEVICE):MotorCoilResistanceCh1_trig")
+}
+#ReducedCurrentPosCh1
+record(longin, "$(DEVICE):ReducedCurrentPosCh1_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)ReducedCurrentPosCh1")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):ReducedCurrentPosCh1_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)ReducedCurrentPosCh1_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):ReducedCurrentPosCh1_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)ReducedCurrentPosCh1_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(longout, "$(DEVICE):ReducedCurrentPosCh1") {
+	field(DESC, "ReducedCurrentPosCh1")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)ReducedCurrentPosCh1")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "500")
+	field(FLNK, "$(DEVICE):ReducedCurrentPosCh1_trig")
+}
+#ReducedCurrentNegCh1
+record(longin, "$(DEVICE):ReducedCurrentNegCh1_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)ReducedCurrentNegCh1")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):ReducedCurrentNegCh1_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)ReducedCurrentNegCh1_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):ReducedCurrentNegCh1_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)ReducedCurrentNegCh1_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(longout, "$(DEVICE):ReducedCurrentNegCh1") {
+	field(DESC, "ReducedCurrentNegCh1")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)ReducedCurrentNegCh1")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "500")
+	field(FLNK, "$(DEVICE):ReducedCurrentNegCh1_trig")
+}
+#OperationModeCh1
+record(longin, "$(DEVICE):OperationModeCh1_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)OperationModeCh1")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):OperationModeCh1_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)OperationModeCh1_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):OperationModeCh1_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)OperationModeCh1_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(mbbo, "$(DEVICE):OperationModeCh1") {
+	field(DESC, "OperationModeCh1")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(NOBT,"2")
+    field(SHFT,"0")
+    field(ZRST, "Automatic")
+	field(ONST, "Direct velocity (default)")
+	field(TWST, "Velocity controller")
+	field(THST, "Position controller")
+	field(ZRVL,"0x00")
+	field(ONVL,"0x01")
+	field(TWVL,"0x02")
+	field(THVL,"0x03")
+	field(OUT, "@asyn($(PORT)_SDO)OperationModeCh1")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "1")
+	field(FLNK, "$(DEVICE):OperationModeCh1_trig")
+}
+#InvertMotorPolarityCh1
+record(longin, "$(DEVICE):InvertMotorPolarityCh1_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)InvertMotorPolarityCh1")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):InvertMotorPolarityCh1_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)InvertMotorPolarityCh1_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):InvertMotorPolarityCh1_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)InvertMotorPolarityCh1_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(mbbo, "$(DEVICE):InvertMotorPolarityCh1") {
+	field(DESC, "InvertMotorPolarityCh1")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(NOBT,"1")
+    field(SHFT,"0")
+    field(ZRST, "NO (default)")
+	field(ONST, "YES")
+	field(ZRVL,"0x00")
+	field(ONVL,"0x01")
+	field(OUT, "@asyn($(PORT)_SDO)InvertMotorPolarityCh1")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "0")
+	field(FLNK, "$(DEVICE):InvertMotorPolarityCh1_trig")
+}
+#InvertDigitalInput1Ch1
+record(longin, "$(DEVICE):InvertDigitalInput1Ch1_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)InvertDigitalInput1Ch1")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):InvertDigitalInput1Ch1_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)InvertDigitalInput1Ch1_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):InvertDigitalInput1Ch1_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)InvertDigitalInput1Ch1_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(mbbo, "$(DEVICE):InvertDigitalInput1Ch1") {
+	field(DESC, "InvertDigitalInput1Ch1")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(NOBT,"1")
+    field(SHFT,"0")
+    field(ZRST, "NO (default)")
+	field(ONST, "YES")
+	field(ZRVL,"0x00")
+	field(ONVL,"0x01")
+	field(OUT, "@asyn($(PORT)_SDO)InvertDigitalInput1Ch1")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "0")
+	field(FLNK, "$(DEVICE):InvertDigitalInput1Ch1_trig")
+}
+#InvertDigitalInput2Ch1
+record(longin, "$(DEVICE):InvertDigitalInput2Ch1_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)InvertDigitalInput2Ch1")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):InvertDigitalInput2Ch1_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)InvertDigitalInput2Ch1_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):InvertDigitalInput2Ch1_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)InvertDigitalInput2Ch1_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(mbbo, "$(DEVICE):InvertDigitalInput2Ch1") {
+	field(DESC, "InvertDigitalInput2Ch1")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(NOBT,"1")
+    field(SHFT,"0")
+    field(ZRST, "NO (default)")
+	field(ONST, "YES")
+	field(ZRVL,"0x00")
+	field(ONVL,"0x01")
+	field(OUT, "@asyn($(PORT)_SDO)InvertDigitalInput2Ch1")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "0")
+	field(FLNK, "$(DEVICE):InvertDigitalInput2Ch1_trig")
+}
+#FunctionInput1Ch1
+record(longin, "$(DEVICE):FunctionInput1Ch1_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)FunctionInput1Ch1")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):FunctionInput1Ch1_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)FunctionInput1Ch1_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):FunctionInput1Ch1_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)FunctionInput1Ch1_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(mbbo, "$(DEVICE):FunctionInput1Ch1") {
+	field(DESC, "FunctionInput1Ch1")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(NOBT,"1")
+    field(SHFT,"0")
+    field(ZRST, "Normal Input (default)")
+	field(ONST, "Hardware Enable")
+	field(ZRVL,"0x00")
+	field(ONVL,"0x01")
+	field(OUT, "@asyn($(PORT)_SDO)FunctionInput1Ch1")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "0")
+	field(FLNK, "$(DEVICE):FunctionInput1Ch1_trig")
+}
+#FunctionInput2Ch1
+record(longin, "$(DEVICE):FunctionInput2Ch1_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)FunctionInput2Ch1")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):FunctionInput2Ch1_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)FunctionInput2Ch1_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):FunctionInput2Ch1_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)FunctionInput2Ch1_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(mbbo, "$(DEVICE):FunctionInput2Ch1") {
+	field(DESC, "FunctionInput2Ch1")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(NOBT,"1")
+    field(SHFT,"0")
+    field(ZRST, "Normal Input (default)")
+	field(ONST, "Hardware Enable")
+	field(ZRVL,"0x00")
+	field(ONVL,"0x01")
+	field(OUT, "@asyn($(PORT)_SDO)FunctionInput2Ch1")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "0")
+	field(FLNK, "$(DEVICE):FunctionInput2Ch1_trig")
+}
+#MaximalCurrentCh2
+record(longin, "$(DEVICE):MaximalCurrentCh2_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)MaximalCurrentCh2")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):MaximalCurrentCh2_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)MaximalCurrentCh2_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):MaximalCurrentCh2_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)MaximalCurrentCh2_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(longout, "$(DEVICE):MaximalCurrentCh2") {
+	field(DESC, "MaximalCurrentCh2")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)MaximalCurrentCh2")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "1000")
+	field(FLNK, "$(DEVICE):MaximalCurrentCh2_trig")
+}
+#NominalCurrentCh2
+record(longin, "$(DEVICE):NominalCurrentCh2_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)NominalCurrentCh2")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):NominalCurrentCh2_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)NominalCurrentCh2_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):NominalCurrentCh2_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)NominalCurrentCh2_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(longout, "$(DEVICE):NominalCurrentCh2") {
+	field(DESC, "NominalCurrentCh2")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)NominalCurrentCh2")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "1000")
+	field(FLNK, "$(DEVICE):NominalCurrentCh2_trig")
+}
+#NominalVoltageCh2
+record(longin, "$(DEVICE):NominalVoltageCh2_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)NominalVoltageCh2")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):NominalVoltageCh2_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)NominalVoltageCh2_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):NominalVoltageCh2_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)NominalVoltageCh2_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(longout, "$(DEVICE):NominalVoltageCh2") {
+	field(DESC, "NominalVoltageCh2")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)NominalVoltageCh2")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "24000")
+	field(FLNK, "$(DEVICE):NominalVoltageCh2_trig")
+}
+#MotorCoilResistanceCh2
+record(longin, "$(DEVICE):MotorCoilResistanceCh2_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)MotorCoilResistanceCh2")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):MotorCoilResistanceCh2_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)MotorCoilResistanceCh2_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):MotorCoilResistanceCh2_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)MotorCoilResistanceCh2_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(longout, "$(DEVICE):MotorCoilResistanceCh2") {
+	field(DESC, "MotorCoilResistanceCh2")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)MotorCoilResistanceCh2")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "100")
+	field(FLNK, "$(DEVICE):MotorCoilResistanceCh2_trig")
+}
+#ReducedCurrentPosCh2
+record(longin, "$(DEVICE):ReducedCurrentPosCh2_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)ReducedCurrentPosCh2")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):ReducedCurrentPosCh2_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)ReducedCurrentPosCh2_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):ReducedCurrentPosCh2_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)ReducedCurrentPosCh2_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(longout, "$(DEVICE):ReducedCurrentPosCh2") {
+	field(DESC, "ReducedCurrentPosCh2")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)ReducedCurrentPosCh2")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "500")
+	field(FLNK, "$(DEVICE):ReducedCurrentPosCh2_trig")
+}
+#ReducedCurrentNegCh2
+record(longin, "$(DEVICE):ReducedCurrentNegCh2_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)ReducedCurrentNegCh2")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):ReducedCurrentNegCh2_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)ReducedCurrentNegCh2_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):ReducedCurrentNegCh2_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)ReducedCurrentNegCh2_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(longout, "$(DEVICE):ReducedCurrentNegCh2") {
+	field(DESC, "ReducedCurrentNegCh2")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)ReducedCurrentNegCh2")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "500")
+	field(FLNK, "$(DEVICE):ReducedCurrentNegCh2_trig")
+}
+#OperationModeCh2
+record(longin, "$(DEVICE):OperationModeCh2_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)OperationModeCh2")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):OperationModeCh2_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)OperationModeCh2_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):OperationModeCh2_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)OperationModeCh2_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(mbbo, "$(DEVICE):OperationModeCh2") {
+	field(DESC, "OperationModeCh2")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(NOBT,"2")
+    field(SHFT,"0")
+    field(ZRST, "Automatic")
+	field(ONST, "Direct velocity (default)")
+	field(TWST, "Velocity controller")
+	field(THST, "Position controller")
+	field(ZRVL,"0x00")
+	field(ONVL,"0x01")
+	field(TWVL,"0x02")
+	field(THVL,"0x03")
+	field(OUT, "@asyn($(PORT)_SDO)OperationModeCh2")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "1")
+	field(FLNK, "$(DEVICE):OperationModeCh2_trig")
+}
+#InvertMotorPolarityCh2
+record(longin, "$(DEVICE):InvertMotorPolarityCh2_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)InvertMotorPolarityCh2")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):InvertMotorPolarityCh2_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)InvertMotorPolarityCh2_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):InvertMotorPolarityCh2_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)InvertMotorPolarityCh2_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(mbbo, "$(DEVICE):InvertMotorPolarityCh2") {
+	field(DESC, "InvertMotorPolarityCh2")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(NOBT,"1")
+    field(SHFT,"0")
+    field(ZRST, "NO (default)")
+	field(ONST, "YES")
+	field(ZRVL,"0x00")
+	field(ONVL,"0x01")
+	field(OUT, "@asyn($(PORT)_SDO)InvertMotorPolarityCh2")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "0")
+	field(FLNK, "$(DEVICE):InvertMotorPolarityCh2_trig")
+}
+#InvertDigitalInput1Ch2
+record(longin, "$(DEVICE):InvertDigitalInput1Ch2_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)InvertDigitalInput1Ch2")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):InvertDigitalInput1Ch2_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)InvertDigitalInput1Ch2_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):InvertDigitalInput1Ch2_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)InvertDigitalInput1Ch2_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(mbbo, "$(DEVICE):InvertDigitalInput1Ch2") {
+	field(DESC, "InvertDigitalInput1Ch2")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(NOBT,"1")
+    field(SHFT,"0")
+    field(ZRST, "NO (default)")
+	field(ONST, "YES")
+	field(ZRVL,"0x00")
+	field(ONVL,"0x01")
+	field(OUT, "@asyn($(PORT)_SDO)InvertDigitalInput1Ch2")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "0")
+	field(FLNK, "$(DEVICE):InvertDigitalInput1Ch2_trig")
+}
+#InvertDigitalInput2Ch2
+record(longin, "$(DEVICE):InvertDigitalInput2Ch2_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)InvertDigitalInput2Ch2")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):InvertDigitalInput2Ch2_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)InvertDigitalInput2Ch2_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):InvertDigitalInput2Ch2_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)InvertDigitalInput2Ch2_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(mbbo, "$(DEVICE):InvertDigitalInput2Ch2") {
+	field(DESC, "InvertDigitalInput2Ch2")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(NOBT,"1")
+    field(SHFT,"0")
+    field(ZRST, "NO (default)")
+	field(ONST, "YES")
+	field(ZRVL,"0x00")
+	field(ONVL,"0x01")
+	field(OUT, "@asyn($(PORT)_SDO)InvertDigitalInput2Ch2")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "0")
+	field(FLNK, "$(DEVICE):InvertDigitalInput2Ch2_trig")
+}
+#FunctionInput1Ch2
+record(longin, "$(DEVICE):FunctionInput1Ch2_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)FunctionInput1Ch2")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):FunctionInput1Ch2_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)FunctionInput1Ch2_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):FunctionInput1Ch2_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)FunctionInput1Ch2_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(mbbo, "$(DEVICE):FunctionInput1Ch2") {
+	field(DESC, "FunctionInput1Ch2")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(NOBT,"1")
+    field(SHFT,"0")
+    field(ZRST, "Normal Input (default)")
+	field(ONST, "Hardware Enable")
+	field(ZRVL,"0x00")
+	field(ONVL,"0x01")
+	field(OUT, "@asyn($(PORT)_SDO)FunctionInput1Ch2")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "0")
+	field(FLNK, "$(DEVICE):FunctionInput1Ch2_trig")
+}
+#FunctionInput2Ch2
+record(longin, "$(DEVICE):FunctionInput2Ch2_rbv") {
+	field(DTYP, "asynInt32")
+    field(INP, "@asyn($(PORT)_SDO)FunctionInput2Ch2")
+	field(SCAN, "I/O Intr")
+ }
+ 
+record(longin, "$(DEVICE):FunctionInput2Ch2_stat")
+ {
+	field(DTYP, "asynInt32")
+	field(INP, "@asyn($(PORT)_SDO)FunctionInput2Ch2_stat")
+	field(SCAN, "I/O Intr")
+ }
+ record(longout, "$(DEVICE):FunctionInput2Ch2_trig") {
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(OUT, "@asyn($(PORT)_SDO)FunctionInput2Ch2_trig")
+	field(SCAN, "1 second")
+	field(PINI, "YES")
+}
+record(mbbo, "$(DEVICE):FunctionInput2Ch2") {
+	field(DESC, "FunctionInput2Ch2")
+	field(OMSL, "supervisory")
+	field(DTYP, "asynInt32")
+	field(NOBT,"1")
+    field(SHFT,"0")
+    field(ZRST, "Normal Input (default)")
+	field(ONST, "Hardware Enable")
+	field(ZRVL,"0x00")
+	field(ONVL,"0x01")
+	field(OUT, "@asyn($(PORT)_SDO)FunctionInput2Ch2")
+	field(SCAN, "Passive")
+	info(autosaveFields_pass0, "VAL")
+	field(PINI,"YES")
+	field(VAL, "0")
+	field(FLNK, "$(DEVICE):FunctionInput2Ch2_trig")
+}
