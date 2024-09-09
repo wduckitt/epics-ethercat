@@ -251,7 +251,7 @@ record(bo,"$(device):driveEnable") {
 	field(VAL,"0")
     field(PINI,"YES")
 	field(OUT,"$(MotorDrive):DCMCONTROL$(CHANNEL):CONTROL__ENABLE")
-	field(FLNK,"$(MotorDrive):DCMCONTROL$(CHANNEL):CONTROL__ENABLE")
+	field(FLNK,"$(MotorDrive):DCMCONTROL$(CHANNEL):CONTROL__ENABLE.PROC")
 }
 record(ao,"$(device):CL_setpoint_dist") {
     field(DTYP,"Soft Channel")
@@ -500,7 +500,7 @@ record(ao,"$(device):jog_velocity") {
 	field(VAL,"0")
     field(PINI,"YES")
 	field(OUT,  "$(MotorDrive):DCMVELOCITY$(CHANNEL):VELOCITY")
-    field(FLNK, "$(MotorDrive):DCMVELOCITY$(CHANNEL):VELOCITY")  	
+    field(FLNK, "$(MotorDrive):DCMVELOCITY$(CHANNEL):VELOCITY.PROC")  	
 }
 ### END JOG###
 ### START STATE MACHINE ###
