@@ -1,0 +1,186 @@
+
+program snlDCSequencer
+%{#include <time.h>}%
+%{#include <string.h>}%
+%{#include <math.h>}%
+%{#include<stdio.h>}%
+%{#include<stdlib.h>}%
+
+// IOC variables
+//////////////////////////////////////////
+double snlState;
+assign snlState to "{device}:snlState";
+monitor snlState;
+
+double potChVal_ENG;
+assign potChVal_ENG to "{device}:potChVal_ENG";
+monitor potChVal_ENG;
+
+double isCalibrated;
+assign isCalibrated to "{device}:isCalibrated";
+monitor isCalibrated;
+
+double enable_automode;
+assign enable_automode to "{device}:enable_automode";
+monitor enable_automode;
+
+double CL_setpoint_dist;
+assign CL_setpoint_dist to "{device}:CL_setpoint_dist";
+monitor CL_setpoint_dist;
+
+double CL_deadband;
+assign CL_deadband to "{device}:CL_deadband";
+monitor CL_deadband;
+
+double display_ENG;
+assign display_ENG to "{device}:display_ENG";
+monitor display_ENG;
+
+double driveEnable;
+assign driveEnable to "{device}:driveEnable";
+monitor driveEnable;
+
+double state_automode;
+assign state_automode to "{device}:state_automode";
+monitor state_automode;
+
+double CL_enable;
+assign CL_enable to "{device}:CL_enable";
+
+double jog_enable;
+assign jog_enable to "{device}:jog_enable";
+
+double fanout_snlState_val;
+assign fanout_snlState_val to "{device}:fanout_snlState_val";
+
+// Local variables
+double pre_CL_setpoint_dist;
+
+ss ss1 {
+    state PowerOnReset_delay_state {
+		when(delay(0.5)){
+		} state PowerOnReset_state
+	}
+	state PowerOnReset_state {
+		option -e;
+		entry {
+			printf("Entry PowerOnReset_state\n\r");
+			// state of automode IDLE
+			state_automode = 0;
+			pvPut(state_automode,SYNC);
+			snlState = 0;
+			pvPut(snlState,SYNC);
+			CL_enable = 0;  // control loop is not enabled
+			pvPut(CL_enable,SYNC);
+			jog_enable = 0;  // jog is not enabled
+			pvPut(jog_enable,SYNC);
+			fanout_snlState_val = 1; // in power on reset mode
+			pvPut(fanout_snlState_val,SYNC);
+			printf("CL DISABLED | JOG DISABLED | FANOUT 1\n\r");
+		}
+		when (snlState==1) {	
+			printf("##Requested CL_state\n\r");
+			isCalibrated = 0;
+			pvPut(isCalibrated,SYNC);
+			CL_setpoint_dist = potChVal_ENG;
+			pvPut(CL_setpoint_dist, SYNC);
+		} state CL_delay_state
+		when (snlState==2) {	
+			printf("##Requested OL_state\n\r");
+			isCalibrated = 0;
+			pvPut(isCalibrated,SYNC);
+			CL_setpoint_dist = potChVal_ENG;
+			pvPut(CL_setpoint_dist, SYNC);
+		} state OL_delay_state
+		when ((enable_automode==1) && (fabs(CL_setpoint_dist-display_ENG)>CL_deadband)) {	
+			printf("##AUTO Requested CL_state\n\r");
+			// save old setpoint
+			pre_CL_setpoint_dist = CL_setpoint_dist;
+			// force into CL state
+			snlState = 1;
+			pvPut(snlState,SYNC);
+			isCalibrated = 0;
+			pvPut(isCalibrated,SYNC);
+			CL_setpoint_dist = potChVal_ENG;
+			pvPut(CL_setpoint_dist, SYNC);
+		} state CL_delay_state
+    }
+	state CL_delay_state {
+		when(delay(0.5)){
+		} state CL_state
+	}
+	state CL_state {
+		option -e;
+		entry { 
+			printf("Entry CL_state\n\r");
+			// state of automode MOVING
+			state_automode = 1;
+			pvPut(state_automode,SYNC);
+			snlState = 1;
+			pvPut(snlState,SYNC);
+			CL_enable = 1;  // control loop is enabled
+			pvPut(CL_enable,SYNC);
+			jog_enable = 0;  // jog is not enabled
+			pvPut(jog_enable,SYNC);
+			fanout_snlState_val = 2; // in closed loop mode
+			pvPut(fanout_snlState_val,SYNC);
+			printf("CL ENABLED | JOG DISABLED | FANOUT 2\n\r");
+			if(enable_automode==1){
+			   // assign old setpoint before state shift
+			   CL_setpoint_dist = pre_CL_setpoint_dist;
+			   pvPut(CL_setpoint_dist,SYNC);
+			   driveEnable = 1;
+			   pvPut(driveEnable,SYNC);
+			}
+		}
+		when (snlState==0) {	
+			printf("##Requested PowerOnReset_state\n\r");
+			CL_enable = 0;  // control loop is not enabled
+			pvPut(CL_enable,SYNC);
+		} state PowerOnReset_delay_state
+		when (snlState==2) {	
+			printf("##Requested OL_state\n\r");
+			CL_enable = 0;  // control loop is not enabled
+			pvPut(CL_enable,SYNC);
+			//calibrate();
+		} state OL_delay_state
+		when (enable_automode==1 && driveEnable==0) {	
+			printf("##AUTO Requested PowerOnReset_state\n\r");
+			// force into reset state
+			snlState = 0;
+			CL_enable = 0;  // control loop is not enabled
+			pvPut(CL_enable,SYNC);
+		} state PowerOnReset_delay_state
+    }
+	state OL_delay_state {
+		when(delay(0.5)){
+		} state OL_state
+	}
+	state OL_state {
+		option -e;
+		entry { 
+		   printf("Entry OL_state\n\r");
+		   snlState = 2;
+		   pvPut(snlState,SYNC);
+		   CL_enable = 0;  // control loop is not enabled
+		   pvPut(CL_enable,SYNC);
+		   jog_enable = 1;  // jog is not enabled
+		   pvPut(jog_enable,SYNC);
+		   fanout_snlState_val = 3; // in open loop mode
+		   pvPut(fanout_snlState_val,SYNC);
+		   printf("CL DISABLED | JOG ENABLED | FANOUT 3\n\r");
+		}
+		when (snlState==0) {	
+			printf("##Requested PowerOnReset_state\n\r");
+			jog_enable = 0;  // jog is not enabled
+			pvPut(jog_enable,SYNC);
+		} state PowerOnReset_delay_state
+		when (snlState==1) {	
+			printf("##Requested CL_state\n\r");
+			jog_enable = 0;  // jog is not enabled
+			pvPut(jog_enable,SYNC);
+			CL_setpoint_dist = potChVal_ENG;
+			pvPut(CL_setpoint_dist, SYNC);
+		} state CL_delay_state
+    }
+}
