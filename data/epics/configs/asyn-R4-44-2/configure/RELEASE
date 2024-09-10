@@ -15,7 +15,7 @@
 # SEQ is required for testIPServer
 # It can be obtained here: https://www-csr.bessy.de/control/SoftDist/sequencer/Manual.html
 #SNCSEQ=$(SUPPORT)/seq-2-2-5
-
+SNCSEQ=/epics/support/sequencer-R2-2-9
 # Optional
 # For sCalcout support in asynOctet - applications include asynCalc.dbd
 # It can be obtained here: https://github.com/epics-modules/calc
