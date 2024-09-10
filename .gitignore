@@ -31,3 +31,9 @@ etc/makeIocs/O.*
 !data/epics/dbd/
 !data/epics/dbd/menuScan.dbd
 !iocs/scanTest/db
+iocs/scanTest/.iocsh_history
+!iocs/scanTest/save/info_positions.sav*
+!iocs/scanTest/save/info_positions.sav0
+!iocs/scanTest/save/info_positions.sav1
+!iocs/scanTest/save/info_positions.sav2
+!iocs/scanTest/save/info_positions.savB
