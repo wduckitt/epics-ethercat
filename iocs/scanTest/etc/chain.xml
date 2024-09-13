@@ -1,6 +1,7 @@
 <components arch="linux-x86_64">
   <ethercat.EthercatMaster name="ECATM" socket="/tmp/socket0" master_index="0"/>
-  <!-- slaves 2 link up 1 -->
+  <!-- slaves 3 link up 1 -->
   <ethercat.EthercatSlave master="ECATM" name="ERIO.0" position="0" type_rev="EK1818 rev 0x00120000"/>
   <ethercat.EthercatSlave master="ECATM" name="ERIO.1" position="1" type_rev="sample_app rev 0x00000001"/>
+  <ethercat.EthercatSlave master="ECATM" name="ERIO.2" position="2" type_rev="sample_app rev 0x00000001"/>
 </components>

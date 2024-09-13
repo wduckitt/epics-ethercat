@@ -80,6 +80,7 @@
 <chain>
 <device type_name="EK1818" revision="0x00120000" position="0" name="ERIO.0" />
 <device type_name="sample_app" revision="0x00000001" position="1" name="ERIO.1" />
+<device type_name="sample_app" revision="0x00000001" position="2" name="ERIO.2" />
 </chain>
 <sdorequests>
 </sdorequests>

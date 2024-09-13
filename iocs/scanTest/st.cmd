@@ -11,6 +11,7 @@ dbLoadRecords("../../ethercatApp/Db/EK1818.template", "DEVICE=ECTest:1,PORT=ERIO
 dbLoadRecords("db/test.db", "DEVICE=ECTest:1")
 #dbLoadRecords("../../ethercatApp/Db/EL6090.template", "DEVICE=ECTest:2,PORT=ERIO.1,SCAN=I/O Intr")
 dbLoadRecords("../../ethercatApp/Db/sample_app.template", "DEVICE=ECTest:2,PORT=ERIO.1,SCAN=I/O Intr")
+dbLoadRecords("../../ethercatApp/Db/sample_app.template", "DEVICE=ECTest:3,PORT=ERIO.2,SCAN=I/O Intr")
 #dbLoadRecords("../../db/EL1004.template", "DEVICE=ECTest:2,PORT=VACUUM0,SCAN=I/O Intr")
 #dbLoadRecords("../../db/EL3702.template", "DEVICE=ECTest:3,PORT=RF0,SCAN=I/O Intr")
 #dbLoadRecords("../../db/EL2004.template", "DEVICE=ECTest:4,PORT=OUT0,SCAN=I/O Intr")
