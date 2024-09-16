@@ -1,6 +1,32 @@
+record(ao,"$(robot):rightElbowAngle"){
+        field(DTYP,"Soft Channel")
+        field(SCAN, ".01 second")
+        field(OROC, "1")
+        field(VAL,"180")
+        field(HOPR,"180")
+        field(LOPR,"0")
+        field(EGU,"Deg")
+        field(FLNK,"$(robot):rightElbowAngle_pwm")
+
+}
+
+
+
+
+record(calcout, "$(robot):rightElbowAngle_pwm")
+{      
+        
+        field(INPA, "$(robot):rightElbowAngle.RVAL")
+        field(CALC, "600+1000*A/180")
+        field(OUT,"ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM5 PP")
+        field(OOPT,"Every Time")
+        field(DOPT,"Use CALC")
+       
+}
+
 record(calcout, "$(DEVICE):toggle")
 {
-        field(SCAN, ".01 second")
+        field(SCAN, ".1 second")
         field(INPA, "$(DEVICE):toggle")
         field(CALC, "!A")
         field(OUT,"$(DEVICE):CHANNEL9:OUTPUT PP")

@@ -8,7 +8,7 @@ ecAsynInit("/tmp/socket0", 1000000)
 dbLoadRecords
 dbLoadRecords("../../db/MASTER.template", "DEVICE=ECTest:0,PORT=MASTER0,SCAN=I/O Intr")
 dbLoadRecords("../../ethercatApp/Db/EK1818.template", "DEVICE=ECTest:1,PORT=ERIO.0,SCAN=I/O Intr")
-dbLoadRecords("db/test.db", "DEVICE=ECTest:1")
+dbLoadRecords("db/test.db", "DEVICE=ECTest:1,robot=testRobot")
 #dbLoadRecords("../../ethercatApp/Db/EL6090.template", "DEVICE=ECTest:2,PORT=ERIO.1,SCAN=I/O Intr")
 dbLoadRecords("../../ethercatApp/Db/sample_app.template", "DEVICE=ECTest:2,PORT=ERIO.1,SCAN=I/O Intr")
 dbLoadRecords("../../ethercatApp/Db/sample_app.template", "DEVICE=ECTest:3,PORT=ERIO.2,SCAN=I/O Intr")
