@@ -1,0 +1,89 @@
+# Target elbow angle (set by the user or external system)
+record(ao, "$(robot):$(joint):Angle") {
+    field(SCAN, ".01 second")
+    field(DTYP, "Soft Channel")
+    field(VAL, "$(Angle_Start)")    # Setpoint (target angle)
+    field(HOPR, "$(Angle_HOPR)")
+    field(LOPR, "$(Angle_LOPR)")
+    field(EGU, "Deg")
+    field(OROC,"$(OROC)")
+    # field(FLNK,"$(robot):$(joint):Error")
+    field(FLNK,"$(robot):$(joint):PWM")
+}
+
+# # Error calculation (difference between target and current positions)
+# # Since we calculate current position using target - error, we need to calculate the error first.
+# record(calc, "$(robot):$(joint):Error") {
+    
+#     field(INPA, "$(robot):$(joint):Angle")          # Target position
+#     field(INPB, "$(robot):$(joint):Angle.RVAL")   # Calculated current position
+#     field(CALC, "A - B")  # Error = target - current
+#     field(FLNK, "$(robot):$(joint):adjustOROC") # Link to OROC adjustment
+# }
+
+# # OROC Adjustment based on error size and direction change
+# record(calcout, "$(robot):$(joint):adjustOROC") {
+#     field(INPA, "$(robot):$(joint):Error")         # Current error
+#     field(INPB, "$(robot):$(joint):previousError")           # Previous error (to detect direction change)
+#     field(INPC, "$(robot):$(joint):Angle.OROC")    # Current OROC value
+# # field(CALC, "(A*B < 0) ? 0.05 : (ABS(A) < 1) ? 0.05 : (C < 1) ? C + 0.05 : 1") # If error changes direction, reset OROC to 0.1, If error is small, keep OROC at 0.1, Increment OROC by 0.1, but cap at 2.0
+#     field(CALC,"1")
+#     field(OUT, "$(robot):$(joint):Angle.OROC")     # Write the updated OROC
+#     field(OOPT, "Every Time")
+#     field(DOPT, "Use CALC")
+#     field(FLNK, "$(robot):store:$(joint):previousError")      # Store the current error for the next cycle
+# }
+
+# # Store the current error as the previous error for the next calculation
+# record(calcout, "$(robot):store:$(joint):previousError") {
+#     field(INPA, "$(robot):$(joint):Error")         # Current error
+#     field(CALC, "A")                                # Store current error
+#     field(OUT, "$(robot):$(joint):previousError")            # Store in $(joint):previousError record
+#     field(OOPT, "Every Time")
+#     field(DOPT, "Use CALC")
+#    field(FLNK, "$(robot):$(joint):PWM")
+# }
+
+# # Previous error storage to detect direction change
+# record(ao, "$(robot):$(joint):previousError") {
+#     field(DTYP, "Soft Channel")
+#     field(VAL, "0")  # Will store the previous error for comparison
+# }
+
+# PWM Calculation based on the current elbow position
+# Previous error storage to detect direction change
+record(ao, "$(robot):$(joint):PWM_min") {
+    field(DTYP, "Soft Channel")
+    field(VAL, "$(PWM_min)")  
+    field(HOPR, "2500")
+    field(LOPR, "0")
+}
+record(ao, "$(robot):$(joint):PWM_max") {
+    field(DTYP, "Soft Channel")
+    field(VAL, "$(PWM_max)")  
+    field(HOPR, "2500")
+    field(LOPR, "0")
+ }
+# record(ao, "$(robot):$(joint):PWM_offset") {
+#     field(DTYP, "Soft Channel")
+#     field(VAL, "1000")  
+#     field(HOPR, "2500")
+#     field(LOPR, "0")
+# }
+
+
+record(calcout, "$(robot):$(joint):PWM") {
+    field(INPA, "$(robot):$(joint):Angle.RVAL")  # Current position (calculated)
+    field(INPB, "$(robot):$(joint):PWM_min")     # Minimum PWM value
+    field(INPC, "$(robot):$(joint):PWM_max")     # Maximum PWM value
+    # field(INPD, "$(robot):$(joint):PWM_offset")  # Offset value
+    field(INPE, "$(robot):$(joint):Angle.HOPR")
+    field(INPF, "$(robot):$(joint):Angle.LOPR")
+
+    field(CALC, "B + ((C-B) * A / (E-F))")           # Convert the current position to PWM value
+    field(OUT, "$(PWM_IO) PP")  # Output the PWM signal to the motor
+    field(OOPT, "Every Time")
+    field(DOPT, "Use CALC")
+}
+
+
