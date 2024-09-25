@@ -6,7 +6,7 @@ file "db/RCServoPWMControl.template" {
 
 
 
-        {"testRobot"               , "rightElbow"           , "1" , "180"      , "180"     , "0"      , "600"  , "1600" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM5"}
+        {"testRobot"               , "rightElbow"           , "1" , "180"      , "180"     , "0"      , "400"  , "1600" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM5"}
         {"testRobot"               , "rightThumb"           , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM0"}
         {"testRobot"               , "rightIndex"           , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM1"}
         {"testRobot"               , "rightMiddle"          , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM2"}
@@ -14,4 +14,5 @@ file "db/RCServoPWMControl.template" {
         {"testRobot"               , "rightPinky"           , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM4"}
         {"testRobot"               , "rightWrist"           , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM6"}
         {"testRobot"               ,"rightUpperArmAbduction", "5" , "90"       , "180"     , "90"     , "1000" , "1733" , "180"        , "-1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM14"}
+        {"testRobot"               , "rightElbowRotation"   , "1" , "90"      , "180"     , "0"      , "600"  , "1600" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM15"}
 }
