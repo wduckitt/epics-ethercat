@@ -2,33 +2,33 @@
 
 file "db/RCServoPWMControl.template" {
     pattern
-        {robot                     , joint                  , OROC, Angle_Start, Angle_HOPR, Angle_LOPR, PWM_min, PWM_max, AngleOffset, direction, PWM_IO }
+        {robot                     , joint                  , OROC, Angle_Start, Angle_HOPR, Angle_LOPR,Angle_DRVH,Angle_DRVL, PWM_min, PWM_max, AngleOffset, direction, PWM_IO }
 
 
 
         
-        {"testRobot"               , "rightThumb"           , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM0"}
-        {"testRobot"               , "rightIndex"           , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM1"}
-        {"testRobot"               , "rightMiddle"          , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM2"}
-        {"testRobot"               , "rightRing"            , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM3"}
-        {"testRobot"               , "rightPinky"           , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM4"}
-        {"testRobot"               , "rightElbow"           , "1" , "180"      , "180"     , "0"      , "400"  , "1600" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM5"}
-        {"testRobot"               , "rightWristFlexion"    , "5" , "45"       , "120"     , "-45"      , "381"  , "1385" , "45"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM6"}
-        {"testRobot"               , "rightWristRotation"   , "5" , "0"        , "90"      ,  "-90"   , "381"  , "1581" , "90"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM7"}
-        {"testRobot"               ,"rightUpperArmFlexion",   "1" , "30"        , "90"     , "0 "     , "1000" , "1900" , "90"        , "-1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM13"}
-        {"testRobot"               ,"rightUpperArmAbduction", "5" , "110"       , "180"     , "90"     , "1000" , "1733" , "180"        , "-1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM14"}
-        {"testRobot"               , "rightElbowRotation"   , "1" , "90"      , "180"     , "60"      , "600"  , "1600" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM15"}
-        {"testRobot"               , "leftThumb"           , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM0"}
-        {"testRobot"               , "leftIndex"           , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM1"}
-        {"testRobot"               , "leftMiddle"          , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM2"}
-        {"testRobot"               , "leftRing"            , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM3"}
-        {"testRobot"               , "leftPinky"           , "5" , "45"       , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM4"}
-        {"testRobot"               , "leftElbow"           , "1" , "180"      , "180"     , "0"      , "400"  , "1600" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM5"}
-        {"testRobot"               , "leftWristFlexion"    , "5" , "45"       , "120"     , "-45"      , "381"  , "1385" , "45"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM6"}
-        {"testRobot"               , "leftWristRotation"   , "5" , "0"        , "90"      ,  "-90"   , "381"  , "1581" , "90"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM7"}
-        {"testRobot"               ,"leftUpperArmFlexion",   "1" , "30"        , "90"     , "0 "     , "1000" , "1900" , "90"        , "-1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM13"}
-        {"testRobot"               ,"leftUpperArmAbduction", "5" , "110"       , "180"     , "90"     , "1000" , "1733" , "180"        , "-1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM14"}
-        {"testRobot"               , "leftElbowRotation"   , "1" , "90"      , "180"     , "60"      , "600"  , "1600" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM15"}
+        {"testRobot"               , "rightThumb"           , "5" , "45"       , "180"     , "0",, "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM0"}
+        {"testRobot"               , "rightIndex"           , "5" , "45"       , "180"     , "0", "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM1"}
+        {"testRobot"               , "rightMiddle"          , "5" , "45"       , "180"     , "0", "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM2"}
+        {"testRobot"               , "rightRing"            , "5" , "45"       , "180"     , "0", "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM3"}
+        {"testRobot"               , "rightPinky"           , "5" , "45"       , "180"     , "0", "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM4"}
+        {"testRobot"               , "rightElbow"           , "1" , "180"      , "180"     , "0", "180"     , "0"      , "400"  , "1600" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM5"}
+        {"testRobot"               , "rightWristFlexion"    , "5" , "45"       , "120"     , "-45", "120"     , "-45"      , "381"  , "1385" , "45"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM6"}
+        {"testRobot"               , "rightWristRotation"   , "5" , "0"        , "90"      ,  "-90", "90"      ,  "-90"   , "381"  , "1581" , "90"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM7"}
+        {"testRobot"               ,"rightUpperArmFlexion",   "1" , "30"        , "90"     , "0 ", "90"     , "0 "     , "1000" , "1900" , "90"        , "-1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM13"}
+        {"testRobot"               ,"rightUpperArmAbduction", "5" , "110"       , "180"     , "90",  "180"     , "90",    , "1000" , "1733" , "180"        , "-1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM14"}
+        {"testRobot"               , "rightElbowRotation"   , "1" , "90"      , "180"     , "0", "180"     , "60"      , "730"  , "1751" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM15"}
+        {"testRobot"               , "leftThumb"           , "5" , "45"       , "180"     , "0", "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM0"}
+        {"testRobot"               , "leftIndex"           , "5" , "45"       , "180"     , "0", "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM1"}
+        {"testRobot"               , "leftMiddle"          , "5" , "45"       , "180"     , "0", "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM2"}
+        {"testRobot"               , "leftRing"            , "5" , "45"       , "180"     , "0", "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM3"}
+        {"testRobot"               , "leftPinky"           , "5" , "45"       , "180"     , "0", "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM4"}
+        {"testRobot"               , "leftElbow"           , "1" , "180"      , "180"     , "0", "180"     , "0"      , "400"  , "1600" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM5"}
+        {"testRobot"               , "leftWristFlexion"    , "5" , "45"       , "120"     , "-45", "120"     , "-45"      , "381"  , "1385" , "45"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM6"}
+        {"testRobot"               , "leftWristRotation"   , "5" , "0"        , "90"      ,  "-90", "90"      ,  "-90"   , "381"  , "1581" , "90"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM7"}
+        {"testRobot"               ,"leftUpperArmFlexion",   "1" , "30"        , "90"     , "0 ", "90"     , "0 "     , "1000" , "1900" , "90"        , "-1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM13"}
+        {"testRobot"               ,"leftUpperArmAbduction", "5" , "110"       , "180"     , "90", "180"     , "90"     , "1000" , "1733" , "180"        , "-1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM14"}
+        {"testRobot"               , "leftElbowRotation"   , "1" , "90"      , "180"     , "0", "180"     , "60"      , "560"  , "1644" , "180"        , "-1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM15"}
 }
 
 
