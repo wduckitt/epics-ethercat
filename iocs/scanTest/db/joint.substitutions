@@ -12,10 +12,10 @@ file "db/RCServoPWMControl.template" {
         {"testRobot" , "rightWristFlexion"    , "5" ,     "45"       , "120"     , "-45"      , "120"     , "-45"    , "381"  , "1385" , "45"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM6"}
         {"testRobot" , "rightWristRotation"   , "5" ,     "0"        , "90"      ,  "-90"     , "90"      ,  "-90"   , "381"  , "1581" , "90"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM7"}
         {"testRobot" ,"rightUpperArmFlexion",   "1" ,     "30"       , "90"      , "0 "       , "90"      , "0 "     , "1000" , "1900" , "90"        , "-1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM13"}
-        {"testRobot" ,"rightUpperArmAbduction", "5" ,     "95"      , "180"     , "90"       ,  "180"    , "90",    , "1000" , "1733" , "180"        , "-1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM14"}
+        {"testRobot" ,"rightUpperArmAbduction", "5" ,     "95"      , "180"     , "90"       ,  "180"    , "100",    , "1000" , "1733" , "180"        , "-1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM14"}
         {"testRobot" , "rightElbowRotation"   , "1" ,     "90"       , "180"     , "0"        , "180"     , "60"     , "730"  , "1751" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM15"}
         {"testRobot" , "leftThumb"           , "5" ,      "45"       , "180"     , "0"        , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM0"}
-        {"testRobot" , "leftIndex"           , "5" ,      "45"       , "180"     , "0"        , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM1"}
+        {"testRobot" , "leftIndex"           , "5" ,      "45"       , "180"     , "0"        , "180"     , "0"      , "1376"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM1"}
         {"testRobot" , "leftMiddle"          , "5" ,      "45"       , "180"     , "0"        , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM2"}
         {"testRobot" , "leftRing"            , "5" ,      "45"       , "180"     , "0"        , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM3"}
         {"testRobot" , "leftPinky"           , "5" ,      "45"       , "180"     , "0"        , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM4"}
@@ -23,7 +23,7 @@ file "db/RCServoPWMControl.template" {
         {"testRobot" , "leftWristFlexion"    , "5" ,      "0"       , "120"     , "-45"      , "120"     , "-45"    , "381"  , "1385" , "45"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM6"}
         {"testRobot" , "leftWristRotation"   , "5" ,      "0"        , "90"      ,  "-90"     , "90"      , "-90"    , "381"  , "1581" , "90"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM7"}
         {"testRobot" ,"leftUpperArmFlexion"  , "1" ,      "30"       , "90"      , "0 "       , "90"      ,"0 "      , "1000" , "1900" , "90"        , "-1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM13"}
-        {"testRobot" ,"leftUpperArmAbduction", "5" ,      "95"      , "180"     , "90"       , "180"     , "90"     , "1000" , "1733" , "180"        , "-1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM14"}
+        {"testRobot" ,"leftUpperArmAbduction", "5" ,      "95"      , "180"     , "90"       , "180"     , "100"     , "1000" , "1733" , "180"        , "-1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM14"}
         {"testRobot" , "leftElbowRotation"   , "1" ,      "90"       ,"180"      , "0"        , "180"     , "60"     , "560"  , "1644" , "180"        , "-1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM15"}
         {"testRobot" , "headFlexion"           , "5" ,     "38"       , "180"     , "0"        ,"180"     , "0"       , "381"  , "1900" , "0"        , "1"       , "ECTest:4:OUTPUTSPROCESSDATAMAPPING:PWM0"}
         {"testRobot" , "headRotation"           , "5" ,     "97"       , "180"     , "0"        , "180"     , "0"      , "381"  , "2500" , "0"        , "1"       , "ECTest:4:OUTPUTSPROCESSDATAMAPPING:PWM1"}
