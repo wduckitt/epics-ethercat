@@ -11,8 +11,8 @@ file "db/RCServoPWMControl.template" {
         {"testRobot" , "rightElbow"           , "1" ,     "180"      , "180"     , "0"        , "180"     , "70"      , "400"  , "1600" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM5"}
         {"testRobot" , "rightWristFlexion"    , "5" ,     "180"      , "245"     , "90"      , "245"     , "90"    , "381"  , "1257" , "245"        , "-1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM6"}
         {"testRobot" , "rightWristRotation"   , "1" ,     "0"        , "180"     ,  "0"       , "180"      ,  "0"   , "381"  , "1581" , "180"        , "-1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM7"}
-        {"testRobot" ,"rightUpperArmFlexion",   "5" ,     "10"       , "90"      , "-30 "       , "90"      , "-30 "  , "1000" , "1900" , "90"        , "-1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM13"}
-        {"testRobot" ,"rightUpperArmAbduction", "5" ,     "95"      , "180"     , "90"       ,  "180"    , "100",    , "1000" , "1733" , "180"        , "-1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM14"}
+        {"testRobot" ,"rightUpperArmFlexion",   "1" ,     "10"       , "90"      , "-30 "       , "90"      , "-30 "  , "1000" , "1900" , "90"        , "-1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM13"}
+        {"testRobot" ,"rightUpperArmAbduction", "1" ,     "95"      , "180"     , "90"       ,  "180"    , "100",    , "1000" , "1733" , "180"        , "-1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM14"}
         {"testRobot" , "rightElbowRotation"   , "1" ,     "90"       , "180"     , "0"        , "180"     , "60"     , "730"  , "1751" , "0"        , "1"       , "ECTest:3:OUTPUTSPROCESSDATAMAPPING:PWM15"}
         {"testRobot" , "leftThumb"           , "5" ,      "45"       , "180"     , "0"        , "180"     , "0"      , "381"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM0"}
         {"testRobot" , "leftIndex"           , "5" ,      "45"       , "180"     , "0"        , "180"     , "0"      , "1376"  , "1900" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM1"}
@@ -23,7 +23,7 @@ file "db/RCServoPWMControl.template" {
         {"testRobot" , "leftWristFlexion"    , "5" ,     "180"      , "225"     , "90"      , "225"     , "90"    , "600"  , "1257" , "225"        , "-1"      , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM6"}
         {"testRobot" , "leftWristRotation"   , "1" ,     "0"        , "180"     ,  "0"       , "180"      ,  "0"   , "381"  , "1581" , "0"        , "1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM7"}
         {"testRobot" ,"leftUpperArmFlexion"  , "1" ,      "30"       , "90"      , "0 "       , "90"      ,"0 "      , "1000" , "1900" , "90"        , "-1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM13"}
-        {"testRobot" ,"leftUpperArmAbduction", "5" ,      "95"      , "180"     , "90"       , "180"     , "100"     , "1000" , "1733" , "180"        , "-1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM14"}
+        {"testRobot" ,"leftUpperArmAbduction", "1" ,      "95"      , "180"     , "90"       , "180"     , "100"     , "1000" , "1733" , "180"        , "-1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM14"}
         {"testRobot" , "leftElbowRotation"   , "1" ,      "90"       ,"180"      , "0"        , "180"     , "60"     , "560"  , "1644" , "180"        , "-1"       , "ECTest:2:OUTPUTSPROCESSDATAMAPPING:PWM15"}
         {"testRobot" , "headFlexion"           , "5" ,     "38"       , "180"     , "0"        ,"180"     , "0"       , "381"  , "1900" , "0"        , "1"       , "ECTest:4:OUTPUTSPROCESSDATAMAPPING:PWM0"}
         {"testRobot" , "headRotation"           , "5" ,     "97"       , "180"     , "0"        , "180"     , "0"      , "381"  , "2500" , "0"        , "1"       , "ECTest:4:OUTPUTSPROCESSDATAMAPPING:PWM1"}
