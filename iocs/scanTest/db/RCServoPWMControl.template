@@ -12,7 +12,19 @@ record(ao, "$(robot):$(joint):Angle") {
     # field(FLNK,"$(robot):$(joint):Error")
     field(FLNK,"$(robot):$(joint):PWM")
 }
-
+record(ao, "$(robot):$(joint):startAngle") {
+   
+    field(DTYP, "Soft Channel")
+    field(VAL, "$(Angle_Start)")    # Setpoint (target angle)
+    field(HOPR, "$(Angle_HOPR)")
+    field(LOPR, "$(Angle_LOPR)")
+    field(DRVL, "$(Angle_DRVL)")
+    field(DRVH, "$(Angle_DRVH)")
+    field(EGU, "Deg")
+   
+    # field(FLNK,"$(robot):$(joint):Error")
+   
+}
 # # Error calculation (difference between target and current positions)
 # # Since we calculate current position using target - error, we need to calculate the error first.
 # record(calc, "$(robot):$(joint):Error") {
@@ -79,6 +91,13 @@ record(ao, "$(robot):$(joint):direction") {
     field(LOPR, "-1")
 }
 
+record(ao, "$(robot):$(joint):cal_Offset") {
+    field(DTYP, "Soft Channel")
+    field(VAL, "$(cal_Offset)")  
+    field(HOPR, "360")
+    field(LOPR, "-360")
+}
+
 record(calcout, "$(robot):$(joint):PWM") {
     field(INPA, "$(robot):$(joint):Angle.RVAL")  # Current position (calculated)
     field(INPB, "$(robot):$(joint):PWM_min")     # Minimum PWM value
@@ -87,8 +106,9 @@ record(calcout, "$(robot):$(joint):PWM") {
     field(INPE, "$(robot):$(joint):Angle.HOPR")
     field(INPF, "$(robot):$(joint):Angle.LOPR")
     field(INPG, "$(robot):$(joint):direction")
+    field(INPH, "$(robot):$(joint):cal_Offset")
 
-    field(CALC, "B + ((C-B) *(D+ G*A))/ (E-F)")           # Convert the current position to PWM value
+    field(CALC, "B + ((C-B) *(D+ G*(A-H)))/ (E-F)")           # Convert the current position to PWM value
     field(OUT, "$(PWM_IO) PP")  # Output the PWM signal to the motor
     field(OOPT, "Every Time")
     field(DOPT, "Use CALC")
